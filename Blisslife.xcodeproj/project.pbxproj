@@ -59,8 +59,8 @@
 				02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */,
 				02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */,
 				02CAF43124B8DD9E008A7874 /* ViewController.swift */,
-				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
 				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
+				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
 				02CAF43824B8DDA4008A7874 /* LaunchScreen.storyboard */,
 				02CAF43B24B8DDA4008A7874 /* Info.plist */,
 			);
