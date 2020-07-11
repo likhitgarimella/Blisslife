@@ -9,12 +9,25 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet var emailId: FloatLabelTextField!
+    @IBOutlet var password: FloatLabelTextField!
+    
+    func UnderlineTextField() {
+        
+        // Underline for TextField
+        emailId.setUnderLine()
+        password.setUnderLine()
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         hideKeyboardWhenTappedAround()
+        UnderlineTextField()
         
     }
 
-}   // #21
+}   // #34
