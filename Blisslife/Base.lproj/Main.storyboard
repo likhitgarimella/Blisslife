@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="114.66666666666667" y="100" width="184.66666666666663" height="32.666666666666657"/>
+                                        <rect key="frame" x="117" y="100" width="180" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -67,7 +67,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="228" y="366" width="146" height="29"/>
+                                <rect key="frame" x="233" y="366" width="141" height="31"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -76,6 +76,24 @@
                                     <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="u3O-w2-wiy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
+                                <rect key="frame" x="40" y="429" width="334" height="40"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
+                                <rect key="frame" x="108.66666666666669" y="477" width="197" height="31"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
+                                <state key="normal" title="Don't have an account? Sign Up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -83,10 +101,15 @@
                             <constraint firstItem="sHK-9h-Lax" firstAttribute="right" secondItem="pmn-qI-LuR" secondAttribute="right" constant="40" id="4qw-ts-fF9"/>
                             <constraint firstItem="pmn-qI-LuR" firstAttribute="left" secondItem="sHK-9h-Lax" secondAttribute="left" constant="40" id="5ki-S0-3M2"/>
                             <constraint firstItem="VF2-4C-7JO" firstAttribute="top" secondItem="pmn-qI-LuR" secondAttribute="bottom" constant="12" id="EHe-gT-ISQ"/>
+                            <constraint firstItem="HjA-8a-rwE" firstAttribute="leading" secondItem="sHK-9h-Lax" secondAttribute="leading" constant="40" id="Eky-xP-Xxm"/>
+                            <constraint firstItem="U8k-j3-0fq" firstAttribute="top" secondItem="HjA-8a-rwE" secondAttribute="bottom" constant="8" id="EmV-mb-sLD"/>
                             <constraint firstItem="sHK-9h-Lax" firstAttribute="trailing" secondItem="0RM-Nv-Ooj" secondAttribute="trailing" id="K9V-Wq-28e"/>
                             <constraint firstItem="sHK-9h-Lax" firstAttribute="trailing" secondItem="VF2-4C-7JO" secondAttribute="trailing" constant="40" id="SEM-Uu-Mxy"/>
+                            <constraint firstItem="sHK-9h-Lax" firstAttribute="trailing" secondItem="HjA-8a-rwE" secondAttribute="trailing" constant="40" id="YcU-uv-wEk"/>
+                            <constraint firstItem="HjA-8a-rwE" firstAttribute="top" secondItem="VF2-4C-7JO" secondAttribute="bottom" constant="32" id="ZBL-N7-obr"/>
                             <constraint firstItem="pmn-qI-LuR" firstAttribute="top" secondItem="TFe-YO-nxn" secondAttribute="bottom" constant="32" id="afr-El-7JZ"/>
                             <constraint firstItem="TFe-YO-nxn" firstAttribute="top" secondItem="0RM-Nv-Ooj" secondAttribute="bottom" constant="54" id="hP2-cx-3Gb"/>
+                            <constraint firstItem="U8k-j3-0fq" firstAttribute="centerX" secondItem="pEU-uc-F8U" secondAttribute="centerX" id="jrq-rV-WmR"/>
                             <constraint firstItem="0RM-Nv-Ooj" firstAttribute="top" secondItem="sHK-9h-Lax" secondAttribute="top" constant="-44" id="kwE-0K-fw5"/>
                             <constraint firstItem="TFe-YO-nxn" firstAttribute="left" secondItem="sHK-9h-Lax" secondAttribute="left" constant="40" id="lQN-8Q-MUS"/>
                             <constraint firstItem="VF2-4C-7JO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sHK-9h-Lax" secondAttribute="leading" symbolic="YES" id="nUV-Ip-9mX"/>
@@ -96,6 +119,7 @@
                     </view>
                     <connections>
                         <outlet property="emailId" destination="TFe-YO-nxn" id="g7w-uD-wKa"/>
+                        <outlet property="logInOutLet" destination="HjA-8a-rwE" id="yKl-vg-yAo"/>
                         <outlet property="password" destination="pmn-qI-LuR" id="7wU-1x-2sI"/>
                         <segue destination="fb3-fg-g1J" kind="show" identifier="goToForgotPass" id="f1T-lt-ByM"/>
                     </connections>

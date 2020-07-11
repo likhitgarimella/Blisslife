@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
     // Outlets
     @IBOutlet var emailId: FloatLabelTextField!
     @IBOutlet var password: FloatLabelTextField!
+    @IBOutlet var logInOutLet: UIButton!
     
     func UnderlineTextField() {
         
@@ -21,12 +22,20 @@ class LoginViewController: UIViewController {
         password.setUnderLine()
         
     }
+    
+    func CornerRadius() {
+        
+        // Textfield Corner Radius Property
+        logInOutLet.layer.cornerRadius = 20
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         hideKeyboardWhenTappedAround()
         UnderlineTextField()
+        CornerRadius()
         
     }
     
@@ -36,4 +45,4 @@ class LoginViewController: UIViewController {
         
     }
 
-}   // #40
+}   // #49
