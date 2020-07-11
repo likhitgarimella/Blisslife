@@ -29,5 +29,11 @@ class LoginViewController: UIViewController {
         UnderlineTextField()
         
     }
+    
+    @IBAction func forgotPassword(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "goToForgotPass", sender: self)
+        
+    }
 
-}   // #34
+}   // #40
