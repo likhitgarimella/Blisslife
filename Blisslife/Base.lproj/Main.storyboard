@@ -86,6 +86,7 @@
                             <constraint firstItem="TFe-YO-nxn" firstAttribute="top" secondItem="0RM-Nv-Ooj" secondAttribute="bottom" constant="54" id="hP2-cx-3Gb"/>
                             <constraint firstItem="0RM-Nv-Ooj" firstAttribute="top" secondItem="sHK-9h-Lax" secondAttribute="top" constant="-44" id="kwE-0K-fw5"/>
                             <constraint firstItem="TFe-YO-nxn" firstAttribute="left" secondItem="sHK-9h-Lax" secondAttribute="left" constant="40" id="lQN-8Q-MUS"/>
+                            <constraint firstItem="VF2-4C-7JO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sHK-9h-Lax" secondAttribute="leading" symbolic="YES" id="nUV-Ip-9mX"/>
                             <constraint firstItem="sHK-9h-Lax" firstAttribute="right" secondItem="TFe-YO-nxn" secondAttribute="right" constant="40" id="qdT-Gi-Gor"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sHK-9h-Lax"/>
@@ -99,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="126.08695652173914" y="146.65178571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Forgot Password View Controller-->
         <scene sceneID="5pW-63-jNP">
             <objects>
-                <viewController id="fb3-fg-g1J" sceneMemberID="viewController">
+                <viewController id="fb3-fg-g1J" customClass="ForgotPasswordViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A1g-kE-aNB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

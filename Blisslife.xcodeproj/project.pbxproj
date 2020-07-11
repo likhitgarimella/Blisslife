@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
 		02AB110924B998BE00D1824D /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */; };
 		02AB110A24B998BE00D1824D /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */; };
 		02AB110B24B998BE00D1824D /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F924B998BC00D1824D /* Raleway-Medium.ttf */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
 		02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		02AB10F924B998BC00D1824D /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
@@ -101,11 +103,12 @@
 			children = (
 				02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */,
 				02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */,
+				02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */,
+				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
 				02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */,
 				02AB112324B9B5D800D1824D /* LoginViewController.swift */,
+				0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */,
 				02AB112524B9BF9D00D1824D /* Extensions.swift */,
-				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
-				02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */,
 				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
 				02CAF43B24B8DDA4008A7874 /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			files = (
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				02AB112424B9B5D800D1824D /* LoginViewController.swift in Sources */,
+				0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */,
 				02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */,
 				02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */,
 				02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */,
