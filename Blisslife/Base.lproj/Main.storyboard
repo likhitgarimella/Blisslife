@@ -38,12 +38,46 @@
                                     <constraint firstItem="IAF-32-VnF" firstAttribute="centerX" secondItem="0RM-Nv-Ooj" secondAttribute="centerX" id="qNl-dj-g3J"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email id" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="TFe-YO-nxn" customClass="FloatLabelTextField" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="40" y="268" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Tvu-Gv-Kj1"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="pmn-qI-LuR" customClass="FloatLabelTextField" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="40" y="348" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="yDp-dm-CNo"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="0RM-Nv-Ooj" firstAttribute="leading" secondItem="sHK-9h-Lax" secondAttribute="leading" id="2vf-4Z-er0"/>
+                            <constraint firstItem="sHK-9h-Lax" firstAttribute="trailing" secondItem="pmn-qI-LuR" secondAttribute="trailing" constant="40" id="4qw-ts-fF9"/>
+                            <constraint firstItem="pmn-qI-LuR" firstAttribute="leading" secondItem="sHK-9h-Lax" secondAttribute="leading" constant="40" id="5ki-S0-3M2"/>
                             <constraint firstItem="sHK-9h-Lax" firstAttribute="trailing" secondItem="0RM-Nv-Ooj" secondAttribute="trailing" id="K9V-Wq-28e"/>
+                            <constraint firstItem="pmn-qI-LuR" firstAttribute="top" secondItem="TFe-YO-nxn" secondAttribute="bottom" constant="40" id="afr-El-7JZ"/>
+                            <constraint firstItem="TFe-YO-nxn" firstAttribute="top" secondItem="0RM-Nv-Ooj" secondAttribute="bottom" constant="80" id="hP2-cx-3Gb"/>
                             <constraint firstItem="0RM-Nv-Ooj" firstAttribute="top" secondItem="sHK-9h-Lax" secondAttribute="top" constant="-44" id="kwE-0K-fw5"/>
+                            <constraint firstItem="TFe-YO-nxn" firstAttribute="left" secondItem="sHK-9h-Lax" secondAttribute="left" constant="40" id="lQN-8Q-MUS"/>
+                            <constraint firstItem="sHK-9h-Lax" firstAttribute="right" secondItem="TFe-YO-nxn" secondAttribute="right" constant="40" id="qdT-Gi-Gor"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sHK-9h-Lax"/>
                     </view>
