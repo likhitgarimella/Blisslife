@@ -27,6 +27,7 @@
 		02AB111A24B998BE00D1824D /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB110824B998BE00D1824D /* Raleway-Thin.ttf */; };
 		02AB111C24B9A89300D1824D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */; };
 		02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */; };
+		02AB112224B9B54700D1824D /* Gadugi-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB112124B9B54300D1824D /* Gadugi-Normal.ttf */; };
 		02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */; };
 		02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */; };
 		02CAF43224B8DD9E008A7874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF43124B8DD9E008A7874 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		02AB110824B998BE00D1824D /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		02AB112124B9B54300D1824D /* Gadugi-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gadugi-Normal.ttf"; sourceTree = "<group>"; };
 		02CAF42A24B8DD9E008A7874 /* Blisslife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blisslife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				02AB110724B998BE00D1824D /* Raleway-SemiBoldItalic.ttf */,
 				02AB110824B998BE00D1824D /* Raleway-Thin.ttf */,
 				02AB10FC24B998BC00D1824D /* Raleway-ThinItalic.ttf */,
+				02AB112124B9B54300D1824D /* Gadugi-Normal.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AB112224B9B54700D1824D /* Gadugi-Normal.ttf in Resources */,
 				02AB111824B998BE00D1824D /* Raleway-SemiBold.ttf in Resources */,
 				02AB111624B998BE00D1824D /* Raleway-ExtraLight.ttf in Resources */,
 				02AB111324B998BE00D1824D /* Raleway-ExtraBoldItalic.ttf in Resources */,
