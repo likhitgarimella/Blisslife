@@ -9,12 +9,23 @@
 import UIKit
 
 class ForgotPasswordViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet var emailId: FloatLabelTextField!
+    
+    func UnderlineTextField() {
+        
+        // Underline for TextField
+        emailId.setUnderLine()
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        hideKeyboardWhenTappedAround()
+        UnderlineTextField()
         
     }
     
-}   // #21
+}   // #32
