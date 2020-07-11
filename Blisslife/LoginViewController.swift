@@ -44,5 +44,11 @@ class LoginViewController: UIViewController {
         self.performSegue(withIdentifier: "goToForgotPass", sender: self)
         
     }
+    
+    @IBAction func signUpPressed(_ sender: UIButton) {
+        
+        
+        
+    }
 
 }   // #49
