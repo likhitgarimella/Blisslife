@@ -15,7 +15,16 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="OgD-pw-AT1">
+                                <rect key="frame" x="106.66666666666669" y="347" width="201" height="42"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.98431372549019602" green="0.84313725490196079" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OgD-pw-AT1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4qw-5q-mgI"/>
+                            <constraint firstItem="OgD-pw-AT1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ix6-rQ-Mrh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -24,4 +33,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="title" width="201" height="42"/>
+    </resources>
 </document>
