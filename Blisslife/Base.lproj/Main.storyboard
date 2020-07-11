@@ -94,7 +94,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpPressed:" destination="YIg-kH-F8x" eventType="touchUpInside" id="z07-0n-Uhm"/>
+                                    <action selector="signUpPressed:" destination="YIg-kH-F8x" eventType="touchUpInside" id="LYb-sa-hNN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,6 +120,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sHK-9h-Lax"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KWK-Yr-Dwo"/>
                     <connections>
                         <outlet property="emailId" destination="TFe-YO-nxn" id="g7w-uD-wKa"/>
                         <outlet property="logInOutLet" destination="HjA-8a-rwE" id="yKl-vg-yAo"/>
@@ -181,14 +182,26 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcy-NC-u3n">
+                                <rect key="frame" x="166.66666666666666" y="364" width="81" height="31"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
+                                <state key="normal" title="Back to login">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToLogin:" destination="fb3-fg-g1J" eventType="touchUpInside" id="yA6-13-sok"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="duX-P1-wQN" firstAttribute="right" secondItem="Q7N-2l-N44" secondAttribute="right" constant="40" id="2Mb-I0-FkL"/>
                             <constraint firstItem="ztO-rR-grg" firstAttribute="leading" secondItem="duX-P1-wQN" secondAttribute="leading" constant="40" id="2dx-DA-ibJ"/>
+                            <constraint firstItem="Xcy-NC-u3n" firstAttribute="top" secondItem="ztO-rR-grg" secondAttribute="bottom" constant="16" id="9bg-f6-GZj"/>
                             <constraint firstItem="Q7N-2l-N44" firstAttribute="left" secondItem="duX-P1-wQN" secondAttribute="left" constant="40" id="CWB-Q8-qMB"/>
                             <constraint firstItem="QIw-Si-7Jw" firstAttribute="leading" secondItem="duX-P1-wQN" secondAttribute="leading" id="SF7-5d-mLg"/>
                             <constraint firstItem="duX-P1-wQN" firstAttribute="trailing" secondItem="QIw-Si-7Jw" secondAttribute="trailing" id="aqV-ZU-uRG"/>
+                            <constraint firstItem="Xcy-NC-u3n" firstAttribute="centerX" secondItem="A1g-kE-aNB" secondAttribute="centerX" id="bCn-gg-IH5"/>
                             <constraint firstItem="QIw-Si-7Jw" firstAttribute="top" secondItem="duX-P1-wQN" secondAttribute="top" constant="-44" id="ewG-OD-QI3"/>
                             <constraint firstItem="ztO-rR-grg" firstAttribute="top" secondItem="Q7N-2l-N44" secondAttribute="bottom" constant="40" id="j6X-T2-xC0"/>
                             <constraint firstItem="duX-P1-wQN" firstAttribute="trailing" secondItem="ztO-rR-grg" secondAttribute="trailing" constant="40" id="nI3-Vx-rQE"/>
@@ -199,11 +212,12 @@
                     <navigationItem key="navigationItem" id="hzg-97-6e7"/>
                     <connections>
                         <outlet property="emailId" destination="Q7N-2l-N44" id="T8V-Wy-AmF"/>
+                        <segue destination="YIg-kH-F8x" kind="show" identifier="backToLogin" id="THY-G9-WSW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tb-Re-DJ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817" y="146"/>
+            <point key="canvasLocation" x="978" y="146"/>
         </scene>
     </scenes>
 </document>

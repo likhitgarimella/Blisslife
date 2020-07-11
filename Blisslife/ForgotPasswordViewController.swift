@@ -28,4 +28,10 @@ class ForgotPasswordViewController: UIViewController {
         
     }
     
-}   // #32
+    @IBAction func backToLogin(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "backToLogin", sender: self)
+        
+    }
+    
+}   // #38
