@@ -12,11 +12,19 @@ class ForgotPasswordViewController: UIViewController {
     
     // Outlets
     @IBOutlet var emailId: FloatLabelTextField!
+    @IBOutlet var submitOutLet: UIButton!
     
     func UnderlineTextField() {
         
         // Underline for TextField
         emailId.setUnderLine()
+        
+    }
+    
+    func CornerRadius() {
+        
+        // Textfield Corner Radius Property
+        submitOutLet.layer.cornerRadius = 20
         
     }
 
@@ -25,6 +33,7 @@ class ForgotPasswordViewController: UIViewController {
         
         hideKeyboardWhenTappedAround()
         UnderlineTextField()
+        CornerRadius()
         
     }
     
@@ -34,4 +43,4 @@ class ForgotPasswordViewController: UIViewController {
         
     }
     
-}   // #38
+}   // #47
