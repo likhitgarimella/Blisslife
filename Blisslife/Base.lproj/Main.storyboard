@@ -466,13 +466,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8B-1A-Hms">
-                                <rect key="frame" x="40.000000000000007" y="228" width="73.666666666666686" height="21"/>
+                                <rect key="frame" x="20" y="228" width="73.666666666666671" height="21"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d28-q5-Rse">
-                                <rect key="frame" x="40" y="259" width="100" height="34"/>
+                                <rect key="frame" x="20" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
@@ -483,7 +483,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
-                                <rect key="frame" x="150" y="259" width="100" height="34"/>
+                                <rect key="frame" x="128" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
@@ -494,7 +494,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
-                                <rect key="frame" x="260" y="259" width="100" height="34"/>
+                                <rect key="frame" x="236" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
@@ -505,32 +505,16 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
-                                <rect key="frame" x="40" y="313" width="39" height="21"/>
+                                <rect key="frame" x="20" y="313" width="39" height="21"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="40" y="344" width="100" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="20" y="344" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3jA-go-Xw2"/>
-                                </constraints>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
-                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="150" y="344" width="100" height="34"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="TMv-bQ-wJX"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
@@ -542,14 +526,30 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="260" y="344" width="100" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="128" y="344" width="135" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="TMv-bQ-wJX"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="271" y="344" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="enW-yt-Xuk"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
@@ -561,27 +561,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="z8B-1A-Hms" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="40" id="4aY-3j-5SO"/>
+                            <constraint firstItem="z8B-1A-Hms" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="4aY-3j-5SO"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="z8B-1A-Hms" secondAttribute="trailing" symbolic="YES" id="5Ei-Z4-dZS"/>
                             <constraint firstItem="9gJ-0f-Jld" firstAttribute="top" secondItem="d28-q5-Rse" secondAttribute="bottom" constant="20" id="7eA-st-g9z"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9gJ-0f-Jld" secondAttribute="trailing" symbolic="YES" id="98w-ta-eSs"/>
                             <constraint firstItem="d28-q5-Rse" firstAttribute="top" secondItem="z8B-1A-Hms" secondAttribute="bottom" constant="10" id="BZU-HF-da9"/>
-                            <constraint firstItem="cdn-kv-fMk" firstAttribute="leading" secondItem="3qt-dM-INg" secondAttribute="trailing" constant="10" id="E9F-9W-ASf"/>
+                            <constraint firstItem="cdn-kv-fMk" firstAttribute="leading" secondItem="3qt-dM-INg" secondAttribute="trailing" constant="8" id="E9F-9W-ASf"/>
                             <constraint firstItem="Wdq-Uf-hiN" firstAttribute="centerY" secondItem="HqV-JJ-b1m" secondAttribute="centerY" id="FRk-hc-81I"/>
                             <constraint firstItem="Lzy-hx-r4r" firstAttribute="top" secondItem="21t-of-FVI" secondAttribute="top" constant="-44" id="L6c-lZ-VpS"/>
                             <constraint firstItem="Lzy-hx-r4r" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" id="R1b-j7-XDM"/>
                             <constraint firstItem="HqV-JJ-b1m" firstAttribute="centerY" secondItem="d28-q5-Rse" secondAttribute="centerY" id="Tgw-Nn-flq"/>
                             <constraint firstItem="3qt-dM-INg" firstAttribute="top" secondItem="9gJ-0f-Jld" secondAttribute="bottom" constant="10" id="TyG-Yy-ec0"/>
-                            <constraint firstItem="9gJ-0f-Jld" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="40" id="VVw-LV-qhL"/>
+                            <constraint firstItem="9gJ-0f-Jld" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="VVw-LV-qhL"/>
                             <constraint firstItem="cdn-kv-fMk" firstAttribute="centerY" secondItem="3qt-dM-INg" secondAttribute="centerY" id="Vof-nv-fvj"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" secondItem="Lzy-hx-r4r" secondAttribute="trailing" id="XWI-7E-Kmg"/>
                             <constraint firstItem="z8B-1A-Hms" firstAttribute="top" secondItem="Lzy-hx-r4r" secondAttribute="bottom" constant="40" id="hNz-CR-k6d"/>
-                            <constraint firstItem="HqV-JJ-b1m" firstAttribute="leading" secondItem="d28-q5-Rse" secondAttribute="trailing" constant="10" id="ih8-na-Wze"/>
-                            <constraint firstItem="d28-q5-Rse" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="40" id="kmA-X6-X1d"/>
+                            <constraint firstItem="HqV-JJ-b1m" firstAttribute="leading" secondItem="d28-q5-Rse" secondAttribute="trailing" constant="8" id="ih8-na-Wze"/>
+                            <constraint firstItem="d28-q5-Rse" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="kmA-X6-X1d"/>
                             <constraint firstItem="XsD-Kx-hjN" firstAttribute="centerY" secondItem="cdn-kv-fMk" secondAttribute="centerY" id="l5Y-gR-mPf"/>
-                            <constraint firstItem="XsD-Kx-hjN" firstAttribute="leading" secondItem="cdn-kv-fMk" secondAttribute="trailing" constant="10" id="nkx-KZ-a0W"/>
-                            <constraint firstItem="3qt-dM-INg" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="40" id="pdm-Qe-l2S"/>
-                            <constraint firstItem="Wdq-Uf-hiN" firstAttribute="leading" secondItem="HqV-JJ-b1m" secondAttribute="trailing" constant="10" id="ugB-UM-58i"/>
+                            <constraint firstItem="XsD-Kx-hjN" firstAttribute="leading" secondItem="cdn-kv-fMk" secondAttribute="trailing" constant="8" id="nkx-KZ-a0W"/>
+                            <constraint firstItem="3qt-dM-INg" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="pdm-Qe-l2S"/>
+                            <constraint firstItem="Wdq-Uf-hiN" firstAttribute="leading" secondItem="HqV-JJ-b1m" secondAttribute="trailing" constant="8" id="ugB-UM-58i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="21t-of-FVI"/>
                     </view>
