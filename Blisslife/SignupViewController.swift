@@ -18,6 +18,7 @@ class SignupViewController: UIViewController {
     @IBOutlet var confPass: FloatLabelTextField!
     @IBOutlet var signupOutLet: UIButton!
     
+    ///
     func UnderlineTextField() {
         
         // Underline for TextField
@@ -47,14 +48,16 @@ class SignupViewController: UIViewController {
     
     @IBAction func loginBack(_ sender: UIButton) {
         
+        sender.flash()
         self.performSegue(withIdentifier: "signupToLogin", sender: self)
         
     }
     
     @IBAction func signUpAction(_ sender: UIButton) {
         
+        sender.flash()
         self.performSegue(withIdentifier: "knowYouMore", sender: self)
         
     }
     
-}   // #61
+}   // #64

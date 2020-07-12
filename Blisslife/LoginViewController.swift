@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
     @IBOutlet var password: FloatLabelTextField!
     @IBOutlet var logInOutLet: UIButton!
     
+    ///
     func UnderlineTextField() {
         
         // Underline for TextField
@@ -41,14 +42,16 @@ class LoginViewController: UIViewController {
     
     @IBAction func forgotPassword(_ sender: UIButton) {
         
+        sender.flash()
         self.performSegue(withIdentifier: "goToForgotPass", sender: self)
         
     }
     
     @IBAction func signUpPressed(_ sender: UIButton) {
         
+        sender.flash()
         self.performSegue(withIdentifier: "goToSignup", sender: self)
         
     }
 
-}   // #55
+}   // #58
