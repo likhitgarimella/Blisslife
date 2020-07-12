@@ -141,14 +141,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="gcV-XE-EcB" customClass="SignupViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qFQ-HC-AV2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16Q-PY-jBc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="966"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FhP-cu-xKr">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="966"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIO-6b-sFQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="232"/>
@@ -267,6 +267,9 @@
                                                 <state key="normal" title="Already have an account? Login">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="loginBack:" destination="gcV-XE-EcB" eventType="touchUpInside" id="g5D-TC-kkb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -323,7 +326,6 @@
                         <viewLayoutGuide key="safeArea" id="7D2-1R-tmo"/>
                     </view>
                     <navigationItem key="navigationItem" id="OP7-Sf-KhD"/>
-                    <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="confPass" destination="uXR-AA-Sc1" id="NpK-jR-oX3"/>
                         <outlet property="emailId" destination="ZwM-Oa-H7t" id="AxN-vS-lJq"/>

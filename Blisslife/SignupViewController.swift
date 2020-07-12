@@ -45,4 +45,10 @@ class SignupViewController: UIViewController {
         
     }
     
-}   // #40
+    @IBAction func loginBack(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "signupToLogin", sender: self)
+        
+    }
+    
+}   // #55
