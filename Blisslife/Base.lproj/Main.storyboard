@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="174.66666666666666" y="100" width="65" height="38"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="233" y="344" width="141" height="31"/>
+                                <rect key="frame" x="228" y="344" width="146" height="29"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="407" width="334" height="40"/>
+                                <rect key="frame" x="40" y="405" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -91,7 +91,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
+                                <rect key="frame" x="76" y="469" width="262" height="33"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -444,13 +444,13 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-Ua-dh5">
-                                        <rect key="frame" x="138.66666666666669" y="100" width="136.66666666666669" height="37.333333333333343"/>
+                                        <rect key="frame" x="136.33333333333337" y="100" width="141.66666666666663" height="32.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="know you more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="226-zd-yUi">
-                                        <rect key="frame" x="107" y="137.33333333333331" width="200" height="37.333333333333343"/>
+                                        <rect key="frame" x="107" y="132.66666666666669" width="200" height="32.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -466,13 +466,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8B-1A-Hms">
-                                <rect key="frame" x="40.000000000000007" y="228" width="67.666666666666686" height="24"/>
+                                <rect key="frame" x="40.000000000000007" y="228" width="73.666666666666686" height="21"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d28-q5-Rse">
-                                <rect key="frame" x="40" y="262" width="100" height="34"/>
+                                <rect key="frame" x="40" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
@@ -483,7 +483,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
-                                <rect key="frame" x="150" y="262" width="100" height="34"/>
+                                <rect key="frame" x="150" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
@@ -494,7 +494,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
-                                <rect key="frame" x="260" y="262" width="100" height="34"/>
+                                <rect key="frame" x="260" y="259" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
@@ -505,13 +505,13 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
-                                <rect key="frame" x="40" y="316" width="36.666666666666657" height="24"/>
+                                <rect key="frame" x="40" y="313" width="39" height="21"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="40" y="350" width="100" height="34"/>
+                                <rect key="frame" x="40" y="344" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3jA-go-Xw2"/>
@@ -523,25 +523,27 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                         <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="150" y="350" width="100" height="34"/>
+                                <rect key="frame" x="150" y="344" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="TMv-bQ-wJX"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                         <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="260" y="350" width="100" height="34"/>
+                                <rect key="frame" x="260" y="344" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="enW-yt-Xuk"/>
@@ -553,6 +555,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                         <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                         </subviews>
