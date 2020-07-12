@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="174.66666666666666" y="100" width="64.666666666666657" height="37.333333333333343"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -132,6 +132,48 @@
             </objects>
             <point key="canvasLocation" x="-4" y="146"/>
         </scene>
+        <!--Signup View Controller-->
+        <scene sceneID="HTS-ez-BCN">
+            <objects>
+                <viewController id="gcV-XE-EcB" customClass="SignupViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qFQ-HC-AV2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16Q-PY-jBc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FhP-cu-xKr">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="FhP-cu-xKr" firstAttribute="top" secondItem="16Q-PY-jBc" secondAttribute="top" id="8np-jl-65j"/>
+                                    <constraint firstItem="FhP-cu-xKr" firstAttribute="width" secondItem="16Q-PY-jBc" secondAttribute="width" priority="750" id="MjV-C8-azB"/>
+                                    <constraint firstAttribute="bottom" secondItem="FhP-cu-xKr" secondAttribute="bottom" id="cDZ-O7-K0n"/>
+                                    <constraint firstItem="FhP-cu-xKr" firstAttribute="height" secondItem="16Q-PY-jBc" secondAttribute="height" priority="250" id="hOw-ch-4Nu"/>
+                                    <constraint firstAttribute="trailing" secondItem="FhP-cu-xKr" secondAttribute="trailing" id="m9A-V7-iwF"/>
+                                    <constraint firstItem="FhP-cu-xKr" firstAttribute="leading" secondItem="16Q-PY-jBc" secondAttribute="leading" id="nAZ-1y-PJb"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="16Q-PY-jBc" firstAttribute="top" secondItem="7D2-1R-tmo" secondAttribute="top" id="6cS-FX-bYb"/>
+                            <constraint firstItem="16Q-PY-jBc" firstAttribute="leading" secondItem="7D2-1R-tmo" secondAttribute="leading" id="877-1v-Uwa"/>
+                            <constraint firstItem="16Q-PY-jBc" firstAttribute="bottom" secondItem="7D2-1R-tmo" secondAttribute="bottom" id="F6C-DS-A5v"/>
+                            <constraint firstItem="16Q-PY-jBc" firstAttribute="trailing" secondItem="7D2-1R-tmo" secondAttribute="trailing" id="NfR-VE-O5u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7D2-1R-tmo"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Tw-JE-Rka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="991.304347826087"/>
+        </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="5pW-63-jNP">
             <objects>
@@ -144,7 +186,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recover password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87A-vc-NTY">
-                                        <rect key="frame" x="96" y="100" width="222" height="37.333333333333343"/>
+                                        <rect key="frame" x="90" y="100" width="234" height="32.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -183,7 +225,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcy-NC-u3n">
-                                <rect key="frame" x="155" y="407" width="104" height="36"/>
+                                <rect key="frame" x="154" y="407" width="106" height="33"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Back to login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
