@@ -16,12 +16,24 @@ class SignupViewController: UIViewController {
     @IBOutlet var mobile: FloatLabelTextField!
     @IBOutlet var password: FloatLabelTextField!
     @IBOutlet var confPass: FloatLabelTextField!
+    
+    func UnderlineTextField() {
+        
+        // Underline for TextField
+        username.setUnderLine()
+        emailId.setUnderLine()
+        mobile.setUnderLine()
+        password.setUnderLine()
+        confPass.setUnderLine()
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         hideKeyboardWhenTappedAround()
+        UnderlineTextField()
         
     }
     
-}   // #28
+}   // #40
