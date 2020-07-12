@@ -9,12 +9,19 @@
 import UIKit
 
 class SignupViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet var username: FloatLabelTextField!
+    @IBOutlet var emailId: FloatLabelTextField!
+    @IBOutlet var mobile: FloatLabelTextField!
+    @IBOutlet var password: FloatLabelTextField!
+    @IBOutlet var confPass: FloatLabelTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        hideKeyboardWhenTappedAround()
         
     }
     
-}   // #21
+}   // #28

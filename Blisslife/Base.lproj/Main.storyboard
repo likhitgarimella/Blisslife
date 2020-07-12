@@ -282,6 +282,13 @@
                         <viewLayoutGuide key="safeArea" id="7D2-1R-tmo"/>
                     </view>
                     <navigationItem key="navigationItem" id="OP7-Sf-KhD"/>
+                    <connections>
+                        <outlet property="confPass" destination="uXR-AA-Sc1" id="NpK-jR-oX3"/>
+                        <outlet property="emailId" destination="ZwM-Oa-H7t" id="AxN-vS-lJq"/>
+                        <outlet property="mobile" destination="CX2-ZH-WuT" id="bB5-BE-2Jw"/>
+                        <outlet property="password" destination="HSV-V1-6K0" id="MB6-6G-uQ2"/>
+                        <outlet property="username" destination="CPH-cE-IFI" id="cOB-6C-A3z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tw-JE-Rka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
