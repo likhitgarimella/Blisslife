@@ -466,73 +466,94 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8B-1A-Hms">
-                                <rect key="frame" x="40" y="228" width="60" height="22"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <rect key="frame" x="40.000000000000007" y="228" width="67.666666666666686" height="24"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d28-q5-Rse">
-                                <rect key="frame" x="40" y="260" width="100" height="34"/>
+                                <rect key="frame" x="40" y="262" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
                                 <state key="normal" title="male">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
-                                <rect key="frame" x="150" y="260" width="100" height="34"/>
+                                <rect key="frame" x="150" y="262" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
                                 <state key="normal" title="female">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
-                                <rect key="frame" x="260" y="260" width="100" height="34"/>
+                                <rect key="frame" x="260" y="262" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
                                 <state key="normal" title="other">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
-                                <rect key="frame" x="40" y="314" width="33" height="22"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <rect key="frame" x="40" y="316" width="36.666666666666657" height="24"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg">
-                                <rect key="frame" x="40" y="346" width="100" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="40" y="350" width="100" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3jA-go-Xw2"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk">
-                                <rect key="frame" x="150" y="346" width="100" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="150" y="350" width="100" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="TMv-bQ-wJX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN">
-                                <rect key="frame" x="260" y="346" width="100" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
+                                <rect key="frame" x="260" y="350" width="100" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="enW-yt-Xuk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
