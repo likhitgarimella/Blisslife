@@ -51,4 +51,10 @@ class SignupViewController: UIViewController {
         
     }
     
-}   // #55
+    @IBAction func signUpAction(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "knowYouMore", sender: self)
+        
+    }
+    
+}   // #61
