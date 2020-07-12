@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
+                                        <rect key="frame" x="174.66666666666666" y="100" width="65" height="38"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -432,10 +432,10 @@
             </objects>
             <point key="canvasLocation" x="-4" y="-664"/>
         </scene>
-        <!--View Controller-->
+        <!--Know You More View Controller-->
         <scene sceneID="aeo-iK-BHK">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="9ct-Aa-U8b" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9ct-Aa-U8b" customClass="KnowYouMoreViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dcm-3o-RoM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -583,6 +583,14 @@
                         <viewLayoutGuide key="safeArea" id="21t-of-FVI"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bbz-kx-vfr"/>
+                    <connections>
+                        <outlet property="day" destination="3qt-dM-INg" id="fqf-Xp-kah"/>
+                        <outlet property="female" destination="HqV-JJ-b1m" id="YAc-ot-noY"/>
+                        <outlet property="male" destination="d28-q5-Rse" id="2lR-vB-fuw"/>
+                        <outlet property="month" destination="cdn-kv-fMk" id="CcU-6q-w7j"/>
+                        <outlet property="other" destination="Wdq-Uf-hiN" id="tjH-P8-dJr"/>
+                        <outlet property="year" destination="XsD-Kx-hjN" id="P2Y-Xs-NpR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oji-HF-OAB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
