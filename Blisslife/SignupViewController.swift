@@ -16,6 +16,7 @@ class SignupViewController: UIViewController {
     @IBOutlet var mobile: FloatLabelTextField!
     @IBOutlet var password: FloatLabelTextField!
     @IBOutlet var confPass: FloatLabelTextField!
+    @IBOutlet var signupOutLet: UIButton!
     
     func UnderlineTextField() {
         
@@ -27,12 +28,20 @@ class SignupViewController: UIViewController {
         confPass.setUnderLine()
         
     }
+    
+    func CornerRadius() {
+        
+        // Textfield Corner Radius Property
+        signupOutLet.layer.cornerRadius = 20
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         hideKeyboardWhenTappedAround()
         UnderlineTextField()
+        CornerRadius()
         
     }
     
