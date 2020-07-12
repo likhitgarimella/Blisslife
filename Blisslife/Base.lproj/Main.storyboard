@@ -141,14 +141,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="gcV-XE-EcB" customClass="SignupViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qFQ-HC-AV2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16Q-PY-jBc">
-                                <rect key="frame" x="0.0" y="-44" width="414" height="780"/>
+                                <rect key="frame" x="0.0" y="-44" width="414" height="1044"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FhP-cu-xKr">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="780"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1044"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIO-6b-sFQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="232"/>
@@ -237,17 +237,55 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box" translatesAutoresizingMaskIntoConstraints="NO" id="9vL-mO-NF4">
+                                                <rect key="frame" x="40" y="592" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="14" id="Jkc-hK-X84"/>
+                                                    <constraint firstAttribute="height" constant="14" id="PHa-4s-NS7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I accept all terms and conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7X-26-JJG">
+                                                <rect key="frame" x="66" y="588.33333333333337" width="200" height="19"/>
+                                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oa-55-Bfp">
+                                                <rect key="frame" x="40" y="639.33333333333337" width="334" height="40"/>
+                                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="gE6-TT-V4s"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                                <state key="normal" title="Signup">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3q-AS-Kyu">
+                                                <rect key="frame" x="81.666666666666686" y="703.33333333333337" width="251" height="36"/>
+                                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
+                                                <state key="normal" title="Already have an account? Login">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="HSV-V1-6K0" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="1GN-nC-VJJ"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="m7X-26-JJG" secondAttribute="trailing" constant="20" symbolic="YES" id="3PF-k1-NYt"/>
+                                            <constraint firstItem="9vL-mO-NF4" firstAttribute="top" secondItem="uXR-AA-Sc1" secondAttribute="bottom" constant="24" id="8v0-iL-PHF"/>
                                             <constraint firstItem="CX2-ZH-WuT" firstAttribute="top" secondItem="ZwM-Oa-H7t" secondAttribute="bottom" constant="24" id="CSu-OD-w9i"/>
+                                            <constraint firstItem="3oa-55-Bfp" firstAttribute="top" secondItem="m7X-26-JJG" secondAttribute="bottom" constant="32" id="DOg-RE-nRh"/>
                                             <constraint firstItem="ZwM-Oa-H7t" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="Ei6-hk-xDY"/>
                                             <constraint firstAttribute="trailing" secondItem="mIO-6b-sFQ" secondAttribute="trailing" id="HJC-cd-eAe"/>
                                             <constraint firstAttribute="right" secondItem="CPH-cE-IFI" secondAttribute="right" constant="40" id="Jqq-kc-fLy"/>
+                                            <constraint firstItem="q3q-AS-Kyu" firstAttribute="top" secondItem="3oa-55-Bfp" secondAttribute="bottom" constant="24" id="LXr-A7-gGT"/>
                                             <constraint firstItem="uXR-AA-Sc1" firstAttribute="top" secondItem="HSV-V1-6K0" secondAttribute="bottom" constant="24" id="MEN-D6-s1i"/>
+                                            <constraint firstItem="m7X-26-JJG" firstAttribute="leading" secondItem="9vL-mO-NF4" secondAttribute="trailing" constant="12" id="MFA-6Y-6O4"/>
+                                            <constraint firstAttribute="right" secondItem="3oa-55-Bfp" secondAttribute="right" constant="40" id="MI8-rg-662"/>
                                             <constraint firstItem="uXR-AA-Sc1" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="Vfe-pE-NJz"/>
                                             <constraint firstItem="CX2-ZH-WuT" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="X12-d3-Dds"/>
+                                            <constraint firstItem="m7X-26-JJG" firstAttribute="top" secondItem="uXR-AA-Sc1" secondAttribute="bottom" constant="20.329999999999998" id="ax6-mf-uAz"/>
                                             <constraint firstItem="CPH-cE-IFI" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="b51-cC-aed"/>
                                             <constraint firstItem="mIO-6b-sFQ" firstAttribute="top" secondItem="FhP-cu-xKr" secondAttribute="top" id="caX-0K-BqI"/>
                                             <constraint firstItem="mIO-6b-sFQ" firstAttribute="leading" secondItem="FhP-cu-xKr" secondAttribute="leading" id="d9Q-ga-hNB"/>
@@ -255,9 +293,12 @@
                                             <constraint firstItem="ZwM-Oa-H7t" firstAttribute="top" secondItem="CPH-cE-IFI" secondAttribute="bottom" constant="24" id="h0D-O7-eJh"/>
                                             <constraint firstAttribute="right" secondItem="HSV-V1-6K0" secondAttribute="right" constant="40" id="hkn-Qo-Ibj"/>
                                             <constraint firstAttribute="right" secondItem="CX2-ZH-WuT" secondAttribute="right" constant="40" id="iT6-V0-Ucx"/>
+                                            <constraint firstItem="q3q-AS-Kyu" firstAttribute="centerX" secondItem="FhP-cu-xKr" secondAttribute="centerX" id="iTE-IE-BG3"/>
                                             <constraint firstItem="CPH-cE-IFI" firstAttribute="top" secondItem="mIO-6b-sFQ" secondAttribute="bottom" constant="40" id="kU4-01-AmM"/>
                                             <constraint firstAttribute="right" secondItem="uXR-AA-Sc1" secondAttribute="right" constant="40" id="uE7-Pk-toh"/>
+                                            <constraint firstItem="9vL-mO-NF4" firstAttribute="leading" secondItem="FhP-cu-xKr" secondAttribute="leading" constant="40" id="uFq-nf-HXo"/>
                                             <constraint firstAttribute="right" secondItem="ZwM-Oa-H7t" secondAttribute="right" constant="40" id="v16-b1-s67"/>
+                                            <constraint firstItem="3oa-55-Bfp" firstAttribute="left" secondItem="FhP-cu-xKr" secondAttribute="left" constant="40" id="xEB-TE-nxL"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -282,6 +323,7 @@
                         <viewLayoutGuide key="safeArea" id="7D2-1R-tmo"/>
                     </view>
                     <navigationItem key="navigationItem" id="OP7-Sf-KhD"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="confPass" destination="uXR-AA-Sc1" id="NpK-jR-oX3"/>
                         <outlet property="emailId" destination="ZwM-Oa-H7t" id="AxN-vS-lJq"/>
@@ -292,7 +334,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tw-JE-Rka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4.3478260869565224" y="991.07142857142856"/>
+            <point key="canvasLocation" x="-4" y="1024"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="5pW-63-jNP">
@@ -383,4 +425,7 @@
             <point key="canvasLocation" x="978" y="146"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="box" width="14" height="14"/>
+    </resources>
 </document>
