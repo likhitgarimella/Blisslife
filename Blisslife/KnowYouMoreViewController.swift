@@ -18,6 +18,12 @@ class KnowYouMoreViewController: UIViewController {
     @IBOutlet var month: DropDown!
     @IBOutlet var year: DropDown!
     
+    func Properties() {
+        
+        
+        
+    }
+    
     func DropDownOptions() {
         
         // DropDown Options For Credits TextFields
@@ -40,6 +46,8 @@ class KnowYouMoreViewController: UIViewController {
         hideKeyboardWhenTappedAround()
         DropDownOptions()
         
+        Properties()
+        
     }
     
-}   // #46
+}   // #54
