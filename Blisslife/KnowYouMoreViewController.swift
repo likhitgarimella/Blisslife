@@ -17,10 +17,16 @@ class KnowYouMoreViewController: UIViewController {
     @IBOutlet var day: DropDown!
     @IBOutlet var month: DropDown!
     @IBOutlet var year: DropDown!
+    @IBOutlet var feet: UITextField!
+    @IBOutlet var inches: UITextField!
+    @IBOutlet var kg: UITextField!
+    
     
     func Properties() {
         
-        
+        feet.setUnderLine()
+        inches.setUnderLine()
+        kg.setUnderLine()
         
     }
     
@@ -50,4 +56,4 @@ class KnowYouMoreViewController: UIViewController {
         
     }
     
-}   // #54
+}   // #60
