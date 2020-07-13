@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
+                                        <rect key="frame" x="174.66666666666666" y="100" width="65" height="38"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="228" y="344" width="146" height="29"/>
+                                <rect key="frame" x="233" y="344" width="141" height="31"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="405" width="334" height="40"/>
+                                <rect key="frame" x="40" y="407" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -91,7 +91,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="76" y="469" width="262" height="33"/>
+                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -154,7 +154,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="232"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B l i s s l i f e" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WO-FL-WtC">
-                                                        <rect key="frame" x="128.33333333333337" y="100" width="157.66666666666663" height="33"/>
+                                                        <rect key="frame" x="130" y="100" width="154" height="33"/>
                                                         <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -245,13 +245,13 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I accept all terms and conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7X-26-JJG">
-                                                <rect key="frame" x="66" y="588.33333333333337" width="204" height="16.333333333333371"/>
+                                                <rect key="frame" x="66" y="588.33333333333337" width="200" height="18.666666666666629"/>
                                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oa-55-Bfp">
-                                                <rect key="frame" x="40" y="636.66666666666663" width="334" height="40"/>
+                                                <rect key="frame" x="40" y="639" width="334" height="40"/>
                                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="gE6-TT-V4s"/>
@@ -265,7 +265,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3q-AS-Kyu">
-                                                <rect key="frame" x="77.666666666666686" y="700.66666666666663" width="259" height="33"/>
+                                                <rect key="frame" x="81.666666666666686" y="703" width="251" height="36"/>
                                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                                 <state key="normal" title="Already have an account? Login">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -337,7 +337,7 @@
                         <outlet property="signupOutLet" destination="3oa-55-Bfp" id="vjF-11-Jtn"/>
                         <outlet property="username" destination="CPH-cE-IFI" id="cOB-6C-A3z"/>
                         <segue destination="YIg-kH-F8x" kind="show" identifier="signupToLogin" id="W38-AA-bmw"/>
-                        <segue destination="9ct-Aa-U8b" kind="show" identifier="knowYouMore" id="HLp-ag-yqH"/>
+                        <segue destination="cZd-GS-YcF" kind="show" identifier="knowYouMore" id="HLp-ag-yqH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tw-JE-Rka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -440,20 +440,20 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="9ct-Aa-U8b" customClass="KnowYouMoreViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dcm-3o-RoM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lzy-hx-r4r">
-                                <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="164"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-Ua-dh5">
-                                        <rect key="frame" x="136.33333333333337" y="100" width="141.66666666666663" height="32.666666666666657"/>
+                                        <rect key="frame" x="138.66666666666669" y="32" width="136.66666666666669" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="know you more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="226-zd-yUi">
-                                        <rect key="frame" x="107" y="132.66666666666669" width="200" height="32.666666666666657"/>
+                                        <rect key="frame" x="107" y="69.333333333333329" width="200" height="37.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -461,21 +461,21 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="qbh-Ua-dh5" firstAttribute="top" secondItem="Lzy-hx-r4r" secondAttribute="top" constant="100" id="4l4-lq-nWT"/>
                                     <constraint firstItem="226-zd-yUi" firstAttribute="centerX" secondItem="qbh-Ua-dh5" secondAttribute="centerX" id="LR3-Mz-umr"/>
                                     <constraint firstItem="226-zd-yUi" firstAttribute="top" secondItem="qbh-Ua-dh5" secondAttribute="bottom" id="S0H-GD-bbG"/>
                                     <constraint firstItem="qbh-Ua-dh5" firstAttribute="centerX" secondItem="Lzy-hx-r4r" secondAttribute="centerX" id="ZYB-lI-9vB"/>
-                                    <constraint firstAttribute="height" constant="232" id="lFX-Ec-Sc9"/>
+                                    <constraint firstAttribute="height" constant="164" id="lFX-Ec-Sc9"/>
+                                    <constraint firstItem="qbh-Ua-dh5" firstAttribute="top" secondItem="Lzy-hx-r4r" secondAttribute="top" constant="32" id="suI-hl-SfN"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8B-1A-Hms">
-                                <rect key="frame" x="20" y="228" width="73.666666666666671" height="21"/>
+                                <rect key="frame" x="20" y="260" width="67.666666666666671" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d28-q5-Rse">
-                                <rect key="frame" x="20" y="259" width="100" height="34"/>
+                                <rect key="frame" x="20" y="294" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
@@ -486,7 +486,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
-                                <rect key="frame" x="128" y="259" width="100" height="34"/>
+                                <rect key="frame" x="128" y="294" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
@@ -497,7 +497,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
-                                <rect key="frame" x="236" y="259" width="100" height="34"/>
+                                <rect key="frame" x="236" y="294" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
@@ -508,13 +508,13 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
-                                <rect key="frame" x="20" y="313" width="39" height="21"/>
+                                <rect key="frame" x="19.999999999999996" y="348" width="36.666666666666657" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="20" y="344" width="100" height="34"/>
+                                <rect key="frame" x="20" y="382" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3jA-go-Xw2"/>
@@ -530,7 +530,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="128" y="344" width="135" height="34"/>
+                                <rect key="frame" x="128" y="382" width="135" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="135" id="TMv-bQ-wJX"/>
@@ -546,7 +546,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="271" y="344" width="100" height="34"/>
+                                <rect key="frame" x="271" y="382" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="enW-yt-Xuk"/>
@@ -571,10 +571,10 @@
                             <constraint firstItem="d28-q5-Rse" firstAttribute="top" secondItem="z8B-1A-Hms" secondAttribute="bottom" constant="10" id="BZU-HF-da9"/>
                             <constraint firstItem="cdn-kv-fMk" firstAttribute="leading" secondItem="3qt-dM-INg" secondAttribute="trailing" constant="8" id="E9F-9W-ASf"/>
                             <constraint firstItem="Wdq-Uf-hiN" firstAttribute="centerY" secondItem="HqV-JJ-b1m" secondAttribute="centerY" id="FRk-hc-81I"/>
-                            <constraint firstItem="Lzy-hx-r4r" firstAttribute="top" secondItem="21t-of-FVI" secondAttribute="top" constant="-44" id="L6c-lZ-VpS"/>
                             <constraint firstItem="Lzy-hx-r4r" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" id="R1b-j7-XDM"/>
                             <constraint firstItem="HqV-JJ-b1m" firstAttribute="centerY" secondItem="d28-q5-Rse" secondAttribute="centerY" id="Tgw-Nn-flq"/>
                             <constraint firstItem="3qt-dM-INg" firstAttribute="top" secondItem="9gJ-0f-Jld" secondAttribute="bottom" constant="10" id="TyG-Yy-ec0"/>
+                            <constraint firstItem="Lzy-hx-r4r" firstAttribute="top" secondItem="21t-of-FVI" secondAttribute="top" id="UdD-mu-hps"/>
                             <constraint firstItem="9gJ-0f-Jld" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="VVw-LV-qhL"/>
                             <constraint firstItem="cdn-kv-fMk" firstAttribute="centerY" secondItem="3qt-dM-INg" secondAttribute="centerY" id="Vof-nv-fvj"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" secondItem="Lzy-hx-r4r" secondAttribute="trailing" id="XWI-7E-Kmg"/>
@@ -600,7 +600,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oji-HF-OAB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1016" y="1003"/>
+            <point key="canvasLocation" x="1923.1884057971015" y="1002.7173913043479"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fwk-XG-4rZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="cZd-GS-YcF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Tx2-oR-mM5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eve-h6-55A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9ct-Aa-U8b" kind="relationship" relationship="rootViewController" id="Msk-Ix-APB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ryy-rA-LvX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015.9420289855074" y="1002.7173913043479"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
