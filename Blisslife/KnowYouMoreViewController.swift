@@ -20,7 +20,7 @@ class KnowYouMoreViewController: UIViewController {
     @IBOutlet var feet: UITextField!
     @IBOutlet var inches: UITextField!
     @IBOutlet var kg: UITextField!
-    
+    @IBOutlet var done: UIButton!
     
     func Properties() {
         
@@ -56,4 +56,34 @@ class KnowYouMoreViewController: UIViewController {
         
     }
     
-}   // #60
+    @IBAction func maleAction(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    @IBAction func femaleAction(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    @IBAction func otherAction(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    @IBAction func doneAction(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    @IBAction func skipAction(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+}   // #90

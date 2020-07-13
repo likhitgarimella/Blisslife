@@ -480,10 +480,13 @@
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="male">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="maleAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="RPX-u7-uEm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
                                 <rect key="frame" x="128" y="274" width="100" height="34"/>
@@ -491,10 +494,13 @@
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="female">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="femaleAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="RE3-Ai-nAF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
                                 <rect key="frame" x="236" y="274" width="100" height="34"/>
@@ -502,10 +508,13 @@
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Medium" family="PingFang HK" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="other">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="otherAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="lXA-po-0LI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
                                 <rect key="frame" x="19.999999999999996" y="326" width="36.666666666666657" height="24"/>
@@ -636,12 +645,38 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBt-He-B4R">
+                                <rect key="frame" x="117" y="570" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Eek-lA-aZZ"/>
+                                    <constraint firstAttribute="width" constant="180" id="lEo-vs-XO2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="yS5-M3-NRX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uq-Ox-SVV">
+                                <rect key="frame" x="163.66666666666666" y="654" width="87" height="34"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="vXV-88-ZQ9"/>
+                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="Iv6-6T-MPn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4Aw-r5-suf" firstAttribute="top" secondItem="f8V-cf-kbd" secondAttribute="bottom" constant="18" id="3om-01-Ru4"/>
                             <constraint firstItem="iQt-2L-S4l" firstAttribute="centerY" secondItem="PAR-eT-tWK" secondAttribute="centerY" id="4I0-jX-XPi"/>
                             <constraint firstItem="z8B-1A-Hms" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="4aY-3j-5SO"/>
+                            <constraint firstItem="pBt-He-B4R" firstAttribute="centerX" secondItem="dcm-3o-RoM" secondAttribute="centerX" id="4pC-en-AN3"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="z8B-1A-Hms" secondAttribute="trailing" symbolic="YES" id="5Ei-Z4-dZS"/>
                             <constraint firstItem="9gJ-0f-Jld" firstAttribute="top" secondItem="d28-q5-Rse" secondAttribute="bottom" constant="18" id="7eA-st-g9z"/>
                             <constraint firstItem="21t-of-FVI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9gJ-0f-Jld" secondAttribute="trailing" symbolic="YES" id="98w-ta-eSs"/>
@@ -667,9 +702,11 @@
                             <constraint firstItem="W7O-xY-ms8" firstAttribute="centerY" secondItem="iQt-2L-S4l" secondAttribute="centerY" id="bgz-WW-WcM"/>
                             <constraint firstItem="z8B-1A-Hms" firstAttribute="top" secondItem="Lzy-hx-r4r" secondAttribute="bottom" constant="30" id="hNz-CR-k6d"/>
                             <constraint firstItem="HqV-JJ-b1m" firstAttribute="leading" secondItem="d28-q5-Rse" secondAttribute="trailing" constant="8" id="ih8-na-Wze"/>
+                            <constraint firstItem="pBt-He-B4R" firstAttribute="top" secondItem="iQt-2L-S4l" secondAttribute="bottom" constant="96" id="jvN-iq-QGS"/>
                             <constraint firstItem="f8V-cf-kbd" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="k1b-PX-Kb7"/>
                             <constraint firstItem="d28-q5-Rse" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="kmA-X6-X1d"/>
                             <constraint firstItem="XsD-Kx-hjN" firstAttribute="centerY" secondItem="cdn-kv-fMk" secondAttribute="centerY" id="l5Y-gR-mPf"/>
+                            <constraint firstItem="4uq-Ox-SVV" firstAttribute="centerX" secondItem="dcm-3o-RoM" secondAttribute="centerX" id="lK8-jQ-2Tq"/>
                             <constraint firstItem="PAR-eT-tWK" firstAttribute="centerY" secondItem="f8V-cf-kbd" secondAttribute="centerY" id="nPl-l4-qxa"/>
                             <constraint firstItem="XsD-Kx-hjN" firstAttribute="leading" secondItem="cdn-kv-fMk" secondAttribute="trailing" constant="8" id="nkx-KZ-a0W"/>
                             <constraint firstItem="3qt-dM-INg" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="pdm-Qe-l2S"/>
@@ -678,12 +715,14 @@
                             <constraint firstItem="Wdq-Uf-hiN" firstAttribute="leading" secondItem="HqV-JJ-b1m" secondAttribute="trailing" constant="8" id="ugB-UM-58i"/>
                             <constraint firstItem="5WR-5z-SqF" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="x5f-hT-Asg"/>
                             <constraint firstItem="INB-DX-BN4" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="yWW-02-wng"/>
+                            <constraint firstItem="21t-of-FVI" firstAttribute="bottom" secondItem="4uq-Ox-SVV" secondAttribute="bottom" constant="28" id="zWO-wd-DDW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="21t-of-FVI"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bbz-kx-vfr"/>
                     <connections>
                         <outlet property="day" destination="3qt-dM-INg" id="fqf-Xp-kah"/>
+                        <outlet property="done" destination="pBt-He-B4R" id="hhV-eW-Fnn"/>
                         <outlet property="feet" destination="f8V-cf-kbd" id="ygx-Fg-vhv"/>
                         <outlet property="female" destination="HqV-JJ-b1m" id="YAc-ot-noY"/>
                         <outlet property="inches" destination="iQt-2L-S4l" id="vRN-RF-72M"/>
