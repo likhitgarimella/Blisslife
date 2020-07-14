@@ -24,9 +24,17 @@ class KnowYouMoreViewController: UIViewController {
     
     func Properties() {
         
+        male.layer.cornerRadius = 10
+        female.layer.cornerRadius = 10
+        other.layer.cornerRadius = 10
+        
         feet.setUnderLine()
         inches.setUnderLine()
         kg.setUnderLine()
+        
+        done.layer.cornerRadius = 20
+        done.layer.borderWidth = 1
+        done.layer.borderColor = UIColor.lightGray.cgColor
         
     }
     
@@ -58,25 +66,31 @@ class KnowYouMoreViewController: UIViewController {
     
     @IBAction func maleAction(_ sender: UIButton) {
         
-        
+        male.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        female.backgroundColor = UIColor.white
+        other.backgroundColor = UIColor.white
         
     }
     
     @IBAction func femaleAction(_ sender: UIButton) {
         
-        
+        male.backgroundColor = UIColor.white
+        female.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        other.backgroundColor = UIColor.white
         
     }
     
     @IBAction func otherAction(_ sender: UIButton) {
         
-        
+        male.backgroundColor = UIColor.white
+        female.backgroundColor = UIColor.white
+        other.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
         
     }
     
     @IBAction func doneAction(_ sender: UIButton) {
         
-        
+        sender.flash()
         
     }
     
@@ -86,4 +100,4 @@ class KnowYouMoreViewController: UIViewController {
         
     }
     
-}   // #90
+}   // #104

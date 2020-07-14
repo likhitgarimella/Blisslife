@@ -356,7 +356,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recover password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87A-vc-NTY">
-                                        <rect key="frame" x="90" y="100" width="234" height="32.666666666666657"/>
+                                        <rect key="frame" x="96" y="100" width="222" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -398,7 +398,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcy-NC-u3n">
-                                <rect key="frame" x="154" y="407" width="106" height="33"/>
+                                <rect key="frame" x="155" y="407" width="104" height="36"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Back to login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -597,6 +597,31 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBt-He-B4R">
+                                <rect key="frame" x="117" y="570" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Eek-lA-aZZ"/>
+                                    <constraint firstAttribute="width" constant="180" id="lEo-vs-XO2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="yS5-M3-NRX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uq-Ox-SVV">
+                                <rect key="frame" x="163.66666666666666" y="654" width="87" height="34"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="vXV-88-ZQ9"/>
+                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="Iv6-6T-MPn"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
                                 <rect key="frame" x="20" y="358" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -645,31 +670,6 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBt-He-B4R">
-                                <rect key="frame" x="117" y="570" width="180" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Eek-lA-aZZ"/>
-                                    <constraint firstAttribute="width" constant="180" id="lEo-vs-XO2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="doneAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="yS5-M3-NRX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uq-Ox-SVV">
-                                <rect key="frame" x="163.66666666666666" y="654" width="87" height="34"/>
-                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
-                                <state key="normal" title="skip for now">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="vXV-88-ZQ9"/>
-                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="Iv6-6T-MPn"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
