@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="228" y="344" width="146" height="29"/>
+                                <rect key="frame" x="233" y="344" width="141" height="31"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="405" width="334" height="40"/>
+                                <rect key="frame" x="40" y="407" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -91,7 +91,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="76" y="469" width="262" height="33"/>
+                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -745,7 +745,39 @@
                     <view key="view" contentMode="scaleToFill" id="apb-lq-Nmz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMe-Ft-EcD">
+                                <rect key="frame" x="0.0" y="-44" width="414" height="432"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are your" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emb-vz-nmj">
+                                        <rect key="frame" x="119.66666666666669" y="197" width="175" height="38"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="health parameters?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utC-U7-KTb">
+                                        <rect key="frame" x="89" y="235" width="236" height="38"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="emb-vz-nmj" firstAttribute="centerY" secondItem="qMe-Ft-EcD" secondAttribute="centerY" id="8bh-0w-QwP"/>
+                                    <constraint firstItem="emb-vz-nmj" firstAttribute="centerX" secondItem="qMe-Ft-EcD" secondAttribute="centerX" id="FBm-wE-HCZ"/>
+                                    <constraint firstItem="utC-U7-KTb" firstAttribute="top" secondItem="emb-vz-nmj" secondAttribute="bottom" id="ha8-yf-eXw"/>
+                                    <constraint firstItem="utC-U7-KTb" firstAttribute="centerX" secondItem="qMe-Ft-EcD" secondAttribute="centerX" id="t2q-yj-e2y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x98-1e-6sk" firstAttribute="bottom" secondItem="qMe-Ft-EcD" secondAttribute="bottom" constant="348" id="6OO-Ph-pDG"/>
+                            <constraint firstItem="qMe-Ft-EcD" firstAttribute="trailing" secondItem="x98-1e-6sk" secondAttribute="trailing" id="KtA-et-9gz"/>
+                            <constraint firstItem="qMe-Ft-EcD" firstAttribute="leading" secondItem="x98-1e-6sk" secondAttribute="leading" id="aV5-rq-ZRv"/>
+                            <constraint firstItem="qMe-Ft-EcD" firstAttribute="top" secondItem="apb-lq-Nmz" secondAttribute="top" constant="-44" id="ezM-wi-1AR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="x98-1e-6sk"/>
                     </view>
                     <navigationItem key="navigationItem" id="mMH-88-BxB"/>
