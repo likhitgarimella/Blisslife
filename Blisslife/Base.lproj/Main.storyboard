@@ -770,17 +770,46 @@
                                     <constraint firstItem="utC-U7-KTb" firstAttribute="centerX" secondItem="qMe-Ft-EcD" secondAttribute="centerX" id="t2q-yj-e2y"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjX-8z-Gkg">
+                                <rect key="frame" x="163.66666666666666" y="674" width="87" height="34"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="K4m-cW-ynT"/>
+                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="efR-yb-bBX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOe-Ih-pbS">
+                                <rect key="frame" x="117" y="574" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6Kz-BX-cCr"/>
+                                    <constraint firstAttribute="width" constant="180" id="NmP-ql-Py4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Proceed">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="x98-1e-6sk" firstAttribute="bottom" secondItem="XjX-8z-Gkg" secondAttribute="bottom" constant="28" id="1f4-hp-tAf"/>
                             <constraint firstItem="x98-1e-6sk" firstAttribute="bottom" secondItem="qMe-Ft-EcD" secondAttribute="bottom" constant="348" id="6OO-Ph-pDG"/>
+                            <constraint firstItem="XjX-8z-Gkg" firstAttribute="top" secondItem="tOe-Ih-pbS" secondAttribute="bottom" constant="60" id="Ji3-Gh-lnI"/>
                             <constraint firstItem="qMe-Ft-EcD" firstAttribute="trailing" secondItem="x98-1e-6sk" secondAttribute="trailing" id="KtA-et-9gz"/>
+                            <constraint firstItem="tOe-Ih-pbS" firstAttribute="centerX" secondItem="apb-lq-Nmz" secondAttribute="centerX" id="MPj-lm-HBb"/>
                             <constraint firstItem="qMe-Ft-EcD" firstAttribute="leading" secondItem="x98-1e-6sk" secondAttribute="leading" id="aV5-rq-ZRv"/>
                             <constraint firstItem="qMe-Ft-EcD" firstAttribute="top" secondItem="apb-lq-Nmz" secondAttribute="top" constant="-44" id="ezM-wi-1AR"/>
+                            <constraint firstItem="XjX-8z-Gkg" firstAttribute="centerX" secondItem="apb-lq-Nmz" secondAttribute="centerX" id="sGj-Kq-YFf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x98-1e-6sk"/>
                     </view>
                     <navigationItem key="navigationItem" id="mMH-88-BxB"/>
+                    <connections>
+                        <outlet property="proceed" destination="tOe-Ih-pbS" id="h03-Rm-Pci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79y-pB-kvY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

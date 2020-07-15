@@ -9,12 +9,23 @@
 import UIKit
 
 class HealthParametersViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet var proceed: UIButton!
+    
+    func Properties() {
+        
+        proceed.layer.cornerRadius = 20
+        proceed.layer.borderWidth = 1
+        proceed.layer.borderColor = UIColor.lightGray.cgColor
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        Properties()
         
     }
     
-}   // #21
+}   // #32
