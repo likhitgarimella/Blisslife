@@ -11,6 +11,7 @@
 		0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A22E24BB88350059640B /* iOSDropDown.swift */; };
 		0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */; };
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
+		02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */; };
 		02AB110924B998BE00D1824D /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */; };
 		02AB110A24B998BE00D1824D /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */; };
 		02AB110B24B998BE00D1824D /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F924B998BC00D1824D /* Raleway-Medium.ttf */; };
@@ -45,6 +46,7 @@
 		0238A22E24BB88350059640B /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
 		0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouMoreViewController.swift; sourceTree = "<group>"; };
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthParametersViewController.swift; sourceTree = "<group>"; };
 		02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
 		02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		02AB10F924B998BC00D1824D /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				021B24A324BB01B300094789 /* SignupViewController.swift */,
 				0238A22E24BB88350059640B /* iOSDropDown.swift */,
 				0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */,
+				02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */,
 				02AB112524B9BF9D00D1824D /* Extensions.swift */,
 				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
 				02CAF43B24B8DDA4008A7874 /* Info.plist */,
@@ -246,6 +249,7 @@
 				0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */,
 				0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */,
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
+				02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */,
 				02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */,
 				02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */,
 				02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */,

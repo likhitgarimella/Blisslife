@@ -91,13 +91,15 @@ class KnowYouMoreViewController: UIViewController {
     @IBAction func doneAction(_ sender: UIButton) {
         
         sender.flash()
+        self.performSegue(withIdentifier: "healthParameters", sender: self)
         
     }
     
     @IBAction func skipAction(_ sender: UIButton) {
         
-        
+        sender.flash()
+        self.performSegue(withIdentifier: "healthParameters", sender: self)
         
     }
     
-}   // #104
+}   // #106
