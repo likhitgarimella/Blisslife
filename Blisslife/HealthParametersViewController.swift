@@ -28,4 +28,18 @@ class HealthParametersViewController: UIViewController {
         
     }
     
-}   // #32
+    @IBAction func proceedAction(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "firstParameter", sender: self)
+        
+    }
+    
+    @IBAction func skipAction(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "goToUserPreferences", sender: self)
+        
+    }
+    
+}   // #46

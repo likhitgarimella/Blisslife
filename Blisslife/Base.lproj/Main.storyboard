@@ -778,6 +778,7 @@
                                 </state>
                                 <connections>
                                     <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="K4m-cW-ynT"/>
+                                    <action selector="skipAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Rfe-v8-3T2"/>
                                     <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="efR-yb-bBX"/>
                                 </connections>
                             </button>
@@ -791,6 +792,9 @@
                                 <state key="normal" title="Proceed">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="BWs-QS-VAh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
