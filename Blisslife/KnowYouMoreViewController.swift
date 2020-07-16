@@ -91,6 +91,16 @@ class KnowYouMoreViewController: UIViewController {
     @IBAction func doneAction(_ sender: UIButton) {
         
         sender.flash()
+        
+        if ((male.backgroundColor == UIColor.white && female.backgroundColor == UIColor.white && other.backgroundColor == UIColor.white) || day.text!.isEmpty || month.text!.isEmpty || year.text!.isEmpty || feet.text!.isEmpty || inches.text!.isEmpty || kg.text!.isEmpty) {
+            // Alert
+            let myAlert = UIAlertController(title: "Invalid!", message: "Please fill up all the fields", preferredStyle: UIAlertController.Style.alert)
+            let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
+            myAlert.addAction(okAction)
+            self.present(myAlert, animated: true, completion: nil)
+            return
+        }
+        
         self.performSegue(withIdentifier: "healthParameters", sender: self)
         
     }
@@ -102,4 +112,4 @@ class KnowYouMoreViewController: UIViewController {
         
     }
     
-}   // #106
+}   // #116
