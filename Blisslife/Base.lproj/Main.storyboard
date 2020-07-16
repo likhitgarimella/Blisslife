@@ -876,13 +876,19 @@
                                             <color key="titleColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFF-cn-wza">
+                                        <rect key="frame" x="378" y="304.33333333333331" width="12" height="22"/>
+                                        <state key="normal" image="rightArrow"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="9lt-Y0-9kx" firstAttribute="centerX" secondItem="lRn-V7-1Wr" secondAttribute="centerX" id="CZk-Sg-AYI"/>
                                     <constraint firstItem="hEK-WY-JmG" firstAttribute="centerY" secondItem="JsN-bf-AQ0" secondAttribute="centerY" id="Df6-4F-vhP"/>
                                     <constraint firstItem="JsN-bf-AQ0" firstAttribute="top" secondItem="gDR-4J-cbH" secondAttribute="bottom" constant="28" id="Gje-h7-BZp"/>
+                                    <constraint firstItem="dFF-cn-wza" firstAttribute="centerY" secondItem="hEK-WY-JmG" secondAttribute="centerY" id="H2w-nw-0ht"/>
                                     <constraint firstItem="OO0-ti-5WM" firstAttribute="centerX" secondItem="lRn-V7-1Wr" secondAttribute="centerX" id="Hd0-i8-dIN"/>
+                                    <constraint firstAttribute="trailing" secondItem="dFF-cn-wza" secondAttribute="trailing" constant="24" id="IxS-Iz-6pH"/>
                                     <constraint firstItem="9lt-Y0-9kx" firstAttribute="top" secondItem="lRn-V7-1Wr" secondAttribute="top" constant="100" id="O9z-QD-6QQ"/>
                                     <constraint firstItem="gDR-4J-cbH" firstAttribute="left" secondItem="lRn-V7-1Wr" secondAttribute="left" constant="40" id="QGL-U8-A36"/>
                                     <constraint firstItem="hEK-WY-JmG" firstAttribute="leading" secondItem="JsN-bf-AQ0" secondAttribute="trailing" constant="20" id="c8s-xf-Saf"/>
@@ -909,6 +915,7 @@
                     <connections>
                         <outlet property="lowerRange" destination="bHW-03-uDt" id="c4w-21-ein"/>
                         <outlet property="upperRange" destination="hEK-WY-JmG" id="oMz-6W-9XG"/>
+                        <segue destination="cLB-BI-JFv" kind="presentation" identifier="secondParameter" modalPresentationStyle="fullScreen" id="poR-sJ-mLK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bH-20-L7L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1020,5 +1027,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="box" width="14" height="14"/>
+        <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
     </resources>
 </document>
