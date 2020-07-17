@@ -1116,19 +1116,33 @@
                                     <constraint firstItem="lCi-dK-lBh" firstAttribute="centerX" secondItem="lg4-KE-Yrs" secondAttribute="centerX" id="wa3-83-5vp"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfj-lH-icH">
+                                <rect key="frame" x="117" y="646" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="63R-OU-gkA"/>
+                                    <constraint firstAttribute="width" constant="180" id="cEi-eS-kgh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lg4-KE-Yrs" firstAttribute="trailing" secondItem="IQN-55-7Kr" secondAttribute="trailing" id="5nv-ue-yrh"/>
                             <constraint firstItem="lg4-KE-Yrs" firstAttribute="top" secondItem="IQN-55-7Kr" secondAttribute="top" id="9qO-h4-ISr"/>
                             <constraint firstItem="IQN-55-7Kr" firstAttribute="bottom" secondItem="lg4-KE-Yrs" secondAttribute="bottom" constant="156" id="IsQ-FU-fLF"/>
+                            <constraint firstItem="Qfj-lH-icH" firstAttribute="centerX" secondItem="qJY-er-bEX" secondAttribute="centerX" id="OsM-0h-nDL"/>
                             <constraint firstItem="lg4-KE-Yrs" firstAttribute="leading" secondItem="IQN-55-7Kr" secondAttribute="leading" id="V8o-tL-ZUS"/>
+                            <constraint firstItem="IQN-55-7Kr" firstAttribute="bottom" secondItem="Qfj-lH-icH" secondAttribute="bottom" constant="50" id="wOd-oE-5Nr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IQN-55-7Kr"/>
                     </view>
                     <navigationItem key="navigationItem" id="vDd-hI-baI"/>
                     <connections>
                         <outlet property="alcohol" destination="Xu6-oI-mf3" id="XvG-bx-uzJ"/>
+                        <outlet property="done" destination="Qfj-lH-icH" id="bDv-hx-fbd"/>
                         <outlet property="drugs" destination="zuT-Jk-84Q" id="adk-L3-SHI"/>
                         <outlet property="nota" destination="lCi-dK-lBh" id="oKq-ft-4Jn"/>
                         <outlet property="tobacco" destination="eq3-QZ-LDb" id="jFR-CM-dJv"/>

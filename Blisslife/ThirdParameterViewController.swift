@@ -15,11 +15,26 @@ class ThirdParameterViewController: UIViewController {
     @IBOutlet var tobacco: UIButton!
     @IBOutlet var drugs: UIButton!
     @IBOutlet var nota: UIButton!
+    
+    @IBOutlet var done: UIButton!
+    
+    func Properties() {
+        
+        alcohol.layer.cornerRadius = 10
+        tobacco.layer.cornerRadius = 10
+        drugs.layer.cornerRadius = 10
+        nota.layer.cornerRadius = 10
+        
+        done.layer.cornerRadius = 20
+        done.layer.borderWidth = 1
+        done.layer.borderColor = UIColor.white.cgColor
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        Properties()
         
     }
     
@@ -54,9 +69,9 @@ class ThirdParameterViewController: UIViewController {
         
         alcohol.backgroundColor = UIColor.white
         tobacco.backgroundColor = UIColor.white
-        drugs.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
-        nota.backgroundColor = UIColor.white
+        drugs.backgroundColor = UIColor.white
+        nota.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
         
     }
     
-}   // #63
+}   // #78
