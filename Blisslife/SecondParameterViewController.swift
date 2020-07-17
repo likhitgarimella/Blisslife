@@ -150,6 +150,17 @@ class SecondParameterViewController: UIViewController {
         nextArrow.isHighlighted = true
         sender.flash()
         
+        if (radioButton1.isSelected == false && radioButton2.isSelected == false && radioButton3.isSelected == false && radioButton4.isSelected == false && radioButton5.isSelected == false) {
+            // Alert
+            let myAlert = UIAlertController(title: "Invalid!", message: "Please select an option", preferredStyle: UIAlertController.Style.alert)
+            let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
+            myAlert.addAction(okAction)
+            self.present(myAlert, animated: true, completion: nil)
+            return
+        }
+        
+        self.performSegue(withIdentifier: "thirdParameter", sender: self)
+        
     }
     
     @IBAction func preferNotToSay(_ sender: UIButton) {
@@ -159,4 +170,4 @@ class SecondParameterViewController: UIViewController {
         
     }
     
-}   // #160
+}   // #174
