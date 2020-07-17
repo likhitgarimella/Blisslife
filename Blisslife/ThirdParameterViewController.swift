@@ -74,4 +74,10 @@ class ThirdParameterViewController: UIViewController {
         
     }
     
-}   // #78
+    @IBAction func doneAction(_ sender: UIButton) {
+        
+        sender.flash()
+        
+    }
+    
+}   // #84

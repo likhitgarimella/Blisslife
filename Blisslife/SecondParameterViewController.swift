@@ -17,4 +17,11 @@ class SecondParameterViewController: UIViewController {
         
     }
     
-}   // #21
+    @IBAction func preferNotToSay(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "thirdParameter", sender: self)
+        
+    }
+    
+}   // #28

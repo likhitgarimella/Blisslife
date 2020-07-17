@@ -879,6 +879,9 @@
                                         <state key="normal" title="prefer not to say">
                                             <color key="titleColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="preferNotToSay:" destination="uER-Qc-f9O" eventType="touchUpInside" id="Ax0-lq-Vtp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -980,6 +983,9 @@
                                         <state key="normal" title="prefer not to say">
                                             <color key="titleColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="preferNotToSay:" destination="cLB-BI-JFv" eventType="touchUpInside" id="KQ3-xG-XxD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1039,9 +1045,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xu6-oI-mf3">
-                                        <rect key="frame" x="177" y="276.33333333333331" width="60" height="34"/>
+                                        <rect key="frame" x="157" y="276.33333333333331" width="100" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="aXY-TG-DX5"/>
+                                            <constraint firstAttribute="width" constant="100" id="era-bz-Olv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                         <state key="normal" title="Alcohol">
@@ -1052,9 +1059,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eq3-QZ-LDb">
-                                        <rect key="frame" x="172.66666666666666" y="330.33333333333331" width="69" height="34"/>
+                                        <rect key="frame" x="157" y="330.33333333333331" width="100" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="goD-Xc-DUi"/>
+                                            <constraint firstAttribute="width" constant="100" id="lEr-RU-KGq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                         <state key="normal" title="Tobacco">
@@ -1065,9 +1073,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuT-Jk-84Q">
-                                        <rect key="frame" x="182.66666666666666" y="384.33333333333331" width="49" height="34"/>
+                                        <rect key="frame" x="157" y="384.33333333333331" width="100" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="gT3-qQ-sLo"/>
+                                            <constraint firstAttribute="width" constant="100" id="llk-9N-uCT"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                         <state key="normal" title="Drugs">
@@ -1078,9 +1087,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCi-dK-lBh">
-                                        <rect key="frame" x="132.66666666666666" y="438.33333333333331" width="148.99999999999997" height="34"/>
+                                        <rect key="frame" x="117" y="438.33333333333331" width="180" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="DVq-qa-gtg"/>
+                                            <constraint firstAttribute="width" constant="180" id="hm7-93-yWB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                         <state key="normal" title="None of the above">
@@ -1126,6 +1136,9 @@
                                 <state key="normal" title="Done">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="doneAction:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="sVz-lT-VNg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
