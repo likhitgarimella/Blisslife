@@ -77,7 +77,15 @@ class ThirdParameterViewController: UIViewController {
     @IBAction func doneAction(_ sender: UIButton) {
         
         sender.flash()
+        if (alcohol.backgroundColor == UIColor.white && tobacco.backgroundColor == UIColor.white && drugs.backgroundColor == UIColor.white && nota.backgroundColor == UIColor.white) {
+            // Alert
+            let myAlert = UIAlertController(title: "Invalid!", message: "Please select an option", preferredStyle: UIAlertController.Style.alert)
+            let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
+            myAlert.addAction(okAction)
+            self.present(myAlert, animated: true, completion: nil)
+            return
+        }
         
     }
     
-}   // #84
+}   // #92
