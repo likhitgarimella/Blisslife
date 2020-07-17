@@ -872,6 +872,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFF-cn-wza">
                                         <rect key="frame" x="378" y="303.33333333333331" width="12" height="22"/>
                                         <state key="normal" image="rightArrow"/>
+                                        <connections>
+                                            <action selector="nextClicked:" destination="uER-Qc-f9O" eventType="touchUpInside" id="l4s-pm-AJV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OO0-ti-5WM">
                                         <rect key="frame" x="147" y="499" width="120" height="31"/>
@@ -1000,6 +1003,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KK-q9-sb7">
                                         <rect key="frame" x="378" y="296.33333333333331" width="12" height="22"/>
                                         <state key="normal" image="rightArrow"/>
+                                        <connections>
+                                            <action selector="nextClicked:" destination="cLB-BI-JFv" eventType="touchUpInside" id="cMB-Wl-7ta"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzd-aV-dbJ">
                                         <rect key="frame" x="148" y="499" width="118" height="31"/>

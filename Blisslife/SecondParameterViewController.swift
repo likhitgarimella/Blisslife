@@ -143,6 +143,12 @@ class SecondParameterViewController: UIViewController {
         
     }
     
+    @IBAction func nextClicked(_ sender: UIButton) {
+        
+        sender.flash()
+        
+    }
+    
     @IBAction func preferNotToSay(_ sender: UIButton) {
         
         sender.flash()
@@ -150,4 +156,4 @@ class SecondParameterViewController: UIViewController {
         
     }
     
-}   // #154
+}   // #160
