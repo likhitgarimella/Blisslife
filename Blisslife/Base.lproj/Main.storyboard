@@ -1047,6 +1047,9 @@
                                         <state key="normal" title="Alcohol">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="alcoholAction:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="p0h-dD-VSw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eq3-QZ-LDb">
                                         <rect key="frame" x="172.66666666666666" y="330.33333333333331" width="69" height="34"/>
@@ -1057,6 +1060,9 @@
                                         <state key="normal" title="Tobacco">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="tobaccoAction:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="IWW-fH-K1L"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuT-Jk-84Q">
                                         <rect key="frame" x="182.66666666666666" y="384.33333333333331" width="49" height="34"/>
@@ -1067,6 +1073,9 @@
                                         <state key="normal" title="Drugs">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="drugsAction:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="d0z-4Z-7r2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCi-dK-lBh">
                                         <rect key="frame" x="132.66666666666666" y="438.33333333333331" width="148.99999999999997" height="34"/>
@@ -1077,6 +1086,9 @@
                                         <state key="normal" title="None of the above">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="notaAction:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="gvz-Yz-OrA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4u-Ea-yKd">
                                         <rect key="frame" x="148" y="499" width="118" height="31"/>
@@ -1115,6 +1127,12 @@
                         <viewLayoutGuide key="safeArea" id="IQN-55-7Kr"/>
                     </view>
                     <navigationItem key="navigationItem" id="vDd-hI-baI"/>
+                    <connections>
+                        <outlet property="alcohol" destination="Xu6-oI-mf3" id="XvG-bx-uzJ"/>
+                        <outlet property="drugs" destination="zuT-Jk-84Q" id="adk-L3-SHI"/>
+                        <outlet property="nota" destination="lCi-dK-lBh" id="oKq-ft-4Jn"/>
+                        <outlet property="tobacco" destination="eq3-QZ-LDb" id="jFR-CM-dJv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFr-d8-ipz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
