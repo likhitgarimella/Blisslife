@@ -1075,6 +1075,7 @@
                     <navigationItem key="navigationItem" id="KHT-bA-2lA"/>
                     <connections>
                         <outlet property="nextArrow" destination="6KK-q9-sb7" id="SN9-sj-Rn7"/>
+                        <outlet property="others" destination="pZJ-Xt-S4w" id="8xs-Jb-Nv8"/>
                         <segue destination="6Tf-1s-Pe5" kind="presentation" identifier="thirdParameter" modalPresentationStyle="fullScreen" id="xAn-kF-fdv"/>
                     </connections>
                 </viewController>
