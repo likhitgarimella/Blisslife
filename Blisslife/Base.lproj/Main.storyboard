@@ -920,6 +920,7 @@
                     <navigationItem key="navigationItem" id="E2n-rA-RKN"/>
                     <connections>
                         <outlet property="lowerRange" destination="bHW-03-uDt" id="c4w-21-ein"/>
+                        <outlet property="nextArrow" destination="dFF-cn-wza" id="6Fk-cD-bfJ"/>
                         <outlet property="upperRange" destination="hEK-WY-JmG" id="oMz-6W-9XG"/>
                         <segue destination="cLB-BI-JFv" kind="presentation" identifier="secondParameter" modalPresentationStyle="fullScreen" id="poR-sJ-mLK"/>
                     </connections>
@@ -1060,6 +1061,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KHT-bA-2lA"/>
                     <connections>
+                        <outlet property="nextArrow" destination="6KK-q9-sb7" id="SN9-sj-Rn7"/>
                         <segue destination="6Tf-1s-Pe5" kind="presentation" identifier="thirdParameter" modalPresentationStyle="fullScreen" id="xAn-kF-fdv"/>
                     </connections>
                 </viewController>

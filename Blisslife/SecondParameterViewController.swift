@@ -10,6 +10,8 @@ import UIKit
 
 class SecondParameterViewController: UIViewController {
     
+    @IBOutlet var nextArrow: UIButton!
+    
     // #1
     let radioButton1 = LTHRadioButton(selectedColor: UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0))
     // #2
@@ -145,6 +147,7 @@ class SecondParameterViewController: UIViewController {
     
     @IBAction func nextClicked(_ sender: UIButton) {
         
+        nextArrow.isHighlighted = true
         sender.flash()
         
     }

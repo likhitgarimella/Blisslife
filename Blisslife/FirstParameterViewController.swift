@@ -14,6 +14,8 @@ class FirstParameterViewController: UIViewController {
     @IBOutlet var lowerRange: UITextField!
     @IBOutlet var upperRange: UITextField!
     
+    @IBOutlet var nextArrow: UIButton!
+    
     func Properties() {
         
         lowerRange.layer.cornerRadius = 8
@@ -35,7 +37,19 @@ class FirstParameterViewController: UIViewController {
     
     @IBAction func nextClicked(_ sender: UIButton) {
         
+        nextArrow.isHighlighted = true
         sender.flash()
+        
+        if (lowerRange.text!.isEmpty || upperRange.text!.isEmpty) {
+            // Alert
+            let myAlert = UIAlertController(title: "Invalid!", message: "Please fill up all the fields", preferredStyle: UIAlertController.Style.alert)
+            let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
+            myAlert.addAction(okAction)
+            self.present(myAlert, animated: true, completion: nil)
+            return
+        }
+        
+        self.performSegue(withIdentifier: "secondParameter", sender: self)
         
     }
     
@@ -46,4 +60,4 @@ class FirstParameterViewController: UIViewController {
         
     }
     
-}   // #50
+}   // #64
