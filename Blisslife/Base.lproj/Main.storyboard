@@ -828,10 +828,19 @@
                                             <segue destination="yzH-h5-hfE" kind="show" id="xAs-Dk-GmA"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6U4-Xp-GEz">
+                                        <rect key="frame" x="40" y="60.666666666666664" width="103" height="26.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6U4-Xp-GEz" secondAttribute="trailing" constant="20" symbolic="YES" id="3ea-W0-PMG"/>
                                     <constraint firstAttribute="trailing" secondItem="XFl-jV-vWx" secondAttribute="trailing" id="HXD-2W-0Wi"/>
+                                    <constraint firstItem="6U4-Xp-GEz" firstAttribute="leading" secondItem="o12-HL-CEY" secondAttribute="leading" constant="40" id="QZK-zC-tS0"/>
+                                    <constraint firstItem="6U4-Xp-GEz" firstAttribute="centerY" secondItem="o12-HL-CEY" secondAttribute="centerY" id="Snk-fU-7gb"/>
                                     <constraint firstAttribute="bottom" secondItem="XFl-jV-vWx" secondAttribute="bottom" id="W5Y-hn-egT"/>
                                     <constraint firstItem="XFl-jV-vWx" firstAttribute="leading" secondItem="o12-HL-CEY" secondAttribute="leading" id="n9H-uY-0yy"/>
                                     <constraint firstAttribute="height" constant="148" id="nkH-sH-Of3"/>
@@ -847,14 +856,23 @@
                                             <segue destination="gYe-PQ-VpQ" kind="show" id="OlW-0c-Yrs"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Browse Symptoms / Conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBu-PK-cg7">
+                                        <rect key="frame" x="40" y="60.666666666666679" width="275.66666666666669" height="26.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9882352941176471" green="0.88235294117647056" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="6uw-He-UIp" secondAttribute="trailing" id="94F-ui-ZN7"/>
                                     <constraint firstAttribute="height" constant="148" id="AXf-Rh-3nK"/>
+                                    <constraint firstItem="hBu-PK-cg7" firstAttribute="centerY" secondItem="kqI-bX-PnF" secondAttribute="centerY" id="Aof-mP-tBk"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hBu-PK-cg7" secondAttribute="trailing" constant="20" symbolic="YES" id="KBH-Xe-sZk"/>
                                     <constraint firstItem="6uw-He-UIp" firstAttribute="leading" secondItem="kqI-bX-PnF" secondAttribute="leading" id="UAX-WI-xzY"/>
                                     <constraint firstAttribute="bottom" secondItem="6uw-He-UIp" secondAttribute="bottom" id="bDu-7I-cIx"/>
                                     <constraint firstItem="6uw-He-UIp" firstAttribute="top" secondItem="kqI-bX-PnF" secondAttribute="top" id="pfb-5v-xhX"/>
+                                    <constraint firstItem="hBu-PK-cg7" firstAttribute="leading" secondItem="kqI-bX-PnF" secondAttribute="leading" constant="40" id="tEZ-1u-ewf"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m28-4N-K2I">
@@ -866,6 +884,12 @@
                                             <segue destination="VEF-VL-gqR" kind="show" id="gBe-0C-QcY"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Browse Health Goals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UD5-cG-n59">
+                                        <rect key="frame" x="40" y="60.666666666666679" width="181" height="26.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.9137254901960784" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -874,6 +898,9 @@
                                     <constraint firstItem="BNn-gC-bCl" firstAttribute="leading" secondItem="m28-4N-K2I" secondAttribute="leading" id="Sf9-bG-dAe"/>
                                     <constraint firstAttribute="trailing" secondItem="BNn-gC-bCl" secondAttribute="trailing" id="chU-Jt-Gei"/>
                                     <constraint firstAttribute="height" constant="148" id="d7l-yA-ICr"/>
+                                    <constraint firstItem="UD5-cG-n59" firstAttribute="centerY" secondItem="m28-4N-K2I" secondAttribute="centerY" id="jxO-kE-j0m"/>
+                                    <constraint firstItem="UD5-cG-n59" firstAttribute="leading" secondItem="m28-4N-K2I" secondAttribute="leading" constant="40" id="mrs-fF-cjH"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UD5-cG-n59" secondAttribute="trailing" constant="20" symbolic="YES" id="sTM-KV-5th"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAt-ws-49z">
@@ -885,13 +912,22 @@
                                             <segue destination="c5m-dn-zTT" kind="show" id="nSj-V1-yTd"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Browse Body Parts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNS-uN-Crd">
+                                        <rect key="frame" x="40" y="60.666666666666622" width="162.66666666666666" height="26.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.93725490196078431" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="LdV-AO-QbX" firstAttribute="top" secondItem="LAt-ws-49z" secondAttribute="top" id="5k4-5t-PLq"/>
+                                    <constraint firstItem="jNS-uN-Crd" firstAttribute="leading" secondItem="LAt-ws-49z" secondAttribute="leading" constant="40" id="65m-nA-HUD"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jNS-uN-Crd" secondAttribute="trailing" constant="20" symbolic="YES" id="JiV-dw-VoC"/>
                                     <constraint firstAttribute="height" constant="148" id="LAP-pf-ZjJ"/>
                                     <constraint firstAttribute="bottom" secondItem="LdV-AO-QbX" secondAttribute="bottom" id="YVP-kg-Ouw"/>
                                     <constraint firstItem="LdV-AO-QbX" firstAttribute="leading" secondItem="LAt-ws-49z" secondAttribute="leading" id="flM-uO-T9Z"/>
+                                    <constraint firstItem="jNS-uN-Crd" firstAttribute="centerY" secondItem="LAt-ws-49z" secondAttribute="centerY" id="prh-4I-Hpj"/>
                                     <constraint firstAttribute="trailing" secondItem="LdV-AO-QbX" secondAttribute="trailing" id="sS5-nu-LpN"/>
                                 </constraints>
                             </view>
