@@ -13,8 +13,10 @@ class CustExpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.barTintColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
         
+        hideKeyboardWhenTappedAround()
         
     }
     
-}   // #21
+}   // #23

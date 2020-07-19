@@ -830,7 +830,7 @@
                     <connections>
                         <outlet property="proceed" destination="tOe-Ih-pbS" id="h03-Rm-Pci"/>
                         <segue destination="uER-Qc-f9O" kind="presentation" identifier="firstParameter" modalPresentationStyle="fullScreen" id="hg0-qm-9MK"/>
-                        <segue destination="y0c-2Q-Pk7" kind="show" id="CXj-Vq-062"/>
+                        <segue destination="y0c-2Q-Pk7" kind="show" identifier="goToUserPreferences" id="CXj-Vq-062"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79y-pB-kvY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1185,6 +1185,9 @@
                                         <state key="normal" title="prefer not to say">
                                             <color key="titleColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="preferNotToSay:" destination="6Tf-1s-Pe5" eventType="touchUpInside" id="14z-Qa-8ed"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1238,6 +1241,7 @@
                         <outlet property="drugs" destination="zuT-Jk-84Q" id="adk-L3-SHI"/>
                         <outlet property="nota" destination="lCi-dK-lBh" id="oKq-ft-4Jn"/>
                         <outlet property="tobacco" destination="eq3-QZ-LDb" id="jFR-CM-dJv"/>
+                        <segue destination="y0c-2Q-Pk7" kind="show" identifier="moveToExperience" id="YVB-TF-QTS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFr-d8-ipz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1265,6 +1269,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="YVB-TF-QTS"/>
         <segue reference="THY-G9-WSW"/>
     </inferredMetricsTieBreakers>
     <resources>

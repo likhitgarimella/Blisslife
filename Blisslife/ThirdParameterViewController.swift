@@ -79,6 +79,13 @@ class ThirdParameterViewController: UIViewController {
         
     }
     
+    @IBAction func preferNotToSay(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "moveToExperience", sender: self)
+        
+    }
+    
     @IBAction func doneAction(_ sender: UIButton) {
         
         sender.flash()
@@ -92,6 +99,8 @@ class ThirdParameterViewController: UIViewController {
             return
         }
         
+        self.performSegue(withIdentifier: "moveToExperience", sender: self)
+        
     }
     
-}   // #98
+}   // #107
