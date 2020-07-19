@@ -821,30 +821,78 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o12-HL-CEY">
                                 <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFl-jV-vWx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
+                                        <connections>
+                                            <segue destination="yzH-h5-hfE" kind="show" id="xAs-Dk-GmA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XFl-jV-vWx" secondAttribute="trailing" id="HXD-2W-0Wi"/>
+                                    <constraint firstAttribute="bottom" secondItem="XFl-jV-vWx" secondAttribute="bottom" id="W5Y-hn-egT"/>
+                                    <constraint firstItem="XFl-jV-vWx" firstAttribute="leading" secondItem="o12-HL-CEY" secondAttribute="leading" id="n9H-uY-0yy"/>
                                     <constraint firstAttribute="height" constant="148" id="nkH-sH-Of3"/>
+                                    <constraint firstItem="XFl-jV-vWx" firstAttribute="top" secondItem="o12-HL-CEY" secondAttribute="top" id="zww-1X-g2q"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqI-bX-PnF">
                                 <rect key="frame" x="0.0" y="206" width="414" height="148"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uw-He-UIp">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
+                                        <connections>
+                                            <segue destination="gYe-PQ-VpQ" kind="show" id="OlW-0c-Yrs"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.9882352941176471" green="0.88235294117647056" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6uw-He-UIp" secondAttribute="trailing" id="94F-ui-ZN7"/>
                                     <constraint firstAttribute="height" constant="148" id="AXf-Rh-3nK"/>
+                                    <constraint firstItem="6uw-He-UIp" firstAttribute="leading" secondItem="kqI-bX-PnF" secondAttribute="leading" id="UAX-WI-xzY"/>
+                                    <constraint firstAttribute="bottom" secondItem="6uw-He-UIp" secondAttribute="bottom" id="bDu-7I-cIx"/>
+                                    <constraint firstItem="6uw-He-UIp" firstAttribute="top" secondItem="kqI-bX-PnF" secondAttribute="top" id="pfb-5v-xhX"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m28-4N-K2I">
                                 <rect key="frame" x="0.0" y="356" width="414" height="148"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNn-gC-bCl">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
+                                        <connections>
+                                            <segue destination="VEF-VL-gqR" kind="show" id="gBe-0C-QcY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.9137254901960784" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BNn-gC-bCl" secondAttribute="bottom" id="DaR-ak-ZBq"/>
+                                    <constraint firstItem="BNn-gC-bCl" firstAttribute="top" secondItem="m28-4N-K2I" secondAttribute="top" id="PBR-ab-nWg"/>
+                                    <constraint firstItem="BNn-gC-bCl" firstAttribute="leading" secondItem="m28-4N-K2I" secondAttribute="leading" id="Sf9-bG-dAe"/>
+                                    <constraint firstAttribute="trailing" secondItem="BNn-gC-bCl" secondAttribute="trailing" id="chU-Jt-Gei"/>
                                     <constraint firstAttribute="height" constant="148" id="d7l-yA-ICr"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAt-ws-49z">
                                 <rect key="frame" x="0.0" y="506" width="414" height="148"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdV-AO-QbX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
+                                        <connections>
+                                            <segue destination="c5m-dn-zTT" kind="show" id="nSj-V1-yTd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.93725490196078431" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="LdV-AO-QbX" firstAttribute="top" secondItem="LAt-ws-49z" secondAttribute="top" id="5k4-5t-PLq"/>
                                     <constraint firstAttribute="height" constant="148" id="LAP-pf-ZjJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="LdV-AO-QbX" secondAttribute="bottom" id="YVP-kg-Ouw"/>
+                                    <constraint firstItem="LdV-AO-QbX" firstAttribute="leading" secondItem="LAt-ws-49z" secondAttribute="leading" id="flM-uO-T9Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="LdV-AO-QbX" secondAttribute="trailing" id="sS5-nu-LpN"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -869,18 +917,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oG7-ek-Bny" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4316" y="146"/>
+            <point key="canvasLocation" x="4315.9420289855079" y="145.92391304347828"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qdY-rW-aox">
             <objects>
-                <viewController id="yzH-h5-hfE" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yzH-h5-hfE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FsU-Fw-rRQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7Oj-Qe-Ydc"/>
                     </view>
+                    <navigationItem key="navigationItem" id="S17-VR-rZ6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VmX-ZW-a13" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -889,13 +938,14 @@
         <!--View Controller-->
         <scene sceneID="Nrr-iA-arD">
             <objects>
-                <viewController id="gYe-PQ-VpQ" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gYe-PQ-VpQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LF1-p4-umV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="iY6-5U-4K8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bTU-g1-KCp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ix1-ea-x4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -904,13 +954,14 @@
         <!--View Controller-->
         <scene sceneID="GU7-rd-7Bl">
             <objects>
-                <viewController id="VEF-VL-gqR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="VEF-VL-gqR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mv-6I-zpz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5z5-IV-nGS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="py6-m7-fJG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mv-hA-jb0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -919,13 +970,14 @@
         <!--View Controller-->
         <scene sceneID="vEc-9Y-7pa">
             <objects>
-                <viewController id="c5m-dn-zTT" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="c5m-dn-zTT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="64K-sb-mAR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SVs-zX-zSG"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Zgc-xW-Knd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jr6-a1-1b5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
