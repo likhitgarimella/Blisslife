@@ -745,10 +745,64 @@
                     <view key="view" contentMode="scaleToFill" id="NEw-Si-M0z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaj-vJ-DnQ">
+                                <rect key="frame" x="117" y="554" width="180" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="jSe-cO-ZTA"/>
+                                    <constraint firstAttribute="height" constant="40" id="uoJ-G9-fSl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="20"/>
+                                <state key="normal" title="Yes, sure">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="eZB-dk-ykx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0X-Oo-CDQ">
+                                <rect key="frame" x="163.66666666666666" y="654" width="87" height="34"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="skip for now">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="anN-yU-444"/>
+                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="h7l-L9-Xsv"/>
+                                    <action selector="skipAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="vbF-D0-OGb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's customize" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXY-5z-fuG">
+                                <rect key="frame" x="113.66666666666669" y="302" width="187" height="37.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gua-9e-RnZ">
+                                <rect key="frame" x="109.00000000000001" y="339.33333333333331" width="196.33333333333337" height="37.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="P0X-Oo-CDQ" firstAttribute="top" secondItem="aaj-vJ-DnQ" secondAttribute="bottom" constant="60" id="1AK-lJ-1B9"/>
+                            <constraint firstItem="aaj-vJ-DnQ" firstAttribute="centerX" secondItem="NEw-Si-M0z" secondAttribute="centerX" id="1ct-ml-ryh"/>
+                            <constraint firstItem="XtF-4j-wAp" firstAttribute="bottom" secondItem="P0X-Oo-CDQ" secondAttribute="bottom" constant="28" id="6G2-Zw-EzF"/>
+                            <constraint firstItem="gua-9e-RnZ" firstAttribute="centerY" secondItem="NEw-Si-M0z" secondAttribute="centerY" id="CHm-H7-SnY"/>
+                            <constraint firstItem="jXY-5z-fuG" firstAttribute="centerX" secondItem="NEw-Si-M0z" secondAttribute="centerX" id="eRv-M7-IiO"/>
+                            <constraint firstItem="gua-9e-RnZ" firstAttribute="top" secondItem="jXY-5z-fuG" secondAttribute="bottom" id="gc0-ZB-N5u"/>
+                            <constraint firstItem="gua-9e-RnZ" firstAttribute="centerX" secondItem="NEw-Si-M0z" secondAttribute="centerX" id="sSl-mj-UuC"/>
+                            <constraint firstItem="P0X-Oo-CDQ" firstAttribute="centerX" secondItem="NEw-Si-M0z" secondAttribute="centerX" id="zNF-yz-ccr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XtF-4j-wAp"/>
                     </view>
                     <navigationItem key="navigationItem" id="4hB-DH-eyG"/>
+                    <connections>
+                        <outlet property="yesSure" destination="aaj-vJ-DnQ" id="cHF-51-lt8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ch-nj-xLZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1269,7 +1323,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YVB-TF-QTS"/>
+        <segue reference="CXj-Vq-062"/>
         <segue reference="THY-G9-WSW"/>
     </inferredMetricsTieBreakers>
     <resources>

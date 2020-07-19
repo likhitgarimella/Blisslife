@@ -9,6 +9,15 @@
 import UIKit
 
 class CustExpViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet var yesSure: UIButton!
+    
+    func Properties() {
+        
+        yesSure.layer.cornerRadius = 20
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +25,8 @@ class CustExpViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
         
         hideKeyboardWhenTappedAround()
+        Properties()
         
     }
     
-}   // #23
+}   // #33
