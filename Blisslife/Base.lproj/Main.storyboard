@@ -955,10 +955,10 @@
             </objects>
             <point key="canvasLocation" x="4315.9420289855079" y="145.92391304347828"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="qdY-rW-aox">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yzH-h5-hfE" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yzH-h5-hfE" customClass="SearchViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FsU-Fw-rRQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -971,10 +971,10 @@
             </objects>
             <point key="canvasLocation" x="3416" y="-664"/>
         </scene>
-        <!--View Controller-->
+        <!--Symps Conds View Controller-->
         <scene sceneID="Nrr-iA-arD">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="gYe-PQ-VpQ" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gYe-PQ-VpQ" customClass="SympsCondsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LF1-p4-umV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -987,10 +987,10 @@
             </objects>
             <point key="canvasLocation" x="4316" y="-664"/>
         </scene>
-        <!--View Controller-->
+        <!--Health Goals View Controller-->
         <scene sceneID="GU7-rd-7Bl">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="VEF-VL-gqR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="VEF-VL-gqR" customClass="HealthGoalsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mv-6I-zpz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1003,10 +1003,10 @@
             </objects>
             <point key="canvasLocation" x="5222" y="-664"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="vEc-9Y-7pa">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="c5m-dn-zTT" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="c5m-dn-zTT" customClass="BodyPartsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="64K-sb-mAR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
