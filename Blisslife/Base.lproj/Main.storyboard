@@ -962,7 +962,21 @@
                     <view key="view" contentMode="scaleToFill" id="FsU-Fw-rRQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3DN-nd-Msa">
+                                <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="UoB-Ik-uyh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3DN-nd-Msa" firstAttribute="top" secondItem="7Oj-Qe-Ydc" secondAttribute="top" id="4Ol-rU-5UL"/>
+                            <constraint firstItem="3DN-nd-Msa" firstAttribute="leading" secondItem="7Oj-Qe-Ydc" secondAttribute="leading" id="63n-oJ-QiL"/>
+                            <constraint firstItem="3DN-nd-Msa" firstAttribute="trailing" secondItem="7Oj-Qe-Ydc" secondAttribute="trailing" id="G3N-eA-DnD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7Oj-Qe-Ydc"/>
                     </view>
                     <navigationItem key="navigationItem" id="S17-VR-rZ6"/>
@@ -978,7 +992,21 @@
                     <view key="view" contentMode="scaleToFill" id="LF1-p4-umV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZeN-sO-Hu3">
+                                <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="w4t-4N-edN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZeN-sO-Hu3" firstAttribute="leading" secondItem="iY6-5U-4K8" secondAttribute="leading" id="Yr5-9r-RL9"/>
+                            <constraint firstItem="ZeN-sO-Hu3" firstAttribute="trailing" secondItem="iY6-5U-4K8" secondAttribute="trailing" id="j1h-s5-ddi"/>
+                            <constraint firstItem="ZeN-sO-Hu3" firstAttribute="top" secondItem="iY6-5U-4K8" secondAttribute="top" id="mqx-ds-8Ae"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iY6-5U-4K8"/>
                     </view>
                     <navigationItem key="navigationItem" id="bTU-g1-KCp"/>
@@ -994,7 +1022,21 @@
                     <view key="view" contentMode="scaleToFill" id="5mv-6I-zpz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKP-Ec-wd8">
+                                <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="tLa-N4-GpH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EKP-Ec-wd8" firstAttribute="leading" secondItem="5mv-6I-zpz" secondAttribute="leading" id="RM1-QW-ljg"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="EKP-Ec-wd8" secondAttribute="trailing" id="ezl-2n-1my"/>
+                            <constraint firstItem="EKP-Ec-wd8" firstAttribute="top" secondItem="5z5-IV-nGS" secondAttribute="top" id="leo-gP-qd1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5z5-IV-nGS"/>
                     </view>
                     <navigationItem key="navigationItem" id="py6-m7-fJG"/>
@@ -1010,7 +1052,21 @@
                     <view key="view" contentMode="scaleToFill" id="64K-sb-mAR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rl-jg-uKP">
+                                <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="Uqc-dX-a2S"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6rl-jg-uKP" firstAttribute="leading" secondItem="SVs-zX-zSG" secondAttribute="leading" id="FaQ-mE-bjs"/>
+                            <constraint firstItem="6rl-jg-uKP" firstAttribute="top" secondItem="SVs-zX-zSG" secondAttribute="top" id="VkH-41-o8J"/>
+                            <constraint firstItem="6rl-jg-uKP" firstAttribute="trailing" secondItem="SVs-zX-zSG" secondAttribute="trailing" id="gEe-xa-kOb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SVs-zX-zSG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zgc-xW-Knd"/>
