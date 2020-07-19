@@ -29,4 +29,17 @@ class CustExpViewController: UIViewController {
         
     }
     
-}   // #33
+    @IBAction func yesSureAction(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "goToSections", sender: self)
+        
+    }
+    
+    @IBAction func skipAction(_ sender: UIButton) {
+        
+        sender.flash()
+        
+    }
+    
+}   // #46

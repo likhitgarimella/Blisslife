@@ -759,6 +759,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="eZB-dk-ykx"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="x2V-bq-8VM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0X-Oo-CDQ">
@@ -769,6 +770,7 @@
                                 </state>
                                 <connections>
                                     <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="anN-yU-444"/>
+                                    <action selector="skipAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="ZdS-dN-egH"/>
                                     <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="h7l-L9-Xsv"/>
                                     <action selector="skipAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="vbF-D0-OGb"/>
                                 </connections>
@@ -802,11 +804,28 @@
                     <navigationItem key="navigationItem" id="4hB-DH-eyG"/>
                     <connections>
                         <outlet property="yesSure" destination="aaj-vJ-DnQ" id="cHF-51-lt8"/>
+                        <segue destination="USW-hL-3uY" kind="show" identifier="goToSections" id="e0F-pl-MAt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ch-nj-xLZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3416" y="146"/>
+        </scene>
+        <!--Sections View Controller-->
+        <scene sceneID="Yeh-ag-vLg">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="USW-hL-3uY" customClass="SectionsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3mg-a1-dp9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="N4v-ia-Kow"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rJp-b2-3kA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oG7-ek-Bny" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4316" y="146"/>
         </scene>
         <!--Health Parameters View Controller-->
         <scene sceneID="1hh-M9-sJM">

@@ -16,6 +16,7 @@
 		028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B924C0CAF000765113 /* SecondParameterViewController.swift */; };
 		028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */; };
 		0296555324C46014007FDCB1 /* CustExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296555224C46014007FDCB1 /* CustExpViewController.swift */; };
+		0296555524C46A11007FDCB1 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296555424C46A11007FDCB1 /* SectionsViewController.swift */; };
 		02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */; };
 		02AB110924B998BE00D1824D /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */; };
 		02AB110A24B998BE00D1824D /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */; };
@@ -56,6 +57,7 @@
 		028001B924C0CAF000765113 /* SecondParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParameterViewController.swift; sourceTree = "<group>"; };
 		028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParameterViewController.swift; sourceTree = "<group>"; };
 		0296555224C46014007FDCB1 /* CustExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustExpViewController.swift; sourceTree = "<group>"; };
+		0296555424C46A11007FDCB1 /* SectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
 		02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthParametersViewController.swift; sourceTree = "<group>"; };
 		02AB10F724B998BB00D1824D /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
 		02AB10F824B998BB00D1824D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				028001B924C0CAF000765113 /* SecondParameterViewController.swift */,
 				028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */,
 				0296555224C46014007FDCB1 /* CustExpViewController.swift */,
+				0296555424C46A11007FDCB1 /* SectionsViewController.swift */,
 				02AB112524B9BF9D00D1824D /* Extensions.swift */,
 				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
 				02CAF43B24B8DDA4008A7874 /* Info.plist */,
@@ -272,6 +275,7 @@
 				02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */,
 				028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */,
 				02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */,
+				0296555524C46A11007FDCB1 /* SectionsViewController.swift in Sources */,
 				028001B824C0C9EB00765113 /* FirstParameterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
