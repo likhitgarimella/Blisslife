@@ -64,4 +64,208 @@ class HealthGoalsViewController: UIViewController {
         
     }
     
-}   // #68
+    @IBAction func oneAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func twoAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func threeAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func fourAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func fiveAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func sixAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func sevenAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func eightAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func nineAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func tenAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func elevenAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        twelve.backgroundColor = UIColor.white
+        
+    }
+    
+    @IBAction func twelveAction(_ sender: UIButton) {
+        
+        one.backgroundColor = UIColor.white
+        two.backgroundColor = UIColor.white
+        three.backgroundColor = UIColor.white
+        four.backgroundColor = UIColor.white
+        five.backgroundColor = UIColor.white
+        six.backgroundColor = UIColor.white
+        seven.backgroundColor = UIColor.white
+        eight.backgroundColor = UIColor.white
+        nine.backgroundColor = UIColor.white
+        ten.backgroundColor = UIColor.white
+        eleven.backgroundColor = UIColor.white
+        twelve.backgroundColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        
+    }
+    
+}   // #272
