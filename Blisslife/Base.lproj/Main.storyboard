@@ -1012,7 +1012,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="gYe-PQ-VpQ" customClass="SympsCondsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LF1-p4-umV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1216"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZeN-sO-Hu3">
@@ -1041,20 +1041,42 @@
                                     <constraint firstAttribute="height" constant="148" id="w4t-4N-edN"/>
                                 </constraints>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twM-u7-Hoe">
+                                <rect key="frame" x="0.0" y="204" width="414" height="1012"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nzu-in-ktc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1012"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nzu-in-ktc" firstAttribute="top" secondItem="twM-u7-Hoe" secondAttribute="top" id="2hg-uq-OFS"/>
+                                    <constraint firstAttribute="bottom" secondItem="nzu-in-ktc" secondAttribute="bottom" id="658-hb-fOS"/>
+                                    <constraint firstAttribute="trailing" secondItem="nzu-in-ktc" secondAttribute="trailing" id="X5y-Jf-55N"/>
+                                    <constraint firstItem="nzu-in-ktc" firstAttribute="width" secondItem="twM-u7-Hoe" secondAttribute="width" priority="750" id="wGN-bV-lu2"/>
+                                    <constraint firstItem="nzu-in-ktc" firstAttribute="height" secondItem="twM-u7-Hoe" secondAttribute="height" priority="250" id="zXQ-Mn-quB"/>
+                                    <constraint firstItem="nzu-in-ktc" firstAttribute="leading" secondItem="twM-u7-Hoe" secondAttribute="leading" id="zt4-BG-XB0"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="twM-u7-Hoe" firstAttribute="leading" secondItem="iY6-5U-4K8" secondAttribute="leading" id="Dg1-rr-Bpl"/>
+                            <constraint firstItem="twM-u7-Hoe" firstAttribute="top" secondItem="ZeN-sO-Hu3" secondAttribute="bottom" id="ORq-UY-0wH"/>
+                            <constraint firstItem="twM-u7-Hoe" firstAttribute="trailing" secondItem="iY6-5U-4K8" secondAttribute="trailing" id="PJC-OA-NkS"/>
                             <constraint firstItem="ZeN-sO-Hu3" firstAttribute="leading" secondItem="iY6-5U-4K8" secondAttribute="leading" id="Yr5-9r-RL9"/>
                             <constraint firstItem="ZeN-sO-Hu3" firstAttribute="trailing" secondItem="iY6-5U-4K8" secondAttribute="trailing" id="j1h-s5-ddi"/>
+                            <constraint firstItem="twM-u7-Hoe" firstAttribute="bottom" secondItem="iY6-5U-4K8" secondAttribute="bottom" id="lCX-D8-9I5"/>
                             <constraint firstItem="ZeN-sO-Hu3" firstAttribute="top" secondItem="iY6-5U-4K8" secondAttribute="top" id="mqx-ds-8Ae"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iY6-5U-4K8"/>
                     </view>
                     <navigationItem key="navigationItem" id="bTU-g1-KCp"/>
+                    <size key="freeformSize" width="414" height="1236"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ix1-ea-x4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4316" y="-664"/>
+            <point key="canvasLocation" x="4316" y="-868"/>
         </scene>
         <!--Health Goals View Controller-->
         <scene sceneID="GU7-rd-7Bl">
