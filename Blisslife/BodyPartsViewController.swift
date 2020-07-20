@@ -9,6 +9,8 @@
 import UIKit
 
 class BodyPartsViewController: UIViewController {
+    
+    @IBOutlet var bodyPartsImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,4 +20,4 @@ class BodyPartsViewController: UIViewController {
         
     }
     
-}   // #22
+}   // #24

@@ -1068,25 +1068,54 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rl-jg-uKP">
                                 <rect key="frame" x="0.0" y="56" width="414" height="148"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search Body Part" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iz0-t4-JUE">
+                                        <rect key="frame" x="102.66666666666669" y="36" width="209" height="38"/>
+                                        <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="OEi-f1-ybr">
+                                        <rect key="frame" x="370" y="43" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="G6S-2w-YcX"/>
+                                            <constraint firstAttribute="width" constant="24" id="Mik-2g-0qF"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="iz0-t4-JUE" firstAttribute="centerX" secondItem="6rl-jg-uKP" secondAttribute="centerX" id="63m-mb-BTD"/>
+                                    <constraint firstItem="iz0-t4-JUE" firstAttribute="top" secondItem="6rl-jg-uKP" secondAttribute="top" constant="36" id="Gtf-DR-4U9"/>
+                                    <constraint firstAttribute="trailing" secondItem="OEi-f1-ybr" secondAttribute="trailing" constant="20" id="Ktk-2j-4N2"/>
+                                    <constraint firstItem="OEi-f1-ybr" firstAttribute="centerY" secondItem="iz0-t4-JUE" secondAttribute="centerY" id="UeK-8h-Qef"/>
                                     <constraint firstAttribute="height" constant="148" id="Uqc-dX-a2S"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bodyParts" translatesAutoresizingMaskIntoConstraints="NO" id="56O-gi-g1O">
+                                <rect key="frame" x="0.0" y="204" width="414" height="512"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="56O-gi-g1O" firstAttribute="trailing" secondItem="SVs-zX-zSG" secondAttribute="trailing" id="A2E-BT-FPH"/>
                             <constraint firstItem="6rl-jg-uKP" firstAttribute="leading" secondItem="SVs-zX-zSG" secondAttribute="leading" id="FaQ-mE-bjs"/>
+                            <constraint firstItem="56O-gi-g1O" firstAttribute="top" secondItem="6rl-jg-uKP" secondAttribute="bottom" id="JFG-jy-UOj"/>
+                            <constraint firstItem="56O-gi-g1O" firstAttribute="bottom" secondItem="SVs-zX-zSG" secondAttribute="bottom" id="K0O-Es-ssy"/>
+                            <constraint firstItem="56O-gi-g1O" firstAttribute="leading" secondItem="SVs-zX-zSG" secondAttribute="leading" id="QYW-u0-6OG"/>
                             <constraint firstItem="6rl-jg-uKP" firstAttribute="top" secondItem="SVs-zX-zSG" secondAttribute="top" id="VkH-41-o8J"/>
                             <constraint firstItem="6rl-jg-uKP" firstAttribute="trailing" secondItem="SVs-zX-zSG" secondAttribute="trailing" id="gEe-xa-kOb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SVs-zX-zSG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zgc-xW-Knd"/>
+                    <connections>
+                        <outlet property="bodyPartsImage" destination="56O-gi-g1O" id="iHZ-i2-7Bg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jr6-a1-1b5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5222" y="146"/>
+            <point key="canvasLocation" x="5221.739130434783" y="145.92391304347828"/>
         </scene>
         <!--Health Parameters View Controller-->
         <scene sceneID="1hh-M9-sJM">
@@ -1607,7 +1636,9 @@
         <segue reference="THY-G9-WSW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="bodyParts" width="375" height="435"/>
         <image name="box" width="14" height="14"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
+        <image name="search" width="24" height="24"/>
     </resources>
 </document>
