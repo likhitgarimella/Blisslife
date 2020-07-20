@@ -1102,6 +1102,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="oneAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="gyO-Rr-COO"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="1ww-G2-ffz"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="beQ-14-bZO"/>
                                 </connections>
@@ -1119,6 +1120,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zj8-Pw-8GV"/>
+                                    <action selector="twoAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="upA-0p-yHZ"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="8iJ-L9-KUm"/>
                                 </connections>
                             </button>
@@ -1135,6 +1137,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="qc2-Aj-8cs"/>
+                                    <action selector="threeAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="7tE-gX-omb"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="CFT-sf-0UH"/>
                                 </connections>
                             </button>
@@ -1150,6 +1153,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="fourAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="aQv-aQ-mj0"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zq2-04-XCI"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ocq-zt-dtz"/>
                                 </connections>
@@ -1166,6 +1170,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="fiveAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="a8V-yr-eUM"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="mtE-1z-2ap"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="1hH-Sk-eiq"/>
                                 </connections>
@@ -1183,6 +1188,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="svT-OB-pU7"/>
+                                    <action selector="sixAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="GXT-vG-uhk"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="cMj-DC-c1c"/>
                                 </connections>
                             </button>
@@ -1199,6 +1205,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="P1y-xU-aeX"/>
+                                    <action selector="sevenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="tFO-zg-3or"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="22b-5R-xsX"/>
                                 </connections>
                             </button>
@@ -1214,6 +1221,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="eightAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="gib-RW-wNm"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="ZJw-xS-PZ1"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="vJS-5t-SwO"/>
                                 </connections>
@@ -1230,6 +1238,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="nineAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="dyW-sr-IXh"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="EAC-V1-bIV"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="3Qw-t2-liU"/>
                                 </connections>
@@ -1247,6 +1256,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="UoZ-KH-hoe"/>
+                                    <action selector="tenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="r0I-W5-f5C"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ums-Me-uIM"/>
                                 </connections>
                             </button>
@@ -1262,6 +1272,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="elevenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="bdk-Me-FNA"/>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="IOR-wJ-kpH"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="D8H-ct-pwX"/>
                                 </connections>
@@ -1279,6 +1290,7 @@
                                 </state>
                                 <connections>
                                     <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="lrB-xe-n0s"/>
+                                    <action selector="twelveAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="sQk-M1-AoB"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="55Q-rd-0VQ"/>
                                 </connections>
                             </button>
