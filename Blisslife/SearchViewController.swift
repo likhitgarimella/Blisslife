@@ -16,6 +16,8 @@ class SearchViewController: UIViewController {
         // remove title for left bar button item
         navigationController?.navigationBar.topItem?.title = ""
         
+        hideKeyboardWhenTappedAround()
+        
     }
     
-}   // #22
+}   // #24
