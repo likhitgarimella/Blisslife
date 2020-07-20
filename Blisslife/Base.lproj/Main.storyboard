@@ -1316,6 +1316,20 @@
                         <viewLayoutGuide key="safeArea" id="5z5-IV-nGS"/>
                     </view>
                     <navigationItem key="navigationItem" id="py6-m7-fJG"/>
+                    <connections>
+                        <outlet property="eight" destination="oPd-q0-ucQ" id="xO3-dk-N2b"/>
+                        <outlet property="eleven" destination="LgK-MG-wiY" id="Wyr-yj-mT1"/>
+                        <outlet property="five" destination="LLY-hm-dBa" id="i0l-22-aWZ"/>
+                        <outlet property="four" destination="jGd-gL-JjH" id="mIe-np-POB"/>
+                        <outlet property="nine" destination="lbF-3Y-Vxt" id="1KN-AD-5iG"/>
+                        <outlet property="one" destination="xQQ-qC-ZbC" id="Pg1-7g-3wG"/>
+                        <outlet property="seven" destination="aYY-hE-ptp" id="7To-bv-poW"/>
+                        <outlet property="six" destination="of7-2u-jFe" id="6sQ-vq-DXc"/>
+                        <outlet property="ten" destination="CIt-RN-6YV" id="Uwj-iM-X0p"/>
+                        <outlet property="three" destination="Xus-yc-Wcj" id="S5N-X8-PT7"/>
+                        <outlet property="twelve" destination="Icb-Lw-xdY" id="7Wv-ol-Gv0"/>
+                        <outlet property="two" destination="15j-vd-mvs" id="Re1-Jf-Nkg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mv-hA-jb0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
