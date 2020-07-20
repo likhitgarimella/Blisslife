@@ -1090,12 +1090,228 @@
                                     <constraint firstAttribute="height" constant="148" id="tLa-N4-GpH"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQQ-qC-ZbC">
+                                <rect key="frame" x="20" y="212" width="121" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="5ED-Md-0F8"/>
+                                    <constraint firstAttribute="height" constant="40" id="gt9-pv-lkE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="lose weight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="1ww-G2-ffz"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="beQ-14-bZO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15j-vd-mvs">
+                                <rect key="frame" x="288" y="212" width="106" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="P8N-iq-z6Q"/>
+                                    <constraint firstAttribute="height" constant="40" id="hGr-YE-oIt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="clear skin">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zj8-Pw-8GV"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="8iJ-L9-KUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xus-yc-Wcj">
+                                <rect key="frame" x="20" y="260" width="154" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3ei-Da-s8f"/>
+                                    <constraint firstAttribute="width" constant="154" id="IQD-Al-t7h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="control diabetes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="qc2-Aj-8cs"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="CFT-sf-0UH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-gL-JjH">
+                                <rect key="frame" x="248" y="260" width="146" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="vMB-xb-awj"/>
+                                    <constraint firstAttribute="height" constant="40" id="yhn-rJ-6u7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="better eyesight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zq2-04-XCI"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ocq-zt-dtz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLY-hm-dBa">
+                                <rect key="frame" x="20" y="308" width="121" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="PJW-5k-rgt"/>
+                                    <constraint firstAttribute="height" constant="40" id="srR-PZ-BPf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="lose weight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="mtE-1z-2ap"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="1hH-Sk-eiq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of7-2u-jFe">
+                                <rect key="frame" x="288" y="308" width="106" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="0WP-Xh-HJM"/>
+                                    <constraint firstAttribute="height" constant="40" id="P94-n4-ruE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="clear skin">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="svT-OB-pU7"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="cMj-DC-c1c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYY-hE-ptp">
+                                <rect key="frame" x="20" y="356" width="154" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="39X-Vc-gDf"/>
+                                    <constraint firstAttribute="height" constant="40" id="MfJ-GQ-W8m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="control diabetes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="P1y-xU-aeX"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="22b-5R-xsX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPd-q0-ucQ">
+                                <rect key="frame" x="248" y="356" width="146" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="jFY-5I-7Sx"/>
+                                    <constraint firstAttribute="height" constant="40" id="sKS-V4-grk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="better eyesight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="ZJw-xS-PZ1"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="vJS-5t-SwO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbF-3Y-Vxt">
+                                <rect key="frame" x="20" y="404" width="121" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Rdo-fK-m7W"/>
+                                    <constraint firstAttribute="width" constant="121" id="q7C-87-oiL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="lose weight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="EAC-V1-bIV"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="3Qw-t2-liU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIt-RN-6YV">
+                                <rect key="frame" x="288" y="404" width="106" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="V6A-aH-0oe"/>
+                                    <constraint firstAttribute="height" constant="40" id="g4m-Qr-qet"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="clear skin">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="UoZ-KH-hoe"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ums-Me-uIM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgK-MG-wiY">
+                                <rect key="frame" x="20" y="452" width="154" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f2E-8P-N30"/>
+                                    <constraint firstAttribute="width" constant="154" id="mxt-La-qIC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="control diabetes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="IOR-wJ-kpH"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="D8H-ct-pwX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-Lw-xdY">
+                                <rect key="frame" x="248" y="452" width="146" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="InA-fz-18p"/>
+                                    <constraint firstAttribute="height" constant="40" id="yI3-8O-ZD8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
+                                <state key="normal" title="better eyesight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="lrB-xe-n0s"/>
+                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="55Q-rd-0VQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="LgK-MG-wiY" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="0YD-RH-ljX"/>
+                            <constraint firstItem="aYY-hE-ptp" firstAttribute="top" secondItem="LLY-hm-dBa" secondAttribute="bottom" constant="8" id="0vO-CX-kKg"/>
+                            <constraint firstItem="oPd-q0-ucQ" firstAttribute="top" secondItem="of7-2u-jFe" secondAttribute="bottom" constant="8" id="0yq-d1-e1b"/>
+                            <constraint firstItem="of7-2u-jFe" firstAttribute="top" secondItem="jGd-gL-JjH" secondAttribute="bottom" constant="8" id="AUx-60-q7K"/>
+                            <constraint firstItem="xQQ-qC-ZbC" firstAttribute="top" secondItem="EKP-Ec-wd8" secondAttribute="bottom" constant="8" id="CYT-OP-vut"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="CIt-RN-6YV" secondAttribute="trailing" constant="20" id="Ed6-jO-vWE"/>
+                            <constraint firstItem="jGd-gL-JjH" firstAttribute="top" secondItem="15j-vd-mvs" secondAttribute="bottom" constant="8" id="G2l-Ef-oWT"/>
+                            <constraint firstItem="LgK-MG-wiY" firstAttribute="top" secondItem="lbF-3Y-Vxt" secondAttribute="bottom" constant="8" id="GJW-2V-Vh6"/>
+                            <constraint firstItem="15j-vd-mvs" firstAttribute="top" secondItem="EKP-Ec-wd8" secondAttribute="bottom" constant="8" id="Hbh-xn-Whm"/>
+                            <constraint firstItem="xQQ-qC-ZbC" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="Ohp-uk-4Qi"/>
                             <constraint firstItem="EKP-Ec-wd8" firstAttribute="leading" secondItem="5mv-6I-zpz" secondAttribute="leading" id="RM1-QW-ljg"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="Icb-Lw-xdY" secondAttribute="trailing" constant="20" id="SRe-iz-hql"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="15j-vd-mvs" secondAttribute="trailing" constant="20" id="VUb-A4-okb"/>
+                            <constraint firstItem="aYY-hE-ptp" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="WnY-IV-1mF"/>
+                            <constraint firstItem="lbF-3Y-Vxt" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="Y3s-2R-jxq"/>
+                            <constraint firstItem="lbF-3Y-Vxt" firstAttribute="top" secondItem="aYY-hE-ptp" secondAttribute="bottom" constant="8" id="aNM-ya-6Kg"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="jGd-gL-JjH" secondAttribute="trailing" constant="20" id="blC-t0-NBz"/>
                             <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="EKP-Ec-wd8" secondAttribute="trailing" id="ezl-2n-1my"/>
+                            <constraint firstItem="CIt-RN-6YV" firstAttribute="top" secondItem="oPd-q0-ucQ" secondAttribute="bottom" constant="8" id="gIR-on-1ob"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="oPd-q0-ucQ" secondAttribute="trailing" constant="20" id="gVK-IN-QS1"/>
+                            <constraint firstItem="Icb-Lw-xdY" firstAttribute="top" secondItem="CIt-RN-6YV" secondAttribute="bottom" constant="8" id="jov-7W-b5P"/>
                             <constraint firstItem="EKP-Ec-wd8" firstAttribute="top" secondItem="5z5-IV-nGS" secondAttribute="top" id="leo-gP-qd1"/>
+                            <constraint firstItem="Xus-yc-Wcj" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="o1M-iW-gsN"/>
+                            <constraint firstItem="LLY-hm-dBa" firstAttribute="top" secondItem="Xus-yc-Wcj" secondAttribute="bottom" constant="8" id="otp-65-Bqi"/>
+                            <constraint firstItem="Xus-yc-Wcj" firstAttribute="top" secondItem="xQQ-qC-ZbC" secondAttribute="bottom" constant="8" id="rcD-6q-mxj"/>
+                            <constraint firstItem="5z5-IV-nGS" firstAttribute="trailing" secondItem="of7-2u-jFe" secondAttribute="trailing" constant="20" id="wvs-Kj-Gde"/>
+                            <constraint firstItem="LLY-hm-dBa" firstAttribute="leading" secondItem="5z5-IV-nGS" secondAttribute="leading" constant="20" id="x3Z-Ry-M93"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5z5-IV-nGS"/>
                     </view>
