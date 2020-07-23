@@ -442,10 +442,10 @@
             </objects>
             <point key="canvasLocation" x="-4" y="-664"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="rNl-zH-C7r">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="QzR-9M-p6Y" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="QzR-9M-p6Y" customClass="MainViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qcx-WR-9VP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
