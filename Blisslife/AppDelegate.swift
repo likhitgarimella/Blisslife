@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         
+        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().unselectedItemTintColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        UITabBar.appearance().tintColor = .black
+        
         // Status bar color
         // In Info.plist...
         // View controller-based status bar appearance -> NO
@@ -48,4 +52,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-}   // #52
+}   // #56
