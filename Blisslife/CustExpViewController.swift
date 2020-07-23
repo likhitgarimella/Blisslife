@@ -39,7 +39,8 @@ class CustExpViewController: UIViewController {
     @IBAction func skipAction(_ sender: UIButton) {
         
         sender.flash()
+        self.performSegue(withIdentifier: "skipExpToMain", sender: self)
         
     }
     
-}   // #46
+}   // #47

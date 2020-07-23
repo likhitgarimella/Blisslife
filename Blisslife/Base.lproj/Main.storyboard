@@ -92,6 +92,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginPressed:" destination="YIg-kH-F8x" eventType="touchUpInside" id="RwM-2Q-SN6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
                                 <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
@@ -133,6 +136,7 @@
                         <outlet property="password" destination="pmn-qI-LuR" id="7wU-1x-2sI"/>
                         <segue destination="fb3-fg-g1J" kind="show" identifier="goToForgotPass" id="f1T-lt-ByM"/>
                         <segue destination="gcV-XE-EcB" kind="show" identifier="goToSignup" id="ibI-Es-x5O"/>
+                        <segue destination="QzR-9M-p6Y" kind="presentation" identifier="goToMain" modalPresentationStyle="fullScreen" id="4uV-OY-jTY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIs-nv-lro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -438,6 +442,21 @@
             </objects>
             <point key="canvasLocation" x="-4" y="-664"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rNl-zH-C7r">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="QzR-9M-p6Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qcx-WR-9VP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="EI5-fh-7bO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xWb-jg-Vj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="-1072"/>
+        </scene>
         <!--Know You More View Controller-->
         <scene sceneID="aeo-iK-BHK">
             <objects>
@@ -621,7 +640,6 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="vXV-88-ZQ9"/>
                                     <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="Iv6-6T-MPn"/>
                                 </connections>
                             </button>
@@ -761,7 +779,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="eZB-dk-ykx"/>
                                     <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="x2V-bq-8VM"/>
                                 </connections>
                             </button>
@@ -772,10 +789,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="anN-yU-444"/>
                                     <action selector="skipAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="ZdS-dN-egH"/>
-                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="h7l-L9-Xsv"/>
-                                    <action selector="skipAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="vbF-D0-OGb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's customize" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXY-5z-fuG">
@@ -808,6 +822,7 @@
                     <connections>
                         <outlet property="yesSure" destination="aaj-vJ-DnQ" id="cHF-51-lt8"/>
                         <segue destination="USW-hL-3uY" kind="show" identifier="goToSections" id="e0F-pl-MAt"/>
+                        <segue destination="QzR-9M-p6Y" kind="presentation" identifier="skipExpToMain" modalPresentationStyle="fullScreen" id="bca-Ws-1P2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ch-nj-xLZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1548,8 +1563,6 @@
                                 </state>
                                 <connections>
                                     <action selector="oneAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="gyO-Rr-COO"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="1ww-G2-ffz"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="beQ-14-bZO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15j-vd-mvs">
@@ -1564,9 +1577,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zj8-Pw-8GV"/>
                                     <action selector="twoAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="upA-0p-yHZ"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="8iJ-L9-KUm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xus-yc-Wcj">
@@ -1581,9 +1592,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="qc2-Aj-8cs"/>
                                     <action selector="threeAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="7tE-gX-omb"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="CFT-sf-0UH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-gL-JjH">
@@ -1599,8 +1608,6 @@
                                 </state>
                                 <connections>
                                     <action selector="fourAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="aQv-aQ-mj0"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Zq2-04-XCI"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ocq-zt-dtz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLY-hm-dBa">
@@ -1616,8 +1623,6 @@
                                 </state>
                                 <connections>
                                     <action selector="fiveAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="a8V-yr-eUM"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="mtE-1z-2ap"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="1hH-Sk-eiq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of7-2u-jFe">
@@ -1632,9 +1637,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="svT-OB-pU7"/>
                                     <action selector="sixAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="GXT-vG-uhk"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="cMj-DC-c1c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYY-hE-ptp">
@@ -1649,9 +1652,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="P1y-xU-aeX"/>
                                     <action selector="sevenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="tFO-zg-3or"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="22b-5R-xsX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPd-q0-ucQ">
@@ -1667,8 +1668,6 @@
                                 </state>
                                 <connections>
                                     <action selector="eightAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="gib-RW-wNm"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="ZJw-xS-PZ1"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="vJS-5t-SwO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbF-3Y-Vxt">
@@ -1684,8 +1683,6 @@
                                 </state>
                                 <connections>
                                     <action selector="nineAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="dyW-sr-IXh"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="EAC-V1-bIV"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="3Qw-t2-liU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIt-RN-6YV">
@@ -1700,9 +1697,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="UoZ-KH-hoe"/>
                                     <action selector="tenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="r0I-W5-f5C"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="Ums-Me-uIM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgK-MG-wiY">
@@ -1718,8 +1713,6 @@
                                 </state>
                                 <connections>
                                     <action selector="elevenAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="bdk-Me-FNA"/>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="IOR-wJ-kpH"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="D8H-ct-pwX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-Lw-xdY">
@@ -1734,9 +1727,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proceedAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="lrB-xe-n0s"/>
                                     <action selector="twelveAction:" destination="VEF-VL-gqR" eventType="touchUpInside" id="sQk-M1-AoB"/>
-                                    <action selector="yesSureAction:" destination="nux-uO-VMW" eventType="touchUpInside" id="55Q-rd-0VQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1890,9 +1881,7 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="forgotPassword:" destination="YIg-kH-F8x" eventType="touchUpInside" id="K4m-cW-ynT"/>
                                     <action selector="skipAction:" destination="zYF-sB-Udt" eventType="touchUpInside" id="Rfe-v8-3T2"/>
-                                    <action selector="skipAction:" destination="9ct-Aa-U8b" eventType="touchUpInside" id="efR-yb-bBX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOe-Ih-pbS">
@@ -2367,7 +2356,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="CXj-Vq-062"/>
-        <segue reference="THY-G9-WSW"/>
+        <segue reference="bca-Ws-1P2"/>
+        <segue reference="W38-AA-bmw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bodyParts" width="375" height="435"/>

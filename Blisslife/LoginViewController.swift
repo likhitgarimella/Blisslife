@@ -47,6 +47,13 @@ class LoginViewController: UIViewController {
         
     }
     
+    @IBAction func loginPressed(_ sender: UIButton) {
+        
+        sender.flash()
+        self.performSegue(withIdentifier: "goToMain", sender: self)
+        
+    }
+    
     @IBAction func signUpPressed(_ sender: UIButton) {
         
         sender.flash()
@@ -54,4 +61,4 @@ class LoginViewController: UIViewController {
         
     }
 
-}   // #58
+}   // #65
