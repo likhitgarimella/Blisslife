@@ -474,10 +474,10 @@
             </objects>
             <point key="canvasLocation" x="812" y="-3083"/>
         </scene>
-        <!--View Controller-->
+        <!--Fitness View Controller-->
         <scene sceneID="TFA-Gr-W3p">
             <objects>
-                <viewController id="lpM-h2-43G" sceneMemberID="viewController">
+                <viewController id="lpM-h2-43G" customClass="FitnessViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YHO-hF-b4C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -490,10 +490,10 @@
             </objects>
             <point key="canvasLocation" x="1648" y="-3083"/>
         </scene>
-        <!--View Controller-->
+        <!--Bookings View Controller-->
         <scene sceneID="M0d-JR-Uaa">
             <objects>
-                <viewController id="RJW-8h-3TW" sceneMemberID="viewController">
+                <viewController id="RJW-8h-3TW" customClass="BookingsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ufs-H4-r3d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -506,10 +506,10 @@
             </objects>
             <point key="canvasLocation" x="2503" y="-3083"/>
         </scene>
-        <!--View Controller-->
+        <!--Shop View Controller-->
         <scene sceneID="OOM-x0-hcm">
             <objects>
-                <viewController id="b9W-PS-i41" sceneMemberID="viewController">
+                <viewController id="b9W-PS-i41" customClass="ShopViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0zM-qq-O1B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

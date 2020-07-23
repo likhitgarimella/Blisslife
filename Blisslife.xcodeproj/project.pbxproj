@@ -11,6 +11,9 @@
 		021B24A424BB01B300094789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B24A324BB01B300094789 /* SignupViewController.swift */; };
 		021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */; };
 		021E7E7C24C9C74100C4AABE /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7B24C9C74100C4AABE /* FoodViewController.swift */; };
+		021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */; };
+		021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */; };
+		021E7E8224C9CC0B00C4AABE /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */; };
 		0232FF1724C4EAD8002A759C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1624C4EAD8002A759C /* SearchViewController.swift */; };
 		0232FF1924C4EB0C002A759C /* SympsCondsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */; };
 		0232FF1B24C4EB34002A759C /* HealthGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */; };
@@ -58,6 +61,9 @@
 		021B24A324BB01B300094789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRemediesViewController.swift; sourceTree = "<group>"; };
 		021E7E7B24C9C74100C4AABE /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
+		021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewController.swift; sourceTree = "<group>"; };
+		021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		0232FF1624C4EAD8002A759C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SympsCondsViewController.swift; sourceTree = "<group>"; };
 		0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGoalsViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
 				021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */,
 				021E7E7B24C9C74100C4AABE /* FoodViewController.swift */,
+				021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */,
+				021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */,
+				021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */,
 				02AB112324B9B5D800D1824D /* LoginViewController.swift */,
 				0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */,
 				021B24A324BB01B300094789 /* SignupViewController.swift */,
@@ -281,13 +290,16 @@
 			files = (
 				021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */,
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
+				021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */,
 				021B24A424BB01B300094789 /* SignupViewController.swift in Sources */,
 				02AB112424B9B5D800D1824D /* LoginViewController.swift in Sources */,
 				0232FF1724C4EAD8002A759C /* SearchViewController.swift in Sources */,
 				0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */,
+				021E7E8224C9CC0B00C4AABE /* ShopViewController.swift in Sources */,
 				0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */,
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
 				0232FF1D24C4EB55002A759C /* BodyPartsViewController.swift in Sources */,
+				021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */,
 				028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */,
 				02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */,
 				0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */,
