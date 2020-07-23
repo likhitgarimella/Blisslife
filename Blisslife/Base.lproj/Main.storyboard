@@ -31,7 +31,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -73,7 +73,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="233" y="344" width="141" height="31"/>
+                                <rect key="frame" x="228" y="344" width="146" height="29"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="407" width="334" height="40"/>
+                                <rect key="frame" x="40" y="405" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -97,7 +97,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
+                                <rect key="frame" x="76" y="469" width="262" height="33"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -452,7 +452,7 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EI5-fh-7bO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Remedies" id="Xh5-Q1-tzt"/>
+                    <tabBarItem key="tabBarItem" title="Remedies" image="remedies" id="Xh5-Q1-tzt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWb-jg-Vj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -468,7 +468,7 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Hkp-GC-ygH"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Food" id="u2Q-wA-tAl"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="food" id="u2Q-wA-tAl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -484,7 +484,7 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1Gl-vu-iKW"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fitness" id="9bV-0r-n9j"/>
+                    <tabBarItem key="tabBarItem" title="Fitness" image="fitness" id="9bV-0r-n9j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIt-tj-pft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -500,7 +500,7 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wkv-tM-3q7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bookings" id="cTY-QD-8YS"/>
+                    <tabBarItem key="tabBarItem" title="Bookings" image="bookings" id="cTY-QD-8YS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCs-us-9Gd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -516,7 +516,7 @@
                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0mJ-ny-dzJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shop" id="I0E-jJ-CiE"/>
+                    <tabBarItem key="tabBarItem" title="Shop" image="shop" id="I0E-jJ-CiE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBQ-Hb-XNi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2447,8 +2447,13 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bodyParts" width="375" height="435"/>
+        <image name="bookings" width="19" height="26.666666030883789"/>
         <image name="box" width="14" height="14"/>
+        <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
+        <image name="food" width="22.666666030883789" height="26.666666030883789"/>
+        <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
         <image name="search" width="24" height="24"/>
+        <image name="shop" width="21" height="26.666666030883789"/>
     </resources>
 </document>
