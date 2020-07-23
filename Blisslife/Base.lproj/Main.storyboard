@@ -14,6 +14,9 @@
         <array key="Raleway-Bold.ttf">
             <string>Raleway-Bold</string>
         </array>
+        <array key="Raleway-Medium.ttf">
+            <string>Raleway-Medium</string>
+        </array>
         <array key="Raleway-Regular.ttf">
             <string>Raleway-Regular</string>
         </array>
@@ -31,7 +34,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -73,7 +76,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="228" y="344" width="146" height="29"/>
+                                <rect key="frame" x="233" y="344" width="141" height="31"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,7 +86,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="405" width="334" height="40"/>
+                                <rect key="frame" x="40" y="407" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -97,7 +100,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="76" y="469" width="262" height="33"/>
+                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -463,16 +466,69 @@
             <objects>
                 <viewController id="adD-OM-9qx" customClass="FoodViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jHR-lz-fiq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Al-UV-nHx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rda-uL-ze9">
+                                        <rect key="frame" x="36" y="7" width="26" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="26" id="FFn-Jb-VFT"/>
+                                            <constraint firstAttribute="height" constant="26" id="bjZ-zv-PBO"/>
+                                        </constraints>
+                                        <state key="normal" image="menu"/>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="g5q-Fd-0FW">
+                                        <rect key="frame" x="300" y="9" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="I7J-ZX-Z0G"/>
+                                            <constraint firstAttribute="height" constant="22" id="Qxj-HJ-2UM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saveIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Nno-ri-Oca">
+                                        <rect key="frame" x="358" y="8" width="20" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="iYI-S2-zlM"/>
+                                            <constraint firstAttribute="height" constant="24" id="lKr-75-DjK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F O O D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNc-zJ-O2i">
+                                        <rect key="frame" x="168" y="7" width="78" height="26"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="22"/>
+                                        <color key="textColor" red="0.98431372549019602" green="0.84313725490196079" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GNc-zJ-O2i" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="7qD-4L-SqH"/>
+                                    <constraint firstItem="rda-uL-ze9" firstAttribute="leading" secondItem="4Al-UV-nHx" secondAttribute="leading" constant="36" id="BTQ-9l-rBs"/>
+                                    <constraint firstAttribute="height" constant="40" id="NmG-gC-1Qp"/>
+                                    <constraint firstItem="g5q-Fd-0FW" firstAttribute="centerY" secondItem="Nno-ri-Oca" secondAttribute="centerY" id="S1J-g5-ISf"/>
+                                    <constraint firstItem="Nno-ri-Oca" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="TeV-Fq-1uQ"/>
+                                    <constraint firstItem="GNc-zJ-O2i" firstAttribute="centerX" secondItem="4Al-UV-nHx" secondAttribute="centerX" id="dGs-gW-Py2"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nno-ri-Oca" secondAttribute="trailing" constant="36" id="fnl-nI-xmM"/>
+                                    <constraint firstItem="rda-uL-ze9" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="rUK-Ac-7Af"/>
+                                    <constraint firstItem="Nno-ri-Oca" firstAttribute="leading" secondItem="g5q-Fd-0FW" secondAttribute="trailing" constant="36" id="ypM-SL-1iK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4Al-UV-nHx" firstAttribute="leading" secondItem="Hkp-GC-ygH" secondAttribute="leading" id="5Bk-L9-36L"/>
+                            <constraint firstItem="4Al-UV-nHx" firstAttribute="trailing" secondItem="Hkp-GC-ygH" secondAttribute="trailing" id="fVE-71-tRU"/>
+                            <constraint firstItem="4Al-UV-nHx" firstAttribute="top" secondItem="Hkp-GC-ygH" secondAttribute="top" id="wBR-8u-Bog"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Hkp-GC-ygH"/>
                     </view>
                     <navigationItem key="navigationItem" id="enT-av-j1w"/>
+                    <size key="freeformSize" width="414" height="1436"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="-3083"/>
+            <point key="canvasLocation" x="811.59420289855075" y="-3368.4782608695655"/>
         </scene>
         <!--Fitness View Controller-->
         <scene sceneID="TFA-Gr-W3p">
@@ -2551,9 +2607,12 @@
         <image name="box" width="14" height="14"/>
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
+        <image name="menu" width="19" height="19"/>
         <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
+        <image name="saveIcon" width="12.333333015441895" height="17.666666030883789"/>
         <image name="search" width="24" height="24"/>
+        <image name="searchIcon" width="16" height="16"/>
         <image name="shop" width="21" height="26.666666030883789"/>
     </resources>
 </document>
