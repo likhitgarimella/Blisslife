@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  MainRemediesViewController.swift
 //  Blisslife
 //
 //  Created by Likhit Garimella on 23/07/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainRemediesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210930F24C1F9BF0022336D /* LTHRadioButton.swift */; };
 		021B24A424BB01B300094789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B24A324BB01B300094789 /* SignupViewController.swift */; };
-		021E7E7A24C972E900C4AABE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7924C972E900C4AABE /* MainViewController.swift */; };
+		021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */; };
 		0232FF1724C4EAD8002A759C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1624C4EAD8002A759C /* SearchViewController.swift */; };
 		0232FF1924C4EB0C002A759C /* SympsCondsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */; };
 		0232FF1B24C4EB34002A759C /* HealthGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */; };
@@ -55,7 +55,7 @@
 /* Begin PBXFileReference section */
 		0210930F24C1F9BF0022336D /* LTHRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHRadioButton.swift; sourceTree = "<group>"; };
 		021B24A324BB01B300094789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		021E7E7924C972E900C4AABE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRemediesViewController.swift; sourceTree = "<group>"; };
 		0232FF1624C4EAD8002A759C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SympsCondsViewController.swift; sourceTree = "<group>"; };
 		0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGoalsViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */,
 				02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */,
 				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
-				021E7E7924C972E900C4AABE /* MainViewController.swift */,
+				021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */,
 				02AB112324B9B5D800D1824D /* LoginViewController.swift */,
 				0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */,
 				021B24A324BB01B300094789 /* SignupViewController.swift */,
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021E7E7A24C972E900C4AABE /* MainViewController.swift in Sources */,
+				021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */,
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				021B24A424BB01B300094789 /* SignupViewController.swift in Sources */,
 				02AB112424B9B5D800D1824D /* LoginViewController.swift in Sources */,
