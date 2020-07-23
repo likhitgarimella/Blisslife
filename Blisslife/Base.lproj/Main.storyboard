@@ -442,7 +442,7 @@
             </objects>
             <point key="canvasLocation" x="-62" y="-664"/>
         </scene>
-        <!--Remedies-->
+        <!--Main Remedies View Controller-->
         <scene sceneID="rNl-zH-C7r">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="QzR-9M-p6Y" customClass="MainRemediesViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
@@ -452,11 +452,11 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EI5-fh-7bO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Remedies" image="remedies" id="Xh5-Q1-tzt"/>
+                    <navigationItem key="navigationItem" id="ssl-yU-QP1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWb-jg-Vj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="-2235"/>
+            <point key="canvasLocation" x="-62" y="-3083"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="A7P-gu-ynC">
@@ -474,7 +474,7 @@
             </objects>
             <point key="canvasLocation" x="812" y="-3083"/>
         </scene>
-        <!--Fitness-->
+        <!--View Controller-->
         <scene sceneID="TFA-Gr-W3p">
             <objects>
                 <viewController id="lpM-h2-43G" sceneMemberID="viewController">
@@ -484,13 +484,13 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1Gl-vu-iKW"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fitness" image="fitness" id="9bV-0r-n9j"/>
+                    <navigationItem key="navigationItem" id="M4o-Ws-b5c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIt-tj-pft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1648" y="-2235"/>
+            <point key="canvasLocation" x="1648" y="-3083"/>
         </scene>
-        <!--Bookings-->
+        <!--View Controller-->
         <scene sceneID="M0d-JR-Uaa">
             <objects>
                 <viewController id="RJW-8h-3TW" sceneMemberID="viewController">
@@ -500,13 +500,13 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wkv-tM-3q7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bookings" image="bookings" id="cTY-QD-8YS"/>
+                    <navigationItem key="navigationItem" id="f9I-QL-jZA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCs-us-9Gd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2503" y="-2235"/>
+            <point key="canvasLocation" x="2503" y="-3083"/>
         </scene>
-        <!--Shop-->
+        <!--View Controller-->
         <scene sceneID="OOM-x0-hcm">
             <objects>
                 <viewController id="b9W-PS-i41" sceneMemberID="viewController">
@@ -516,11 +516,11 @@
                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0mJ-ny-dzJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shop" image="shop" id="I0E-jJ-CiE"/>
+                    <navigationItem key="navigationItem" id="oiq-4K-oev"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBQ-Hb-XNi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3416" y="-2235"/>
+            <point key="canvasLocation" x="3416" y="-3083"/>
         </scene>
         <!--Know You More View Controller-->
         <scene sceneID="aeo-iK-BHK">
@@ -2428,11 +2428,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="QzR-9M-p6Y" kind="relationship" relationship="viewControllers" id="bF0-DR-zLh"/>
+                        <segue destination="Sjf-EZ-IEj" kind="relationship" relationship="viewControllers" id="bF0-DR-zLh"/>
                         <segue destination="XC9-xi-cBA" kind="relationship" relationship="viewControllers" id="ss1-33-sXq"/>
-                        <segue destination="lpM-h2-43G" kind="relationship" relationship="viewControllers" id="Vrr-3x-N7b"/>
-                        <segue destination="RJW-8h-3TW" kind="relationship" relationship="viewControllers" id="J6b-IR-82q"/>
-                        <segue destination="b9W-PS-i41" kind="relationship" relationship="viewControllers" id="Phn-Os-Ae2"/>
+                        <segue destination="0pd-MM-cnT" kind="relationship" relationship="viewControllers" id="Vrr-3x-N7b"/>
+                        <segue destination="LdA-a9-35L" kind="relationship" relationship="viewControllers" id="J6b-IR-82q"/>
+                        <segue destination="gtW-I7-JVo" kind="relationship" relationship="viewControllers" id="Phn-Os-Ae2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ih1-hP-bbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2458,6 +2458,86 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GcT-rI-pEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="812" y="-2235"/>
+        </scene>
+        <!--Remedies-->
+        <scene sceneID="QcR-VR-vcZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sjf-EZ-IEj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Remedies" image="remedies" id="Xh5-Q1-tzt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9nx-xe-4WV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QzR-9M-p6Y" kind="relationship" relationship="rootViewController" id="xeb-el-rhB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LJp-ZN-NnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="-2235.326086956522"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="qrO-5Q-KoC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gtW-I7-JVo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shop" image="shop" id="I0E-jJ-CiE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9tS-xI-0GE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="b9W-PS-i41" kind="relationship" relationship="rootViewController" id="QXc-2F-KY5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkY-Vx-avR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3416" y="-2235"/>
+        </scene>
+        <!--Bookings-->
+        <scene sceneID="YJR-57-Feh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LdA-a9-35L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bookings" image="bookings" id="cTY-QD-8YS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l1X-31-KgM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RJW-8h-3TW" kind="relationship" relationship="rootViewController" id="gQg-KY-Oev"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYD-eN-iq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2503" y="-2235"/>
+        </scene>
+        <!--Fitness-->
+        <scene sceneID="PAk-R6-uri">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0pd-MM-cnT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fitness" image="fitness" id="9bV-0r-n9j"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YSQ-FS-5gO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lpM-h2-43G" kind="relationship" relationship="rootViewController" id="Z3q-EO-qmd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZC9-5O-J0p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648" y="-2235"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
