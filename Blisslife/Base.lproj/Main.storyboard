@@ -596,10 +596,22 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1299"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17S-TV-Fev">
-                                                <rect key="frame" x="36" y="16" width="342" height="74"/>
+                                                <rect key="frame" x="36" y="16" width="342" height="90"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recentRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="DTs-GI-CMq">
+                                                        <rect key="frame" x="16" y="12" width="100" height="66"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="0DQ-pO-8Ee"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="74" id="1iZ-YZ-L3Q"/>
+                                                    <constraint firstAttribute="height" constant="90" id="1iZ-YZ-L3Q"/>
+                                                    <constraint firstItem="DTs-GI-CMq" firstAttribute="leading" secondItem="17S-TV-Fev" secondAttribute="leading" constant="16" id="Iis-6J-hz7"/>
+                                                    <constraint firstItem="DTs-GI-CMq" firstAttribute="top" secondItem="17S-TV-Fev" secondAttribute="top" constant="12" id="Ls4-UQ-86i"/>
+                                                    <constraint firstAttribute="bottom" secondItem="DTs-GI-CMq" secondAttribute="bottom" constant="12" id="P7J-vL-EnW"/>
+                                                    <constraint firstItem="DTs-GI-CMq" firstAttribute="centerY" secondItem="17S-TV-Fev" secondAttribute="centerY" id="reN-le-Zou"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -2949,6 +2961,7 @@
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
         <image name="menu" width="19" height="19"/>
+        <image name="recentRecipe" width="64" height="47"/>
         <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
         <image name="saveIcon" width="12.333333015441895" height="17.666666030883789"/>
