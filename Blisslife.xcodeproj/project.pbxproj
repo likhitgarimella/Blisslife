@@ -21,6 +21,7 @@
 		0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A22E24BB88350059640B /* iOSDropDown.swift */; };
 		0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */; };
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
+		0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0260B78224CAA19D007CB2FF /* circularstd-medium.otf */; };
 		028001B824C0C9EB00765113 /* FirstParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B724C0C9EB00765113 /* FirstParameterViewController.swift */; };
 		028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B924C0CAF000765113 /* SecondParameterViewController.swift */; };
 		028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */; };
@@ -71,6 +72,7 @@
 		0238A22E24BB88350059640B /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
 		0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouMoreViewController.swift; sourceTree = "<group>"; };
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0260B78224CAA19D007CB2FF /* circularstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circularstd-medium.otf"; sourceTree = "<group>"; };
 		028001B724C0C9EB00765113 /* FirstParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstParameterViewController.swift; sourceTree = "<group>"; };
 		028001B924C0CAF000765113 /* SecondParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParameterViewController.swift; sourceTree = "<group>"; };
 		028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParameterViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,8 @@
 			children = (
 				02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */,
 				02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */,
+				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
+				02CAF43B24B8DDA4008A7874 /* Info.plist */,
 				02AB111B24B9A89300D1824D /* LaunchScreen.storyboard */,
 				02CAF43324B8DD9E008A7874 /* Main.storyboard */,
 				021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */,
@@ -166,8 +170,6 @@
 				02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */,
 				0238A22E24BB88350059640B /* iOSDropDown.swift */,
 				0210930F24C1F9BF0022336D /* LTHRadioButton.swift */,
-				02CAF43624B8DDA4008A7874 /* Assets.xcassets */,
-				02CAF43B24B8DDA4008A7874 /* Info.plist */,
 			);
 			path = Blisslife;
 			sourceTree = "<group>";
@@ -194,6 +196,7 @@
 				02AB110824B998BE00D1824D /* Raleway-Thin.ttf */,
 				02AB10FC24B998BC00D1824D /* Raleway-ThinItalic.ttf */,
 				02AB112124B9B54300D1824D /* Gadugi-Normal.ttf */,
+				0260B78224CAA19D007CB2FF /* circularstd-medium.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				02AB110A24B998BE00D1824D /* Raleway-ExtraLightItalic.ttf in Resources */,
 				02AB110B24B998BE00D1824D /* Raleway-Medium.ttf in Resources */,
 				02AB110924B998BE00D1824D /* Raleway-BlackItalic.ttf in Resources */,
+				0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */,
 				02AB110D24B998BE00D1824D /* Raleway-BoldItalic.ttf in Resources */,
 				02AB110F24B998BE00D1824D /* Raleway-Black.ttf in Resources */,
 				02AB110C24B998BE00D1824D /* Raleway-LightItalic.ttf in Resources */,

@@ -24,6 +24,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>circularstd-medium.otf</string>
 		<string>Raleway-Black.ttf</string>
 		<string>Raleway-BlackItalic.ttf</string>
 		<string>Raleway-Bold.ttf</string>
