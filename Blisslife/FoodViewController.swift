@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FoodViewController: UIViewController {
+class FoodViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     // Outlets
     @IBOutlet var topBar: UIView!
@@ -17,6 +17,28 @@ class FoodViewController: UIViewController {
     @IBOutlet var recipeTitle: UILabel!
     @IBOutlet var recipeBody: UILabel!
     @IBOutlet var recipeType: UILabel!
+    
+    @IBOutlet var foodCollView: UICollectionView!
+    
+    let reuseIdentifier = "cell"
+    
+    /// images in coll view
+    var items = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan")]
+    
+    /// numberOfItemsInSection
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return (items.count)
+    }
+    
+    /// cellForItemAt
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! FoodCollectionViewCell
+        cell.dietImage.image = self.items[indexPath.item]
+        cell.backgroundColor = UIColor.white
+        return cell
+        
+    }
     
     func TopBar() {
         
@@ -52,4 +74,4 @@ class FoodViewController: UIViewController {
         
     }
     
-}   // #56
+}   // #78
