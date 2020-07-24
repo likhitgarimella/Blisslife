@@ -607,43 +607,42 @@
                                                             <constraint firstAttribute="width" constant="100" id="0DQ-pO-8Ee"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R E C E N T   R E C I P E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0za-ev-3Fu">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="R E C E N T   R E C I P E" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0za-ev-3Fu">
                                                         <rect key="frame" x="130" y="12" width="127" height="16"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almond Pie (for 2)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-TI-7ts">
-                                                        <rect key="frame" x="130" y="30" width="115" height="18"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almond Pie (for 2)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-TI-7ts">
+                                                        <rect key="frame" x="130" y="32" width="115" height="20"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcX-mt-CFr">
-                                                        <rect key="frame" x="130" y="52" width="67" height="30"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   vegan   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quf-t1-rcp">
+                                                        <rect key="frame" x="123.99999999999999" y="60" width="59.333333333333329" height="18"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
-                                                        <state key="normal" title="    vegan    ">
-                                                            <color key="titleColor" red="0.98431372549019602" green="0.84313725490196079" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </state>
-                                                    </button>
+                                                        <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="1iZ-YZ-L3Q"/>
+                                                    <constraint firstAttribute="bottom" secondItem="quf-t1-rcp" secondAttribute="bottom" constant="12" id="20b-Ug-hQ3"/>
+                                                    <constraint firstItem="quf-t1-rcp" firstAttribute="top" secondItem="uC8-TI-7ts" secondAttribute="bottom" constant="8" id="7B6-fA-bUi"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0za-ev-3Fu" secondAttribute="trailing" constant="20" symbolic="YES" id="HYJ-p5-8VU"/>
                                                     <constraint firstItem="DTs-GI-CMq" firstAttribute="leading" secondItem="17S-TV-Fev" secondAttribute="leading" constant="12" id="Iis-6J-hz7"/>
                                                     <constraint firstItem="DTs-GI-CMq" firstAttribute="top" secondItem="17S-TV-Fev" secondAttribute="top" constant="12" id="Ls4-UQ-86i"/>
                                                     <constraint firstAttribute="bottom" secondItem="DTs-GI-CMq" secondAttribute="bottom" constant="12" id="P7J-vL-EnW"/>
-                                                    <constraint firstAttribute="bottom" secondItem="TcX-mt-CFr" secondAttribute="bottom" constant="8" id="RRe-GY-xsl"/>
+                                                    <constraint firstItem="quf-t1-rcp" firstAttribute="leading" secondItem="DTs-GI-CMq" secondAttribute="trailing" constant="12" id="dCi-8E-1N4"/>
                                                     <constraint firstItem="0za-ev-3Fu" firstAttribute="leading" secondItem="DTs-GI-CMq" secondAttribute="trailing" constant="18" id="i66-w8-6t4"/>
-                                                    <constraint firstItem="TcX-mt-CFr" firstAttribute="leading" secondItem="DTs-GI-CMq" secondAttribute="trailing" constant="18" id="kku-9s-Lye"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uC8-TI-7ts" secondAttribute="trailing" constant="20" symbolic="YES" id="lWY-3J-sQH"/>
-                                                    <constraint firstItem="TcX-mt-CFr" firstAttribute="top" secondItem="uC8-TI-7ts" secondAttribute="bottom" constant="4" id="mOl-Ga-raN"/>
-                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TcX-mt-CFr" secondAttribute="trailing" constant="20" symbolic="YES" id="p5z-Rw-1MS"/>
-                                                    <constraint firstItem="uC8-TI-7ts" firstAttribute="top" secondItem="0za-ev-3Fu" secondAttribute="bottom" constant="2" id="pxv-tu-rGj"/>
+                                                    <constraint firstItem="uC8-TI-7ts" firstAttribute="top" secondItem="0za-ev-3Fu" secondAttribute="bottom" constant="4" id="pxv-tu-rGj"/>
                                                     <constraint firstItem="0za-ev-3Fu" firstAttribute="top" secondItem="17S-TV-Fev" secondAttribute="top" constant="12" id="q5b-xj-VNV"/>
                                                     <constraint firstItem="DTs-GI-CMq" firstAttribute="centerY" secondItem="17S-TV-Fev" secondAttribute="centerY" id="reN-le-Zou"/>
                                                     <constraint firstItem="uC8-TI-7ts" firstAttribute="leading" secondItem="DTs-GI-CMq" secondAttribute="trailing" constant="18" id="waa-Sp-5Qm"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="quf-t1-rcp" secondAttribute="trailing" constant="20" symbolic="YES" id="yMF-eX-uiH"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -682,6 +681,10 @@
                     <size key="freeformSize" width="414" height="1436"/>
                     <connections>
                         <outlet property="recentRecipeCard" destination="17S-TV-Fev" id="8lN-Nh-Ypf"/>
+                        <outlet property="recipeBody" destination="uC8-TI-7ts" id="CnL-hk-wHj"/>
+                        <outlet property="recipeImage" destination="DTs-GI-CMq" id="qRh-SY-foF"/>
+                        <outlet property="recipeTitle" destination="0za-ev-3Fu" id="YTZ-wQ-tiW"/>
+                        <outlet property="recipeType" destination="quf-t1-rcp" id="h8f-gz-bs3"/>
                         <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
                     </connections>
                 </viewController>
