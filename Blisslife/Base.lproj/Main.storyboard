@@ -749,15 +749,50 @@
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="Jga-8K-DAV">
+                                                                    <rect key="frame" x="164" y="75" width="15" height="15"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="15" id="Rfg-2R-p21"/>
+                                                                        <constraint firstAttribute="width" constant="15" id="hCJ-27-D4U"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-G6-HRY">
+                                                                    <rect key="frame" x="183" y="75.333333333333329" width="30" height="12.666666666666671"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="10"/>
+                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="DbA-Yp-ZE2">
+                                                                    <rect key="frame" x="253" y="79" width="12" height="7"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="7" id="eLr-ac-EdC"/>
+                                                                        <constraint firstAttribute="width" constant="12" id="gcL-T4-IBA"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lz-BO-907">
+                                                                    <rect key="frame" x="271" y="74" width="38" height="13"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="10"/>
+                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                             <constraints>
+                                                                <constraint firstItem="LSW-G6-HRY" firstAttribute="leading" secondItem="Jga-8K-DAV" secondAttribute="trailing" constant="4" id="5h5-Rx-7hg"/>
                                                                 <constraint firstAttribute="bottom" secondItem="pVg-T4-ceB" secondAttribute="bottom" constant="16" id="7cS-G1-6kg"/>
+                                                                <constraint firstItem="DbA-Yp-ZE2" firstAttribute="leading" secondItem="LSW-G6-HRY" secondAttribute="trailing" constant="40" id="8pu-dC-tTn"/>
+                                                                <constraint firstItem="LSW-G6-HRY" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" constant="-1" id="F8J-K0-qe3"/>
                                                                 <constraint firstItem="pVg-T4-ceB" firstAttribute="leading" secondItem="B9U-q3-fjq" secondAttribute="leading" constant="16" id="JYh-I6-IuM"/>
                                                                 <constraint firstItem="W8L-X2-nEo" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="Kcs-uT-nJa"/>
+                                                                <constraint firstItem="DbA-Yp-ZE2" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" id="MDh-c7-PYE"/>
+                                                                <constraint firstItem="Jga-8K-DAV" firstAttribute="top" secondItem="W8L-X2-nEo" secondAttribute="bottom" constant="12" id="OB3-1U-jtA"/>
+                                                                <constraint firstItem="3Lz-BO-907" firstAttribute="leading" secondItem="DbA-Yp-ZE2" secondAttribute="trailing" constant="6" id="U3E-5z-9ZT"/>
+                                                                <constraint firstItem="Jga-8K-DAV" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="28" id="XIF-bo-HKt"/>
+                                                                <constraint firstItem="3Lz-BO-907" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" constant="-2.0000000000002842" id="bcI-1S-1gC"/>
                                                                 <constraint firstItem="AcB-Qr-5xF" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="20" id="hr0-3q-LS9"/>
                                                                 <constraint firstItem="pVg-T4-ceB" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="16" id="iKR-25-LXl"/>
                                                                 <constraint firstItem="AcB-Qr-5xF" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="jhd-2i-Vnw"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AcB-Qr-5xF" secondAttribute="trailing" constant="20" symbolic="YES" id="tkz-CK-3QW"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Lz-BO-907" secondAttribute="trailing" constant="20" symbolic="YES" id="uCT-t4-o9Q"/>
                                                                 <constraint firstItem="W8L-X2-nEo" firstAttribute="top" secondItem="AcB-Qr-5xF" secondAttribute="bottom" constant="4" id="vSK-Og-T65"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W8L-X2-nEo" secondAttribute="trailing" constant="20" symbolic="YES" id="yZ0-VI-TL9"/>
                                                             </constraints>
@@ -3134,7 +3169,9 @@
     <resources>
         <image name="bodyParts" width="375" height="435"/>
         <image name="bookings" width="19" height="26.666666030883789"/>
+        <image name="bowl" width="12" height="6.6666665077209473"/>
         <image name="box" width="14" height="14"/>
+        <image name="clock" width="14.666666984558105" height="14.666666984558105"/>
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
         <image name="menu" width="19" height="19"/>
