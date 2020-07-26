@@ -23,6 +23,7 @@
 		0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */; };
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
 		0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0260B78224CAA19D007CB2FF /* circularstd-medium.otf */; };
+		02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6924CDE7AC00F20BCB /* RecipeCell.swift */; };
 		028001B824C0C9EB00765113 /* FirstParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B724C0C9EB00765113 /* FirstParameterViewController.swift */; };
 		028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B924C0CAF000765113 /* SecondParameterViewController.swift */; };
 		028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */; };
@@ -75,6 +76,7 @@
 		0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouMoreViewController.swift; sourceTree = "<group>"; };
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		0260B78224CAA19D007CB2FF /* circularstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circularstd-medium.otf"; sourceTree = "<group>"; };
+		02768A6924CDE7AC00F20BCB /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		028001B724C0C9EB00765113 /* FirstParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstParameterViewController.swift; sourceTree = "<group>"; };
 		028001B924C0CAF000765113 /* SecondParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParameterViewController.swift; sourceTree = "<group>"; };
 		028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParameterViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */,
 				021E7E7B24C9C74100C4AABE /* FoodViewController.swift */,
 				021D34C524CB701B00CEDFDC /* FoodCollectionViewCell.swift */,
+				02768A6924CDE7AC00F20BCB /* RecipeCell.swift */,
 				021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */,
 				021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */,
 				021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */,
@@ -307,6 +310,7 @@
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
 				0232FF1D24C4EB55002A759C /* BodyPartsViewController.swift in Sources */,
 				021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */,
+				02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */,
 				028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */,
 				02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */,
 				0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */,

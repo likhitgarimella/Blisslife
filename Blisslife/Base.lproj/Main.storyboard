@@ -454,7 +454,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="QzR-9M-p6Y" customClass="MainRemediesViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qcx-WR-9VP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sn0-Wf-YyO">
@@ -503,10 +503,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="155-Lu-s4Q">
-                                <rect key="frame" x="0.0" y="84" width="414" height="1303"/>
+                                <rect key="frame" x="0.0" y="84" width="414" height="903"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjc-7w-Taz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1303"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="903"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -534,7 +534,7 @@
                         <viewLayoutGuide key="safeArea" id="EI5-fh-7bO"/>
                     </view>
                     <navigationItem key="navigationItem" id="ssl-yU-QP1"/>
-                    <size key="freeformSize" width="414" height="1436"/>
+                    <size key="freeformSize" width="414" height="1036"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWb-jg-Vj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -545,7 +545,7 @@
             <objects>
                 <viewController id="adD-OM-9qx" customClass="FoodViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jHR-lz-fiq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Al-UV-nHx">
@@ -594,10 +594,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zA5-OO-PYn">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1299"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="899"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIh-QB-n43">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1299"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="899"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17S-TV-Fev">
                                                 <rect key="frame" x="36" y="16" width="342" height="90"/>
@@ -609,13 +609,13 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="R E C E N T   R E C I P E" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0za-ev-3Fu">
-                                                        <rect key="frame" x="130" y="12" width="127" height="16"/>
+                                                        <rect key="frame" x="130" y="12" width="127" height="15.333333333333336"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almond Pie (for 2)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-TI-7ts">
-                                                        <rect key="frame" x="130" y="32" width="115" height="20"/>
+                                                        <rect key="frame" x="130" y="31.333333333333343" width="115" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -647,13 +647,20 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of Food Diets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghb-cc-c5n">
-                                                <rect key="frame" x="36" y="142" width="145" height="21"/>
+                                                <rect key="frame" x="36" y="142" width="144.33333333333334" height="20.333333333333343"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drO-O0-N8B">
+                                                <rect key="frame" x="350" y="138.33333333333334" width="44" height="28"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                                                <state key="normal" title="see all &gt;">
+                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VzG-wS-4lq">
-                                                <rect key="frame" x="36" y="179" width="342" height="128"/>
+                                                <rect key="frame" x="36" y="178.33333333333331" width="374" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="LL0-lQ-cJN"/>
@@ -666,14 +673,14 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Oa6-Zg-fxh" customClass="FoodCollectionViewCell" customModule="Blisslife" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="128"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="128"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rem-q0-Od7">
-                                                            <rect key="frame" x="0.0" y="0.0" width="110" height="128"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="128"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dJ9-Mh-6nk">
-                                                                    <rect key="frame" x="2" y="2" width="106" height="124"/>
+                                                                    <rect key="frame" x="2" y="2" width="96" height="124"/>
                                                                     <userDefinedRuntimeAttributes>
                                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                             <integer key="value" value="5"/>
@@ -689,7 +696,7 @@
                                                             </constraints>
                                                         </collectionViewCellContentView>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <size key="customSize" width="110" height="128"/>
+                                                        <size key="customSize" width="100" height="128"/>
                                                         <connections>
                                                             <outlet property="dietImage" destination="dJ9-Mh-6nk" id="Vfa-EU-s69"/>
                                                         </connections>
@@ -700,17 +707,54 @@
                                                     <outlet property="delegate" destination="adD-OM-9qx" id="88P-yD-Ll7"/>
                                                 </connections>
                                             </collectionView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes for you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqb-p9-Uri">
+                                                <rect key="frame" x="36" y="326.33333333333331" width="113" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bBy-Rc-b2V">
+                                                <rect key="frame" x="0.0" y="355.33333333333331" width="414" height="543.66666666666674"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MyS-c1-eKt">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeCell" id="zVo-ia-95j" customClass="RecipeCell" customModule="Blisslife" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="B9U-q3-fjq">
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="414" height="160"/>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="17S-TV-Fev" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="36" id="29k-KD-O4G"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nqb-p9-Uri" secondAttribute="trailing" constant="20" symbolic="YES" id="6Yv-QC-kb5"/>
                                             <constraint firstItem="Ghb-cc-c5n" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="36" id="7Wn-WV-Wr9"/>
-                                            <constraint firstAttribute="trailing" secondItem="VzG-wS-4lq" secondAttribute="trailing" constant="36" id="D3X-YY-lUt"/>
+                                            <constraint firstAttribute="trailing" secondItem="bBy-Rc-b2V" secondAttribute="trailing" id="9ug-GQ-jjG"/>
+                                            <constraint firstItem="bBy-Rc-b2V" firstAttribute="top" secondItem="nqb-p9-Uri" secondAttribute="bottom" constant="8" id="AKy-JH-lvN"/>
+                                            <constraint firstAttribute="trailing" secondItem="VzG-wS-4lq" secondAttribute="trailing" constant="4" id="D3X-YY-lUt"/>
+                                            <constraint firstItem="nqb-p9-Uri" firstAttribute="top" secondItem="VzG-wS-4lq" secondAttribute="bottom" constant="20" id="EY8-KD-8OQ"/>
                                             <constraint firstAttribute="trailing" secondItem="17S-TV-Fev" secondAttribute="trailing" constant="36" id="F7H-ev-2G7"/>
+                                            <constraint firstAttribute="bottom" secondItem="bBy-Rc-b2V" secondAttribute="bottom" id="OBk-4J-5Kc"/>
+                                            <constraint firstItem="bBy-Rc-b2V" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" id="UVM-FV-093"/>
                                             <constraint firstItem="VzG-wS-4lq" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="36" id="Vwr-V4-t1U"/>
                                             <constraint firstItem="Ghb-cc-c5n" firstAttribute="top" secondItem="17S-TV-Fev" secondAttribute="bottom" constant="36" id="a40-ot-C03"/>
+                                            <constraint firstAttribute="trailing" secondItem="drO-O0-N8B" secondAttribute="trailing" constant="20" id="hsm-UZ-S17"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ghb-cc-c5n" secondAttribute="trailing" constant="20" symbolic="YES" id="hxr-r4-ZSi"/>
                                             <constraint firstItem="VzG-wS-4lq" firstAttribute="top" secondItem="Ghb-cc-c5n" secondAttribute="bottom" constant="16" id="lIc-a5-6kw"/>
+                                            <constraint firstItem="drO-O0-N8B" firstAttribute="centerY" secondItem="Ghb-cc-c5n" secondAttribute="centerY" id="mqD-2G-Dlx"/>
+                                            <constraint firstItem="drO-O0-N8B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ghb-cc-c5n" secondAttribute="trailing" constant="8" symbolic="YES" id="oAp-yj-A3s"/>
+                                            <constraint firstItem="nqb-p9-Uri" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="36" id="p2k-3u-WgO"/>
                                             <constraint firstItem="17S-TV-Fev" firstAttribute="top" secondItem="GIh-QB-n43" secondAttribute="top" constant="16" id="yli-x6-if9"/>
                                         </constraints>
                                     </view>
@@ -739,7 +783,7 @@
                         <viewLayoutGuide key="safeArea" id="Hkp-GC-ygH"/>
                     </view>
                     <navigationItem key="navigationItem" id="enT-av-j1w"/>
-                    <size key="freeformSize" width="414" height="1436"/>
+                    <size key="freeformSize" width="414" height="1036"/>
                     <connections>
                         <outlet property="foodCollView" destination="VzG-wS-4lq" id="TbV-Mm-ZHi"/>
                         <outlet property="recentRecipeCard" destination="17S-TV-Fev" id="8lN-Nh-Ypf"/>
@@ -759,7 +803,7 @@
             <objects>
                 <viewController id="lpM-h2-43G" customClass="FitnessViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YHO-hF-b4C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WNz-Om-LGz">
@@ -808,10 +852,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weT-Mt-1Si">
-                                <rect key="frame" x="0.0" y="84" width="414" height="1303"/>
+                                <rect key="frame" x="0.0" y="84" width="414" height="903"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5X-le-EPs">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1303"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="903"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -839,7 +883,7 @@
                         <viewLayoutGuide key="safeArea" id="1Gl-vu-iKW"/>
                     </view>
                     <navigationItem key="navigationItem" id="M4o-Ws-b5c"/>
-                    <size key="freeformSize" width="414" height="1436"/>
+                    <size key="freeformSize" width="414" height="1036"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIt-tj-pft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -850,7 +894,7 @@
             <objects>
                 <viewController id="RJW-8h-3TW" customClass="BookingsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ufs-H4-r3d">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMa-qJ-uhn">
@@ -899,10 +943,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8w-bK-eRZ">
-                                <rect key="frame" x="0.0" y="84" width="414" height="1303"/>
+                                <rect key="frame" x="0.0" y="84" width="414" height="903"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQq-5g-p3x">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1303"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="903"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -930,7 +974,7 @@
                         <viewLayoutGuide key="safeArea" id="wkv-tM-3q7"/>
                     </view>
                     <navigationItem key="navigationItem" id="f9I-QL-jZA"/>
-                    <size key="freeformSize" width="414" height="1436"/>
+                    <size key="freeformSize" width="414" height="1036"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCs-us-9Gd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -941,7 +985,7 @@
             <objects>
                 <viewController id="b9W-PS-i41" customClass="ShopViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0zM-qq-O1B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1436"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wux-ld-W6V">
@@ -990,10 +1034,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YK-k4-u5B">
-                                <rect key="frame" x="0.0" y="84" width="414" height="1303"/>
+                                <rect key="frame" x="0.0" y="84" width="414" height="903"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dma-9f-WMu">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1303"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="903"/>
                                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -1021,7 +1065,7 @@
                         <viewLayoutGuide key="safeArea" id="0mJ-ny-dzJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="oiq-4K-oev"/>
-                    <size key="freeformSize" width="414" height="1436"/>
+                    <size key="freeformSize" width="414" height="1036"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBQ-Hb-XNi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
