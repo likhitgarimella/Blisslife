@@ -824,7 +824,14 @@
                                                         </collectionViewCellContentView>
                                                         <size key="customSize" width="414" height="132"/>
                                                         <connections>
+                                                            <outlet property="byPerson" destination="W8L-X2-nEo" id="xY1-I6-EH2"/>
+                                                            <outlet property="one" destination="tGf-2v-SxZ" id="mvK-Ic-Iti"/>
+                                                            <outlet property="people" destination="3Lz-BO-907" id="IoU-Yl-Pt9"/>
                                                             <outlet property="recipeImage" destination="pVg-T4-ceB" id="5SH-wP-B8f"/>
+                                                            <outlet property="three" destination="PLf-uX-L9q" id="eJf-qI-xVu"/>
+                                                            <outlet property="time" destination="LSW-G6-HRY" id="nNf-0j-gRd"/>
+                                                            <outlet property="title" destination="AcB-Qr-5xF" id="g78-A5-1ec"/>
+                                                            <outlet property="two" destination="wim-pe-Zlu" id="xbw-di-BXE"/>
                                                         </connections>
                                                     </collectionViewCell>
                                                 </cells>

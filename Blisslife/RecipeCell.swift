@@ -10,6 +10,22 @@ import UIKit
 
 class RecipeCell: UICollectionViewCell {
     
+    // Outlets
     @IBOutlet var recipeImage: UIImageView!
+    @IBOutlet var title: UILabel!
+    @IBOutlet var byPerson: UILabel!
+    @IBOutlet var time: UILabel!
+    @IBOutlet var people: UILabel!
     
-}   // #16
+    @IBOutlet var one: UILabel!
+    @IBOutlet var two: UILabel!
+    @IBOutlet var three: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        
+        
+    }
+    
+}   // #32
