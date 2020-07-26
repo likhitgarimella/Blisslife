@@ -7,7 +7,7 @@ Healthcare and Wellness App
 </h3>
 
 #### _login + signup + user details (22) - ✅_
-#### _user preferences (9)_
+#### _user preferences (9) - ✅_
 #### _user health parameters (7) - ✅_
 #### _hamburger menu: profile, settings, etc (30)_
 #### _main search + doctors appt book (11)_
