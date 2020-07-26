@@ -24,8 +24,18 @@ class RecipeCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        one.layer.cornerRadius = 9
+        one.layer.borderColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0).cgColor
+        one.layer.borderWidth = 1.2
         
+        two.layer.cornerRadius = 9
+        two.layer.borderColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0).cgColor
+        two.layer.borderWidth = 1.2
+        
+        three.layer.cornerRadius = 9
+        three.layer.borderColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0).cgColor
+        three.layer.borderWidth = 1.2
         
     }
     
-}   // #32
+}   // #42
