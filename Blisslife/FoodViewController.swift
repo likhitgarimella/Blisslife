@@ -19,22 +19,28 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     @IBOutlet var recipeType: UILabel!
     
     @IBOutlet var foodCollView: UICollectionView!
+    @IBOutlet var recipeCollView: UICollectionView!
     
-    let reuseIdentifier = "cell"
+    let reuseIdentifier1 = "cell1"
+    let reuseIdentifier2 = "cell2"
     
-    /// images in coll view
-    var items = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan")]
+    /// images in food coll view
+    var items1 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan")]
+    
+    /// images in recipe coll view
+    var items2 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegan")]
     
     /// numberOfItemsInSection
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return (items.count)
+        return collectionView === foodCollView ? items1.count : items2.count
+        // return (items.count)
     }
     
     /// cellForItemAt
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! FoodCollectionViewCell
-        cell.dietImage.image = self.items[indexPath.item]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier1, for: indexPath as IndexPath) as! FoodCollectionViewCell
+        cell.dietImage.image = self.items1[indexPath.item]
         cell.backgroundColor = UIColor.white
         return cell
         
@@ -69,9 +75,17 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        foodCollView.dataSource = self
+        foodCollView.delegate = self
+        recipeCollView.dataSource = self
+        recipeCollView.delegate = self
+        
+        foodCollView.tag = 101
+        recipeCollView.tag = 102
+        
         TopBar()
         RecentRecipeCardProp()
         
     }
     
-}   // #78
+}   // #92
