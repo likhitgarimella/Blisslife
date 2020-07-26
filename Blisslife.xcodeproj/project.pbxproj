@@ -24,6 +24,7 @@
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
 		0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0260B78224CAA19D007CB2FF /* circularstd-medium.otf */; };
 		02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6924CDE7AC00F20BCB /* RecipeCell.swift */; };
+		02768A6C24CE129200F20BCB /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6B24CE129200F20BCB /* RecipeModel.swift */; };
 		028001B824C0C9EB00765113 /* FirstParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B724C0C9EB00765113 /* FirstParameterViewController.swift */; };
 		028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B924C0CAF000765113 /* SecondParameterViewController.swift */; };
 		028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */; };
@@ -77,6 +78,7 @@
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		0260B78224CAA19D007CB2FF /* circularstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circularstd-medium.otf"; sourceTree = "<group>"; };
 		02768A6924CDE7AC00F20BCB /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		02768A6B24CE129200F20BCB /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		028001B724C0C9EB00765113 /* FirstParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstParameterViewController.swift; sourceTree = "<group>"; };
 		028001B924C0CAF000765113 /* SecondParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParameterViewController.swift; sourceTree = "<group>"; };
 		028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParameterViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				021E7E7B24C9C74100C4AABE /* FoodViewController.swift */,
 				021D34C524CB701B00CEDFDC /* FoodCollectionViewCell.swift */,
 				02768A6924CDE7AC00F20BCB /* RecipeCell.swift */,
+				02768A6B24CE129200F20BCB /* RecipeModel.swift */,
 				021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */,
 				021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */,
 				021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */,
@@ -319,6 +322,7 @@
 				0296555324C46014007FDCB1 /* CustExpViewController.swift in Sources */,
 				021E7E7C24C9C74100C4AABE /* FoodViewController.swift in Sources */,
 				02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */,
+				02768A6C24CE129200F20BCB /* RecipeModel.swift in Sources */,
 				0232FF1924C4EB0C002A759C /* SympsCondsViewController.swift in Sources */,
 				028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */,
 				02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */,
