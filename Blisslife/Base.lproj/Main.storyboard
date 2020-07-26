@@ -738,40 +738,40 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcB-Qr-5xF">
-                                                                    <rect key="frame" x="156" y="20" width="33" height="21"/>
-                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                                                    <rect key="frame" x="156" y="18" width="36.666666666666657" height="23"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
                                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8L-X2-nEo">
-                                                                    <rect key="frame" x="156" y="45" width="64" height="18"/>
-                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                                                    <rect key="frame" x="156" y="45" width="68" height="19"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="Jga-8K-DAV">
-                                                                    <rect key="frame" x="164" y="75" width="15" height="15"/>
+                                                                    <rect key="frame" x="164" y="76" width="20" height="20"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="15" id="Rfg-2R-p21"/>
-                                                                        <constraint firstAttribute="width" constant="15" id="hCJ-27-D4U"/>
+                                                                        <constraint firstAttribute="height" constant="20" id="Rfg-2R-p21"/>
+                                                                        <constraint firstAttribute="width" constant="20" id="hCJ-27-D4U"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-G6-HRY">
-                                                                    <rect key="frame" x="183" y="75.333333333333329" width="30" height="12.666666666666671"/>
-                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="10"/>
+                                                                    <rect key="frame" x="188" y="76.666666666666671" width="38.666666666666657" height="16.666666666666671"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="DbA-Yp-ZE2">
-                                                                    <rect key="frame" x="253" y="79" width="12" height="7"/>
+                                                                    <rect key="frame" x="266.66666666666669" y="82.666666666666671" width="12" height="7"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="7" id="eLr-ac-EdC"/>
                                                                         <constraint firstAttribute="width" constant="12" id="gcL-T4-IBA"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lz-BO-907">
-                                                                    <rect key="frame" x="271" y="74" width="38" height="13"/>
-                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="10"/>
+                                                                    <rect key="frame" x="284.66666666666669" y="75.666666666666671" width="49.333333333333314" height="16.666666666666671"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -810,9 +810,10 @@
                                                                 <constraint firstItem="3Lz-BO-907" firstAttribute="leading" secondItem="DbA-Yp-ZE2" secondAttribute="trailing" constant="6" id="U3E-5z-9ZT"/>
                                                                 <constraint firstItem="Jga-8K-DAV" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="28" id="XIF-bo-HKt"/>
                                                                 <constraint firstAttribute="bottom" secondItem="tGf-2v-SxZ" secondAttribute="bottom" constant="16" id="Zxb-yf-K25"/>
+                                                                <constraint firstItem="tGf-2v-SxZ" firstAttribute="top" secondItem="Jga-8K-DAV" secondAttribute="bottom" constant="2" id="aND-8v-Uph"/>
                                                                 <constraint firstItem="3Lz-BO-907" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" constant="-2.0000000000002842" id="bcI-1S-1gC"/>
                                                                 <constraint firstItem="PLf-uX-L9q" firstAttribute="leading" secondItem="wim-pe-Zlu" secondAttribute="trailing" constant="8" id="h9d-Cf-lnk"/>
-                                                                <constraint firstItem="AcB-Qr-5xF" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="20" id="hr0-3q-LS9"/>
+                                                                <constraint firstItem="AcB-Qr-5xF" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="18" id="hr0-3q-LS9"/>
                                                                 <constraint firstItem="pVg-T4-ceB" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="16" id="iKR-25-LXl"/>
                                                                 <constraint firstItem="AcB-Qr-5xF" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="jhd-2i-Vnw"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AcB-Qr-5xF" secondAttribute="trailing" constant="20" symbolic="YES" id="tkz-CK-3QW"/>

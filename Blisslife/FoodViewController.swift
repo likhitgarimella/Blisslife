@@ -30,6 +30,14 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     /// images in recipe coll view
     var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3")]
     
+    var titles = ["Quinoa Salad", "Celery Soup", "Smoothie Bowl", "Quinoa Salad", "Celery Soup", "Smoothie Bowl", "Quinoa Salad", "Celery Soup", "Smoothie Bowl"]
+    
+    var byPersons = ["by Kristen Stewart", "by Naomi Scott", "by Ella Balinska", "by Kristen Stewart", "by Naomi Scott", "by Ella Balinska", "by Kristen Stewart", "by Naomi Scott", "by Ella Balinska"]
+    
+    var times = ["10 mins", "20 mins", "30 mins", "10 mins", "20 mins", "30 mins", "10 mins", "20 mins", "30 mins"]
+    
+    var people = ["1 people", "2 people", "3 people", "1 people", "2 people", "3 people", "1 people", "2 people", "3 people"]
+    
     /// numberOfItemsInSection
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.foodCollView {
@@ -44,13 +52,17 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         if collectionView == foodCollView {
             let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier1, for: indexPath as IndexPath) as! FoodCollectionViewCell
-            cell1.dietImage.image = self.items1[indexPath.item]
             cell1.backgroundColor = UIColor.white
+            cell1.dietImage.image = items1[indexPath.item]
             return cell1
         } else {
             let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier2, for: indexPath as IndexPath) as! RecipeCell
-            cell2.recipeImage.image = self.items2[indexPath.item]
             cell2.backgroundColor = UIColor.white
+            cell2.recipeImage.image = items2[indexPath.item]
+            cell2.title.text = titles[indexPath.item]
+            cell2.byPerson.text = byPersons[indexPath.item]
+            cell2.time.text = times[indexPath.item]
+            cell2.people.text = people[indexPath.item]
             return cell2
         }
         
@@ -98,4 +110,4 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #102
+}   // #114
