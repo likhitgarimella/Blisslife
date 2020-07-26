@@ -10,4 +10,6 @@ import UIKit
 
 class RecipeCell: UICollectionViewCell {
     
-}   // #14
+    @IBOutlet var recipeImage: UIImageView!
+    
+}   // #16

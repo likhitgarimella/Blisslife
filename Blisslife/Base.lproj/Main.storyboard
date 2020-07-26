@@ -775,8 +775,28 @@
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   snack   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGf-2v-SxZ">
+                                                                    <rect key="frame" x="156" y="98" width="58" height="18"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                                                    <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   vegan   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wim-pe-Zlu">
+                                                                    <rect key="frame" x="222" y="98" width="59.333333333333314" height="18"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                                                    <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   greens   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLf-uX-L9q">
+                                                                    <rect key="frame" x="289.33333333333331" y="98" width="64.333333333333314" height="18"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                                                    <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                             <constraints>
+                                                                <constraint firstItem="wim-pe-Zlu" firstAttribute="leading" secondItem="tGf-2v-SxZ" secondAttribute="trailing" constant="8" id="0tI-1y-Sdm"/>
+                                                                <constraint firstItem="wim-pe-Zlu" firstAttribute="centerY" secondItem="tGf-2v-SxZ" secondAttribute="centerY" id="14F-5U-evI"/>
                                                                 <constraint firstItem="LSW-G6-HRY" firstAttribute="leading" secondItem="Jga-8K-DAV" secondAttribute="trailing" constant="4" id="5h5-Rx-7hg"/>
                                                                 <constraint firstAttribute="bottom" secondItem="pVg-T4-ceB" secondAttribute="bottom" constant="16" id="7cS-G1-6kg"/>
                                                                 <constraint firstItem="DbA-Yp-ZE2" firstAttribute="leading" secondItem="LSW-G6-HRY" secondAttribute="trailing" constant="40" id="8pu-dC-tTn"/>
@@ -785,19 +805,27 @@
                                                                 <constraint firstItem="W8L-X2-nEo" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="Kcs-uT-nJa"/>
                                                                 <constraint firstItem="DbA-Yp-ZE2" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" id="MDh-c7-PYE"/>
                                                                 <constraint firstItem="Jga-8K-DAV" firstAttribute="top" secondItem="W8L-X2-nEo" secondAttribute="bottom" constant="12" id="OB3-1U-jtA"/>
+                                                                <constraint firstItem="PLf-uX-L9q" firstAttribute="centerY" secondItem="wim-pe-Zlu" secondAttribute="centerY" id="QXG-W4-Mxo"/>
+                                                                <constraint firstItem="tGf-2v-SxZ" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="Rbz-3t-Swo"/>
                                                                 <constraint firstItem="3Lz-BO-907" firstAttribute="leading" secondItem="DbA-Yp-ZE2" secondAttribute="trailing" constant="6" id="U3E-5z-9ZT"/>
                                                                 <constraint firstItem="Jga-8K-DAV" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="28" id="XIF-bo-HKt"/>
+                                                                <constraint firstAttribute="bottom" secondItem="tGf-2v-SxZ" secondAttribute="bottom" constant="16" id="Zxb-yf-K25"/>
                                                                 <constraint firstItem="3Lz-BO-907" firstAttribute="centerY" secondItem="Jga-8K-DAV" secondAttribute="centerY" constant="-2.0000000000002842" id="bcI-1S-1gC"/>
+                                                                <constraint firstItem="PLf-uX-L9q" firstAttribute="leading" secondItem="wim-pe-Zlu" secondAttribute="trailing" constant="8" id="h9d-Cf-lnk"/>
                                                                 <constraint firstItem="AcB-Qr-5xF" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="20" id="hr0-3q-LS9"/>
                                                                 <constraint firstItem="pVg-T4-ceB" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="16" id="iKR-25-LXl"/>
                                                                 <constraint firstItem="AcB-Qr-5xF" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="jhd-2i-Vnw"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AcB-Qr-5xF" secondAttribute="trailing" constant="20" symbolic="YES" id="tkz-CK-3QW"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Lz-BO-907" secondAttribute="trailing" constant="20" symbolic="YES" id="uCT-t4-o9Q"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PLf-uX-L9q" secondAttribute="trailing" constant="20" symbolic="YES" id="uWh-P9-cej"/>
                                                                 <constraint firstItem="W8L-X2-nEo" firstAttribute="top" secondItem="AcB-Qr-5xF" secondAttribute="bottom" constant="4" id="vSK-Og-T65"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W8L-X2-nEo" secondAttribute="trailing" constant="20" symbolic="YES" id="yZ0-VI-TL9"/>
                                                             </constraints>
                                                         </collectionViewCellContentView>
                                                         <size key="customSize" width="414" height="132"/>
+                                                        <connections>
+                                                            <outlet property="recipeImage" destination="pVg-T4-ceB" id="5SH-wP-B8f"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
                                                 <connections>
