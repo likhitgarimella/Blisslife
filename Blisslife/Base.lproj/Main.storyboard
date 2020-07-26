@@ -724,15 +724,51 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeCell" id="zVo-ia-95j" customClass="RecipeCell" customModule="Blisslife" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="B9U-q3-fjq">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
                                                             <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pVg-T4-ceB">
+                                                                    <rect key="frame" x="16" y="16" width="120" height="100"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="100" id="FAC-zQ-2k0"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="wK2-qC-DXJ"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcB-Qr-5xF">
+                                                                    <rect key="frame" x="156" y="20" width="33" height="21"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8L-X2-nEo">
+                                                                    <rect key="frame" x="156" y="45" width="64" height="18"/>
+                                                                    <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="pVg-T4-ceB" secondAttribute="bottom" constant="16" id="7cS-G1-6kg"/>
+                                                                <constraint firstItem="pVg-T4-ceB" firstAttribute="leading" secondItem="B9U-q3-fjq" secondAttribute="leading" constant="16" id="JYh-I6-IuM"/>
+                                                                <constraint firstItem="W8L-X2-nEo" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="Kcs-uT-nJa"/>
+                                                                <constraint firstItem="AcB-Qr-5xF" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="20" id="hr0-3q-LS9"/>
+                                                                <constraint firstItem="pVg-T4-ceB" firstAttribute="top" secondItem="B9U-q3-fjq" secondAttribute="top" constant="16" id="iKR-25-LXl"/>
+                                                                <constraint firstItem="AcB-Qr-5xF" firstAttribute="leading" secondItem="pVg-T4-ceB" secondAttribute="trailing" constant="20" id="jhd-2i-Vnw"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AcB-Qr-5xF" secondAttribute="trailing" constant="20" symbolic="YES" id="tkz-CK-3QW"/>
+                                                                <constraint firstItem="W8L-X2-nEo" firstAttribute="top" secondItem="AcB-Qr-5xF" secondAttribute="bottom" constant="4" id="vSK-Og-T65"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W8L-X2-nEo" secondAttribute="trailing" constant="20" symbolic="YES" id="yZ0-VI-TL9"/>
+                                                            </constraints>
                                                         </collectionViewCellContentView>
-                                                        <size key="customSize" width="414" height="160"/>
+                                                        <size key="customSize" width="414" height="132"/>
                                                     </collectionViewCell>
                                                 </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="adD-OM-9qx" id="3o3-Ik-Vcp"/>
+                                                    <outlet property="delegate" destination="adD-OM-9qx" id="O6F-9V-3SJ"/>
+                                                </connections>
                                             </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
