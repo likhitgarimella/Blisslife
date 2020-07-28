@@ -572,10 +572,10 @@
             </objects>
             <point key="canvasLocation" x="610" y="-3924"/>
         </scene>
-        <!--View Controller-->
+        <!--See All Food Diets-->
         <scene sceneID="sBE-Aa-mco">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="VeU-RZ-l6K" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="VeU-RZ-l6K" customClass="SeeAllFoodDiets" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QKr-Jq-lAQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
