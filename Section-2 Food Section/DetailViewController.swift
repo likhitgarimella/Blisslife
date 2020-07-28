@@ -20,6 +20,11 @@ class DetailViewController: UIViewController {
     @IBOutlet var two: UILabel!
     @IBOutlet var three: UILabel!
     
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var personLabel: UILabel!
+    @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var peopleLabel: UILabel!
+    
     func Properties() {
         
         one.clipsToBounds = true
@@ -48,11 +53,23 @@ class DetailViewController: UIViewController {
         // remove title for left bar button item
         navigationController?.navigationBar.topItem?.title = ""
         
+        Properties()
+        
         // set image
         imageView.image = UIImage(named: dataModel.imageName)
         
-        Properties()
+        // set title label
+        titleLabel.text = dataModel.recipeTitle
+        
+        // set person label
+        personLabel.text = dataModel.personName
+        
+        // set time label
+        timeLabel.text = dataModel.timeDur
+        
+        // set people label
+        peopleLabel.text = dataModel.peopleNumber
         
     }
     
-}   // #59
+}   // #76

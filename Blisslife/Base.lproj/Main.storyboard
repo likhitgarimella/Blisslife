@@ -695,7 +695,11 @@
                     <connections>
                         <outlet property="imageView" destination="fUy-ui-9Bt" id="K0v-o1-f7D"/>
                         <outlet property="one" destination="CPg-Wk-dp8" id="Fpf-BJ-BqQ"/>
+                        <outlet property="peopleLabel" destination="Nvk-es-VWe" id="o68-yL-sWK"/>
+                        <outlet property="personLabel" destination="pGe-GQ-kco" id="3xL-PJ-jP2"/>
                         <outlet property="three" destination="lj9-TB-z4U" id="iLX-OM-ydV"/>
+                        <outlet property="timeLabel" destination="vpD-sC-nfI" id="lzq-7X-IYv"/>
+                        <outlet property="titleLabel" destination="FXd-GH-3U1" id="QWC-hZ-XhE"/>
                         <outlet property="two" destination="Dqt-ga-axq" id="7BG-ui-Nby"/>
                     </connections>
                 </viewController>
