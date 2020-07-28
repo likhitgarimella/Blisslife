@@ -12,6 +12,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     // Outlets
     @IBOutlet var topBar: UIView!
+    @IBOutlet var save: UIImageView!
     @IBOutlet var recentRecipeCard: UIView!
     @IBOutlet var recipeImage: UIImageView!
     @IBOutlet var recipeTitle: UILabel!
@@ -120,6 +121,11 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         TopBar()
         RecentRecipeCardProp()
         
+        // Tap gesture for save image on tap
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(savedImagetap))
+        save.addGestureRecognizer(tapGesture)
+        save.isUserInteractionEnabled = true
+        
     }
     
     @IBAction func seeAll(_ sender: UIButton) {
@@ -128,10 +134,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-    @IBAction func savedButton(_ sender: UIButton) {
+    @objc func savedImagetap() {
         
         self.performSegue(withIdentifier: "goToSaved", sender: self)
         
     }
     
-}   // #138
+}   // #144

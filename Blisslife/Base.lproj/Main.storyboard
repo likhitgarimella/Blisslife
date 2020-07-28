@@ -1034,6 +1034,7 @@
                         <outlet property="recipeImage" destination="DTs-GI-CMq" id="qRh-SY-foF"/>
                         <outlet property="recipeTitle" destination="0za-ev-3Fu" id="YTZ-wQ-tiW"/>
                         <outlet property="recipeType" destination="quf-t1-rcp" id="h8f-gz-bs3"/>
+                        <outlet property="save" destination="Nno-ri-Oca" id="AI3-NU-awt"/>
                         <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
                         <segue destination="Obg-zx-sdy" kind="show" identifier="goToFoodDetail" id="ouV-gc-yd8"/>
                         <segue destination="VeU-RZ-l6K" kind="show" identifier="seeAllFoodDiets" id="JCA-b3-gSY"/>
