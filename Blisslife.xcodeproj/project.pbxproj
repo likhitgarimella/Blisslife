@@ -131,6 +131,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02551AA024D0813700F284E0 /* User Details */ = {
+			isa = PBXGroup;
+			children = (
+				02AB112324B9B5D800D1824D /* LoginViewController.swift */,
+				0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */,
+				021B24A324BB01B300094789 /* SignupViewController.swift */,
+				0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */,
+			);
+			path = "User Details";
+			sourceTree = "<group>";
+		};
 		02ADA71624D071A5002C0BB3 /* Section-2 Food Section */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				02CAF44124B8ED95008A7874 /* Fonts */,
+				02551AA024D0813700F284E0 /* User Details */,
 				02CAF42C24B8DD9E008A7874 /* Blisslife */,
 				02ADA71624D071A5002C0BB3 /* Section-2 Food Section */,
 				02CAF42B24B8DD9E008A7874 /* Products */,
@@ -175,10 +187,6 @@
 				021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */,
 				021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */,
 				021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */,
-				02AB112324B9B5D800D1824D /* LoginViewController.swift */,
-				0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */,
-				021B24A324BB01B300094789 /* SignupViewController.swift */,
-				0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */,
 				02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */,
 				028001B724C0C9EB00765113 /* FirstParameterViewController.swift */,
 				028001B924C0CAF000765113 /* SecondParameterViewController.swift */,
