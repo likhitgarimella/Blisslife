@@ -11,9 +11,17 @@ import UIKit
 class RecipeModel: NSObject {
     
     var imageName: String = ""
+    var recipeTitle: String = ""
+    var personName: String = ""
+    var timeDur: String = ""
+    var peopleNumber: String = ""
     
-    init(name:String) {
+    init(name:String, title:String, person:String, time:String, number:String) {
         self.imageName = name
+        self.recipeTitle = title
+        self.personName = person
+        self.timeDur = time
+        self.peopleNumber = number
     }
     
     class func generateModelArray() -> [RecipeModel] {
@@ -30,4 +38,4 @@ class RecipeModel: NSObject {
         return modelAry
     }
     
-}   // #34
+}   // #42
