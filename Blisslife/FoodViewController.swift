@@ -73,9 +73,11 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     /// add delegate method for pushing to new detail controller
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-        vc.dataModel = dataAry[indexPath.row]
-        self.navigationController?.pushViewController(vc, animated: true)
+        if collectionView == recipeCollView {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            vc.dataModel = dataAry[indexPath.row]
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     func TopBar() {
@@ -120,4 +122,4 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #124
+}   // #126

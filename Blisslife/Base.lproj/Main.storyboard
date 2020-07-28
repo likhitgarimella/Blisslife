@@ -762,7 +762,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pVg-T4-ceB">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pVg-T4-ceB">
                                                                     <rect key="frame" x="8" y="16" width="120" height="100"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="100" id="FAC-zQ-2k0"/>
@@ -931,7 +931,7 @@
                         <outlet property="recipeTitle" destination="0za-ev-3Fu" id="YTZ-wQ-tiW"/>
                         <outlet property="recipeType" destination="quf-t1-rcp" id="h8f-gz-bs3"/>
                         <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
-                        <segue destination="Obg-zx-sdy" kind="show" id="ouV-gc-yd8"/>
+                        <segue destination="Obg-zx-sdy" kind="show" identifier="goToFoodDetail" id="ouV-gc-yd8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1223,13 +1223,13 @@
                                 <rect key="frame" x="0.0" y="56" width="414" height="156"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-Ua-dh5">
-                                        <rect key="frame" x="136.33333333333337" y="23.999999999999996" width="141.66666666666663" height="32.666666666666657"/>
+                                        <rect key="frame" x="138.66666666666669" y="24.000000000000004" width="136.66666666666669" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="know you more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="226-zd-yUi">
-                                        <rect key="frame" x="107" y="56.666666666666671" width="200" height="32.666666666666671"/>
+                                        <rect key="frame" x="107" y="61.333333333333329" width="200" height="37.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1245,13 +1245,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8B-1A-Hms">
-                                <rect key="frame" x="20" y="242" width="73.666666666666671" height="21"/>
+                                <rect key="frame" x="20" y="242" width="67.666666666666671" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d28-q5-Rse">
-                                <rect key="frame" x="20" y="271" width="100" height="34"/>
+                                <rect key="frame" x="20" y="274" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="XNP-ay-x6C"/>
                                     <constraint firstAttribute="width" constant="100" id="sWR-ZM-MLa"/>
@@ -1265,7 +1265,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqV-JJ-b1m">
-                                <rect key="frame" x="128" y="271" width="100" height="34"/>
+                                <rect key="frame" x="128" y="274" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="e1j-5H-Ghg"/>
                                     <constraint firstAttribute="height" constant="34" id="lH2-ka-wah"/>
@@ -1279,7 +1279,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Uf-hiN">
-                                <rect key="frame" x="236" y="271" width="100" height="34"/>
+                                <rect key="frame" x="236" y="274" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Jql-ft-Sek"/>
                                     <constraint firstAttribute="height" constant="34" id="i7V-K8-sNc"/>
@@ -1293,19 +1293,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-0f-Jld">
-                                <rect key="frame" x="20" y="323" width="39" height="21"/>
+                                <rect key="frame" x="19.999999999999996" y="326" width="36.666666666666657" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEIGHT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-5z-SqF">
-                                <rect key="frame" x="20" y="404" width="65.666666666666671" height="21"/>
+                                <rect key="frame" x="20.000000000000004" y="410" width="61.333333333333343" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="f8V-cf-kbd">
-                                <rect key="frame" x="20" y="433" width="60" height="32"/>
+                                <rect key="frame" x="20" y="442" width="60" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="V1o-Qk-Cpm"/>
                                     <constraint firstAttribute="width" constant="60" id="lCZ-Kk-nnH"/>
@@ -1320,13 +1320,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="feet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAR-eT-tWK">
-                                <rect key="frame" x="88" y="438.66666666666669" width="31" height="21"/>
+                                <rect key="frame" x="88" y="446" width="31" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="iQt-2L-S4l">
-                                <rect key="frame" x="151" y="433" width="60" height="32"/>
+                                <rect key="frame" x="151" y="442" width="60" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="1Je-Ez-CWn"/>
                                     <constraint firstAttribute="height" constant="32" id="aKm-KU-Ktm"/>
@@ -1341,19 +1341,19 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7O-xY-ms8">
-                                <rect key="frame" x="219" y="438.66666666666669" width="52.666666666666686" height="21"/>
+                                <rect key="frame" x="219" y="446" width="50.333333333333314" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WEIGHT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Aw-r5-suf">
-                                <rect key="frame" x="20" y="483" width="69.333333333333329" height="21"/>
+                                <rect key="frame" x="20" y="492" width="65.333333333333329" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="INB-DX-BN4">
-                                <rect key="frame" x="20" y="512" width="60" height="32"/>
+                                <rect key="frame" x="20" y="524" width="60" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="DBp-3F-csv"/>
                                     <constraint firstAttribute="height" constant="32" id="o9y-CP-TZQ"/>
@@ -1368,13 +1368,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK3-Mk-UOy">
-                                <rect key="frame" x="88" y="517.66666666666663" width="20" height="21"/>
+                                <rect key="frame" x="88" y="528" width="19.333333333333329" height="24"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBt-He-B4R">
-                                <rect key="frame" x="117" y="561" width="180" height="40"/>
+                                <rect key="frame" x="117" y="570" width="180" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Eek-lA-aZZ"/>
                                     <constraint firstAttribute="width" constant="180" id="lEo-vs-XO2"/>
@@ -1388,7 +1388,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uq-Ox-SVV">
-                                <rect key="frame" x="163" y="657" width="88" height="31"/>
+                                <rect key="frame" x="163.66666666666666" y="654" width="87" height="34"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="16"/>
                                 <state key="normal" title="skip for now">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1398,7 +1398,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="day" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-dM-INg" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="20" y="352" width="100" height="34"/>
+                                <rect key="frame" x="20" y="358" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3jA-go-Xw2"/>
@@ -1414,7 +1414,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="month" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdn-kv-fMk" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="128" y="352" width="135" height="34"/>
+                                <rect key="frame" x="128" y="358" width="135" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="135" id="TMv-bQ-wJX"/>
@@ -1430,7 +1430,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-Kx-hjN" customClass="DropDown" customModule="Blisslife" customModuleProvider="target">
-                                <rect key="frame" x="271" y="352" width="100" height="34"/>
+                                <rect key="frame" x="271" y="358" width="100" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="enW-yt-Xuk"/>
@@ -1477,6 +1477,7 @@
                             <constraint firstItem="W7O-xY-ms8" firstAttribute="centerY" secondItem="iQt-2L-S4l" secondAttribute="centerY" id="bgz-WW-WcM"/>
                             <constraint firstItem="z8B-1A-Hms" firstAttribute="top" secondItem="Lzy-hx-r4r" secondAttribute="bottom" constant="30" id="hNz-CR-k6d"/>
                             <constraint firstItem="HqV-JJ-b1m" firstAttribute="leading" secondItem="d28-q5-Rse" secondAttribute="trailing" constant="8" id="ih8-na-Wze"/>
+                            <constraint firstItem="21t-of-FVI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PK3-Mk-UOy" secondAttribute="trailing" symbolic="YES" id="ioz-lq-8ff"/>
                             <constraint firstItem="pBt-He-B4R" firstAttribute="top" secondItem="iQt-2L-S4l" secondAttribute="bottom" constant="96" id="jvN-iq-QGS"/>
                             <constraint firstItem="f8V-cf-kbd" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="k1b-PX-Kb7"/>
                             <constraint firstItem="d28-q5-Rse" firstAttribute="leading" secondItem="21t-of-FVI" secondAttribute="leading" constant="20" id="kmA-X6-X1d"/>
