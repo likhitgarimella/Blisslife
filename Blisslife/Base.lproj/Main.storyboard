@@ -594,22 +594,96 @@
                                 <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXd-GH-3U1">
+                                <rect key="frame" x="40" y="347" width="45" height="28"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="22"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGe-GQ-kco">
+                                <rect key="frame" x="40" y="383" width="82" height="23"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 mins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpD-sC-nfI">
+                                <rect key="frame" x="333" y="348.66666666666669" width="48" height="21"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="1zm-in-q0z">
+                                <rect key="frame" x="305" y="386.66666666666669" width="20" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Mau-io-txf"/>
+                                    <constraint firstAttribute="width" constant="20" id="Xdx-Hz-E1T"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvk-es-VWe">
+                                <rect key="frame" x="333" y="383" width="61" height="21"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyn-NM-Zmj">
+                                <rect key="frame" x="40" y="414" width="354" height="265"/>
+                                <string key="text">-&gt; 12 cups water
+-&gt; 1 1/2 cups quinoa, rinsed
+-&gt; 5 pickling cucumbers, peeled, ends trimmed, and cut into 1/4-inch cubes
+-&gt; 1 small red onion, cut into 1/4-inch cubes
+-&gt; 1 large tomato, cored, seeded, and diced
+-&gt; 1 bunch Italian parsley leaves, chopped
+-&gt; 2 bunches mint leaves, chopped
+-&gt; 1/2 cup extra-virgin olive oil
+-&gt; 1/4 cup red wine vinegar
+-&gt; 1 lemon, juiced
+-&gt; 1 1/2 teaspoons salt</string>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="3in-Tt-yyE">
+                                <rect key="frame" x="305" y="349" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="9iv-O8-5xc"/>
+                                    <constraint firstAttribute="width" constant="24" id="skT-dV-y5h"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" secondItem="yyn-NM-Zmj" secondAttribute="trailing" constant="20" id="030-PQ-72F"/>
+                            <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vpD-sC-nfI" secondAttribute="trailing" symbolic="YES" id="4Kg-T1-iGO"/>
+                            <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" secondItem="Nvk-es-VWe" secondAttribute="trailing" constant="20" id="6g4-xU-9eG"/>
+                            <constraint firstItem="1zm-in-q0z" firstAttribute="centerY" secondItem="pGe-GQ-kco" secondAttribute="centerY" id="6pc-u7-VWP"/>
                             <constraint firstItem="CPg-Wk-dp8" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" constant="40" id="8ao-rN-EkO"/>
+                            <constraint firstItem="pGe-GQ-kco" firstAttribute="top" secondItem="FXd-GH-3U1" secondAttribute="bottom" constant="8" id="8lw-xV-j9f"/>
+                            <constraint firstItem="pGe-GQ-kco" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" constant="40" id="A1G-LU-oEW"/>
                             <constraint firstItem="l7n-Nm-Awd" firstAttribute="left" secondItem="RH0-UX-Chr" secondAttribute="left" id="Apc-uF-djP"/>
+                            <constraint firstItem="1zm-in-q0z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pGe-GQ-kco" secondAttribute="trailing" constant="8" symbolic="YES" id="FZA-s6-KNS"/>
+                            <constraint firstItem="3in-Tt-yyE" firstAttribute="leading" secondItem="1zm-in-q0z" secondAttribute="leading" id="Gip-bm-85f"/>
                             <constraint firstItem="CPg-Wk-dp8" firstAttribute="top" secondItem="fUy-ui-9Bt" secondAttribute="bottom" constant="-44" id="KXI-1u-Jb9"/>
+                            <constraint firstItem="Nvk-es-VWe" firstAttribute="centerY" secondItem="pGe-GQ-kco" secondAttribute="centerY" constant="-1" id="L67-Yb-fJ7"/>
+                            <constraint firstItem="Nvk-es-VWe" firstAttribute="leading" secondItem="1zm-in-q0z" secondAttribute="trailing" constant="8" id="Mtc-f6-kxi"/>
                             <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" secondItem="fUy-ui-9Bt" secondAttribute="trailing" id="Mxd-kR-rKN"/>
                             <constraint firstItem="lj9-TB-z4U" firstAttribute="centerY" secondItem="Dqt-ga-axq" secondAttribute="centerY" id="NGy-hm-NWW"/>
                             <constraint firstItem="l7n-Nm-Awd" firstAttribute="top" secondItem="RH0-UX-Chr" secondAttribute="top" constant="60" id="NTe-et-51S"/>
                             <constraint firstItem="fUy-ui-9Bt" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" id="Sxz-LA-vH7"/>
+                            <constraint firstItem="vpD-sC-nfI" firstAttribute="leading" secondItem="3in-Tt-yyE" secondAttribute="trailing" constant="4" id="VL6-ix-qns"/>
                             <constraint firstItem="RH0-UX-Chr" firstAttribute="right" secondItem="l7n-Nm-Awd" secondAttribute="right" constant="220" id="Xn8-m7-dnt"/>
                             <constraint firstItem="fUy-ui-9Bt" firstAttribute="top" secondItem="RH0-UX-Chr" secondAttribute="top" id="ZGM-tY-ifI"/>
+                            <constraint firstItem="3in-Tt-yyE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FXd-GH-3U1" secondAttribute="trailing" constant="8" symbolic="YES" id="ZZX-sh-xU8"/>
+                            <constraint firstItem="yyn-NM-Zmj" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" constant="40" id="a6i-WS-V3g"/>
                             <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lj9-TB-z4U" secondAttribute="trailing" symbolic="YES" id="bgf-4Q-9Tc"/>
+                            <constraint firstItem="RH0-UX-Chr" firstAttribute="bottom" secondItem="yyn-NM-Zmj" secondAttribute="bottom" constant="8" id="bkf-mJ-MpD"/>
+                            <constraint firstItem="FXd-GH-3U1" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" constant="40" id="efh-AM-ohV"/>
+                            <constraint firstItem="yyn-NM-Zmj" firstAttribute="top" secondItem="pGe-GQ-kco" secondAttribute="bottom" constant="8" id="gTW-qO-f4f"/>
                             <constraint firstItem="lj9-TB-z4U" firstAttribute="leading" secondItem="Dqt-ga-axq" secondAttribute="trailing" constant="8" id="jY0-gT-vvD"/>
                             <constraint firstItem="Dqt-ga-axq" firstAttribute="centerY" secondItem="CPg-Wk-dp8" secondAttribute="centerY" id="jgw-GO-SdH"/>
                             <constraint firstItem="Dqt-ga-axq" firstAttribute="leading" secondItem="CPg-Wk-dp8" secondAttribute="trailing" constant="8" id="kNs-7e-ByX"/>
+                            <constraint firstItem="3in-Tt-yyE" firstAttribute="centerY" secondItem="FXd-GH-3U1" secondAttribute="centerY" id="ncR-VP-eYj"/>
+                            <constraint firstItem="FXd-GH-3U1" firstAttribute="top" secondItem="fUy-ui-9Bt" secondAttribute="bottom" constant="28" id="qha-qw-haJ"/>
+                            <constraint firstItem="vpD-sC-nfI" firstAttribute="centerY" secondItem="FXd-GH-3U1" secondAttribute="centerY" constant="-1.8200000000000001" id="rVz-9z-kaR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RH0-UX-Chr"/>
                     </view>
@@ -627,7 +701,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Shx-uh-woi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="610" y="-3924"/>
+            <point key="canvasLocation" x="608.69565217391312" y="-3924.4565217391309"/>
         </scene>
         <!--See All Food Diets-->
         <scene sceneID="sBE-Aa-mco">
