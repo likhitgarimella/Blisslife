@@ -155,6 +155,17 @@
 			path = "User Preferences";
 			sourceTree = "<group>";
 		};
+		02551AA224D0842D00F284E0 /* User Health Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */,
+				028001B724C0C9EB00765113 /* FirstParameterViewController.swift */,
+				028001B924C0CAF000765113 /* SecondParameterViewController.swift */,
+				028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */,
+			);
+			path = "User Health Parameters";
+			sourceTree = "<group>";
+		};
 		02ADA71624D071A5002C0BB3 /* Section-2 Food Section */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +184,7 @@
 			children = (
 				02CAF44124B8ED95008A7874 /* Fonts */,
 				02551AA024D0813700F284E0 /* User Details */,
+				02551AA224D0842D00F284E0 /* User Health Parameters */,
 				02551AA124D0827D00F284E0 /* User Preferences */,
 				02CAF42C24B8DD9E008A7874 /* Blisslife */,
 				02ADA71624D071A5002C0BB3 /* Section-2 Food Section */,
@@ -201,10 +213,6 @@
 				021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */,
 				021E7E7F24C9CBE400C4AABE /* BookingsViewController.swift */,
 				021E7E8124C9CC0B00C4AABE /* ShopViewController.swift */,
-				02A052ED24BF1D5100EC507B /* HealthParametersViewController.swift */,
-				028001B724C0C9EB00765113 /* FirstParameterViewController.swift */,
-				028001B924C0CAF000765113 /* SecondParameterViewController.swift */,
-				028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */,
 				02AB112524B9BF9D00D1824D /* Extensions.swift */,
 				02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */,
 				0238A22E24BB88350059640B /* iOSDropDown.swift */,
