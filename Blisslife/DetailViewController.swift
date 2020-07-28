@@ -9,11 +9,17 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    // from prev controller
+    var dataModel: RecipeModel!
+    
+    // Outlets
+    @IBOutlet weak var imageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        imageView.image = UIImage(named: dataModel.imageName)
         
     }
     

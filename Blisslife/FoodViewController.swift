@@ -68,6 +68,15 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
+    var dataAry: [RecipeModel] = RecipeModel.generateModelArray()
+    
+    // add delegate method for pushing to new detail controller
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        vc.dataModel = dataAry[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func TopBar() {
         
         // TopBar UIView Properties
