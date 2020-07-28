@@ -122,4 +122,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #126
+    @IBAction func seeAll(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "seeAllFoodDiets", sender: self)
+        
+    }
+    
+}   // #132
