@@ -549,9 +549,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUy-ui-9Bt">
-                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="275"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="gRK-kv-tkP"/>
+                                    <constraint firstAttribute="height" constant="275" id="gRK-kv-tkP"/>
                                 </constraints>
                             </imageView>
                         </subviews>

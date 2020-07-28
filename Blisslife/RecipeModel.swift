@@ -18,15 +18,15 @@ class RecipeModel: NSObject {
     
     class func generateModelArray() -> [RecipeModel] {
         var modelAry = [RecipeModel]()
-        modelAry.append(RecipeModel(name: "recipe1"))
-        modelAry.append(RecipeModel(name: "recipe2"))
-        modelAry.append(RecipeModel(name: "recipe3"))
-        modelAry.append(RecipeModel(name: "recipe1"))
-        modelAry.append(RecipeModel(name: "recipe2"))
-        modelAry.append(RecipeModel(name: "recipe3"))
-        modelAry.append(RecipeModel(name: "recipe1"))
-        modelAry.append(RecipeModel(name: "recipe2"))
-        modelAry.append(RecipeModel(name: "recipe3"))
+        modelAry.append(RecipeModel(name: "recipe11"))
+        modelAry.append(RecipeModel(name: "recipe22"))
+        modelAry.append(RecipeModel(name: "recipe33"))
+        modelAry.append(RecipeModel(name: "recipe11"))
+        modelAry.append(RecipeModel(name: "recipe22"))
+        modelAry.append(RecipeModel(name: "recipe33"))
+        modelAry.append(RecipeModel(name: "recipe11"))
+        modelAry.append(RecipeModel(name: "recipe22"))
+        modelAry.append(RecipeModel(name: "recipe33"))
         return modelAry
     }
     
