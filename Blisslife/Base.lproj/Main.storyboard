@@ -538,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWb-jg-Vj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1852" y="-3368"/>
+            <point key="canvasLocation" x="-2517" y="-3368"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="UTr-Kh-a3G">
@@ -1134,7 +1134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIt-tj-pft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1648" y="-3368"/>
+            <point key="canvasLocation" x="2503" y="-3368"/>
         </scene>
         <!--Bookings View Controller-->
         <scene sceneID="M0d-JR-Uaa">
@@ -1225,7 +1225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCs-us-9Gd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3416" y="-3368"/>
+            <point key="canvasLocation" x="5222" y="-3368"/>
         </scene>
         <!--Shop View Controller-->
         <scene sceneID="OOM-x0-hcm">
@@ -1316,7 +1316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBQ-Hb-XNi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5222" y="-3368"/>
+            <point key="canvasLocation" x="8374" y="-3368"/>
         </scene>
         <!--Know You More View Controller-->
         <scene sceneID="aeo-iK-BHK">
@@ -3275,7 +3275,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LJp-ZN-NnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1852" y="-2235"/>
+            <point key="canvasLocation" x="-2516" y="-2235"/>
         </scene>
         <!--Shop-->
         <scene sceneID="qrO-5Q-KoC">
@@ -3295,7 +3295,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tkY-Vx-avR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5222" y="-2235"/>
+            <point key="canvasLocation" x="8374" y="-2235"/>
         </scene>
         <!--Bookings-->
         <scene sceneID="YJR-57-Feh">
@@ -3315,7 +3315,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GYD-eN-iq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3416" y="-2235"/>
+            <point key="canvasLocation" x="5223" y="-2235"/>
         </scene>
         <!--Fitness-->
         <scene sceneID="PAk-R6-uri">
@@ -3335,7 +3335,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZC9-5O-J0p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1648" y="-2235"/>
+            <point key="canvasLocation" x="2503" y="-2235"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

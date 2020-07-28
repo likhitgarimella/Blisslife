@@ -110,6 +110,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // nav bar color
+        navigationController?.navigationBar.barTintColor = UIColor(red: 251.0/255.0, green: 215.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        
         foodCollView.dataSource = self
         foodCollView.delegate = self
         recipeCollView.dataSource = self
@@ -140,4 +143,4 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #144
+}   // #147
