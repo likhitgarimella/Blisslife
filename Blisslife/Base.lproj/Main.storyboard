@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="-44" width="414" height="232"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-32-VnF">
-                                        <rect key="frame" x="175" y="100" width="64" height="32.666666666666657"/>
+                                        <rect key="frame" x="175" y="100" width="64" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -80,7 +80,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-4C-7JO">
-                                <rect key="frame" x="228" y="344" width="146" height="29"/>
+                                <rect key="frame" x="233" y="344" width="141" height="31"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="14"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-8a-rwE">
-                                <rect key="frame" x="40" y="405" width="334" height="40"/>
+                                <rect key="frame" x="40" y="407" width="334" height="40"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZKm-zi-XzD"/>
@@ -104,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8k-j3-0fq">
-                                <rect key="frame" x="76" y="469" width="262" height="33"/>
+                                <rect key="frame" x="80.666666666666686" y="471" width="253" height="36"/>
                                 <fontDescription key="fontDescription" name="Gadugi" family="Gadugi" pointSize="18"/>
                                 <state key="normal" title="Don't have an account? Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -548,14 +548,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUy-ui-9Bt">
-                                <rect key="frame" x="87" y="210" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUy-ui-9Bt">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="gRK-kv-tkP"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RH0-UX-Chr" firstAttribute="trailing" secondItem="fUy-ui-9Bt" secondAttribute="trailing" id="Mxd-kR-rKN"/>
+                            <constraint firstItem="fUy-ui-9Bt" firstAttribute="leading" secondItem="RH0-UX-Chr" secondAttribute="leading" id="Sxz-LA-vH7"/>
+                            <constraint firstItem="fUy-ui-9Bt" firstAttribute="top" secondItem="RH0-UX-Chr" secondAttribute="top" id="ZGM-tY-ifI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RH0-UX-Chr"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Lta-D4-4QC"/>
                     <connections>
                         <outlet property="imageView" destination="fUy-ui-9Bt" id="K0v-o1-f7D"/>
                     </connections>
@@ -923,6 +931,7 @@
                         <outlet property="recipeTitle" destination="0za-ev-3Fu" id="YTZ-wQ-tiW"/>
                         <outlet property="recipeType" destination="quf-t1-rcp" id="h8f-gz-bs3"/>
                         <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
+                        <segue destination="Obg-zx-sdy" kind="show" id="ouV-gc-yd8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3224,7 +3233,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="4uV-OY-jTY"/>
         <segue reference="CXj-Vq-062"/>
-        <segue reference="THY-G9-WSW"/>
+        <segue reference="W38-AA-bmw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bodyParts" width="375" height="435"/>

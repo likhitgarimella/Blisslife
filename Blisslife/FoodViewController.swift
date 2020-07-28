@@ -68,9 +68,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
+    /// data array
     var dataAry: [RecipeModel] = RecipeModel.generateModelArray()
     
-    // add delegate method for pushing to new detail controller
+    /// add delegate method for pushing to new detail controller
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         vc.dataModel = dataAry[indexPath.row]
@@ -119,4 +120,4 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #114
+}   // #124
