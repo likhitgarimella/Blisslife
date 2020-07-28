@@ -22,6 +22,7 @@
 		0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A22E24BB88350059640B /* iOSDropDown.swift */; };
 		0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */; };
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
+		02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02551AA324D09EC000F284E0 /* SavedViewController.swift */; };
 		0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0260B78224CAA19D007CB2FF /* circularstd-medium.otf */; };
 		02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6924CDE7AC00F20BCB /* RecipeCell.swift */; };
 		02768A6C24CE129200F20BCB /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6B24CE129200F20BCB /* RecipeModel.swift */; };
@@ -78,6 +79,7 @@
 		0238A22E24BB88350059640B /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
 		0238A23024BB8AA60059640B /* KnowYouMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouMoreViewController.swift; sourceTree = "<group>"; };
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		02551AA324D09EC000F284E0 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		0260B78224CAA19D007CB2FF /* circularstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circularstd-medium.otf"; sourceTree = "<group>"; };
 		02768A6924CDE7AC00F20BCB /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		02768A6B24CE129200F20BCB /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				02768A6924CDE7AC00F20BCB /* RecipeCell.swift */,
 				02768A6B24CE129200F20BCB /* RecipeModel.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
+				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
 			path = "Section-2 Food Section";
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */,
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */,
+				02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */,
 				021B24A424BB01B300094789 /* SignupViewController.swift in Sources */,
 				02AB112424B9B5D800D1824D /* LoginViewController.swift in Sources */,
 				0232FF1724C4EAD8002A759C /* SearchViewController.swift in Sources */,

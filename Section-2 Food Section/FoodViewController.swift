@@ -128,4 +128,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-}   // #132
+    @IBAction func savedButton(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "goToSaved", sender: self)
+        
+    }
+    
+}   // #138

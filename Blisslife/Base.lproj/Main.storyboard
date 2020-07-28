@@ -657,6 +657,22 @@
             </objects>
             <point key="canvasLocation" x="-746" y="-3924"/>
         </scene>
+        <!--Saved View Controller-->
+        <scene sceneID="zUg-db-cBz">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="XcR-40-EKU" customClass="SavedViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Go-Bu-22y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Av2-KU-tdn"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ms5-jp-FOb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qQ-6R-PHS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62" y="-4393"/>
+        </scene>
         <!--Food View Controller-->
         <scene sceneID="A7P-gu-ynC">
             <objects>
@@ -1021,6 +1037,7 @@
                         <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
                         <segue destination="Obg-zx-sdy" kind="show" identifier="goToFoodDetail" id="ouV-gc-yd8"/>
                         <segue destination="VeU-RZ-l6K" kind="show" identifier="seeAllFoodDiets" id="JCA-b3-gSY"/>
+                        <segue destination="XcR-40-EKU" kind="show" identifier="goToSaved" id="BgK-lB-faw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
