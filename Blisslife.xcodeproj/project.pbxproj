@@ -142,6 +142,19 @@
 			path = "User Details";
 			sourceTree = "<group>";
 		};
+		02551AA124D0827D00F284E0 /* User Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				0296555224C46014007FDCB1 /* CustExpViewController.swift */,
+				0296555424C46A11007FDCB1 /* SectionsViewController.swift */,
+				0232FF1624C4EAD8002A759C /* SearchViewController.swift */,
+				0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */,
+				0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */,
+				0232FF1C24C4EB55002A759C /* BodyPartsViewController.swift */,
+			);
+			path = "User Preferences";
+			sourceTree = "<group>";
+		};
 		02ADA71624D071A5002C0BB3 /* Section-2 Food Section */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +173,7 @@
 			children = (
 				02CAF44124B8ED95008A7874 /* Fonts */,
 				02551AA024D0813700F284E0 /* User Details */,
+				02551AA124D0827D00F284E0 /* User Preferences */,
 				02CAF42C24B8DD9E008A7874 /* Blisslife */,
 				02ADA71624D071A5002C0BB3 /* Section-2 Food Section */,
 				02CAF42B24B8DD9E008A7874 /* Products */,
@@ -191,12 +205,6 @@
 				028001B724C0C9EB00765113 /* FirstParameterViewController.swift */,
 				028001B924C0CAF000765113 /* SecondParameterViewController.swift */,
 				028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */,
-				0296555224C46014007FDCB1 /* CustExpViewController.swift */,
-				0296555424C46A11007FDCB1 /* SectionsViewController.swift */,
-				0232FF1624C4EAD8002A759C /* SearchViewController.swift */,
-				0232FF1824C4EB0C002A759C /* SympsCondsViewController.swift */,
-				0232FF1A24C4EB34002A759C /* HealthGoalsViewController.swift */,
-				0232FF1C24C4EB55002A759C /* BodyPartsViewController.swift */,
 				02AB112524B9BF9D00D1824D /* Extensions.swift */,
 				02AB111D24B9B40600D1824D /* FloatLabelTextField.swift */,
 				0238A22E24BB88350059640B /* iOSDropDown.swift */,
