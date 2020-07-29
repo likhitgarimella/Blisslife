@@ -735,7 +735,7 @@
             </objects>
             <point key="canvasLocation" x="-746" y="-3924"/>
         </scene>
-        <!--Saved View Controller-->
+        <!--Saved-->
         <scene sceneID="zUg-db-cBz">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="XcR-40-EKU" customClass="SavedViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
@@ -745,7 +745,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Av2-KU-tdn"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ms5-jp-FOb"/>
+                    <navigationItem key="navigationItem" title="Saved" id="ms5-jp-FOb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qQ-6R-PHS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3325,6 +3325,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

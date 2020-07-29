@@ -19,6 +19,9 @@ class SavedViewController: UIViewController {
         // remove title for left bar button item
         navigationController?.navigationBar.topItem?.title = ""
         
+        // font style & size
+        self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "CircularStd-Medium", size: 20)!]
+        
     }
     
-}   // #25
+}   // #28
