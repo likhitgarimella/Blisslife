@@ -763,16 +763,46 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F O O D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNc-zJ-O2i">
-                                        <rect key="frame" x="171.66666666666666" y="8.3333333333333339" width="70.666666666666657" height="23.333333333333329"/>
+                                        <rect key="frame" x="170.66666666666666" y="8" width="73" height="24"/>
                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="20"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEL-gW-nU6">
+                                        <rect key="frame" x="20" y="5" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="2oL-cb-Xu9"/>
+                                            <constraint firstAttribute="height" constant="30" id="e0J-Tb-Sdc"/>
+                                        </constraints>
+                                        <state key="normal" image="profile"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H47-hk-Akd">
+                                        <rect key="frame" x="335" y="9" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="Pgb-4H-d2i"/>
+                                            <constraint firstAttribute="width" constant="22" id="XMp-2r-jFC"/>
+                                        </constraints>
+                                        <state key="normal" image="glass"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clg-vK-7t8">
+                                        <rect key="frame" x="377" y="8.6666666666666643" width="17" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="23" id="1OR-vg-aEY"/>
+                                            <constraint firstAttribute="width" constant="17" id="jzF-Ef-I93"/>
+                                        </constraints>
+                                        <state key="normal" image="bookmark"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="CEL-gW-nU6" firstAttribute="leading" secondItem="4Al-UV-nHx" secondAttribute="leading" constant="20" id="082-vp-GHJ"/>
                                     <constraint firstItem="GNc-zJ-O2i" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="7qD-4L-SqH"/>
+                                    <constraint firstItem="CEL-gW-nU6" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="EYL-1z-Rhu"/>
                                     <constraint firstAttribute="height" constant="40" id="NmG-gC-1Qp"/>
+                                    <constraint firstItem="Clg-vK-7t8" firstAttribute="leading" secondItem="H47-hk-Akd" secondAttribute="trailing" constant="20" id="PBR-vc-lQb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Clg-vK-7t8" secondAttribute="trailing" constant="20" id="QSW-mr-y6B"/>
+                                    <constraint firstItem="Clg-vK-7t8" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="Y5r-z3-Kwi"/>
+                                    <constraint firstItem="H47-hk-Akd" firstAttribute="centerY" secondItem="4Al-UV-nHx" secondAttribute="centerY" id="cen-LX-djP"/>
                                     <constraint firstItem="GNc-zJ-O2i" firstAttribute="centerX" secondItem="4Al-UV-nHx" secondAttribute="centerX" id="dGs-gW-Py2"/>
                                 </constraints>
                             </view>
@@ -792,19 +822,19 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="R E C E N T   R E C I P E" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0za-ev-3Fu">
-                                                        <rect key="frame" x="130" y="12" width="127" height="15.333333333333336"/>
+                                                        <rect key="frame" x="130" y="12" width="133" height="14"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almond Pie (for 2)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-TI-7ts">
-                                                        <rect key="frame" x="130" y="31.333333333333343" width="115" height="20.666666666666671"/>
+                                                        <rect key="frame" x="130" y="30" width="111.66666666666669" height="23.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   vegan   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quf-t1-rcp">
-                                                        <rect key="frame" x="123.99999999999999" y="60" width="59.333333333333329" height="18"/>
+                                                        <rect key="frame" x="123.99999999999999" y="61.666666666666664" width="61.333333333333329" height="16.333333333333336"/>
                                                         <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                         <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -830,13 +860,13 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of Food Diets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghb-cc-c5n">
-                                                <rect key="frame" x="36" y="134" width="162.66666666666666" height="23"/>
+                                                <rect key="frame" x="36" y="134" width="160.33333333333334" height="21"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drO-O0-N8B">
-                                                <rect key="frame" x="350" y="131.66666666666666" width="44" height="28"/>
+                                                <rect key="frame" x="349" y="131.66666666666666" width="45" height="26"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
                                                 <state key="normal" title="see all &gt;">
                                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -846,7 +876,7 @@
                                                 </connections>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VzG-wS-4lq">
-                                                <rect key="frame" x="24" y="165" width="386" height="128"/>
+                                                <rect key="frame" x="24" y="163" width="386" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="LL0-lQ-cJN"/>
@@ -894,13 +924,13 @@
                                                 </connections>
                                             </collectionView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes for you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqb-p9-Uri">
-                                                <rect key="frame" x="36" y="313" width="127" height="23"/>
+                                                <rect key="frame" x="36" y="311" width="126" height="21"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bBy-Rc-b2V">
-                                                <rect key="frame" x="0.0" y="336" width="414" height="563"/>
+                                                <rect key="frame" x="0.0" y="332" width="414" height="567"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MyS-c1-eKt">
                                                     <size key="itemSize" width="128" height="128"/>
@@ -924,57 +954,57 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcB-Qr-5xF">
-                                                                    <rect key="frame" x="148" y="18" width="36.666666666666657" height="23"/>
+                                                                    <rect key="frame" x="148" y="18" width="33.666666666666657" height="21"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
                                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8L-X2-nEo">
-                                                                    <rect key="frame" x="148" y="45" width="68" height="19"/>
+                                                                    <rect key="frame" x="148" y="43" width="67" height="17.666666666666671"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="Jga-8K-DAV">
-                                                                    <rect key="frame" x="156" y="70" width="20" height="20"/>
+                                                                    <rect key="frame" x="156" y="66.666666666666671" width="20" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="Rfg-2R-p21"/>
                                                                         <constraint firstAttribute="width" constant="20" id="hCJ-27-D4U"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-G6-HRY">
-                                                                    <rect key="frame" x="180" y="70.666666666666671" width="38.666666666666657" height="16.666666666666671"/>
+                                                                    <rect key="frame" x="180" y="68" width="38.666666666666657" height="15.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="DbA-Yp-ZE2">
-                                                                    <rect key="frame" x="258.66666666666669" y="74" width="16" height="12"/>
+                                                                    <rect key="frame" x="258.66666666666669" y="70.666666666666671" width="16" height="12"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="12" id="eLr-ac-EdC"/>
                                                                         <constraint firstAttribute="width" constant="16" id="gcL-T4-IBA"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lz-BO-907">
-                                                                    <rect key="frame" x="280.66666666666669" y="69.666666666666671" width="49.333333333333314" height="16.666666666666671"/>
+                                                                    <rect key="frame" x="280.66666666666669" y="67" width="50.666666666666686" height="15.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="13"/>
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   snack   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGf-2v-SxZ">
-                                                                    <rect key="frame" x="148" y="98" width="58" height="18"/>
+                                                                    <rect key="frame" x="148" y="99.666666666666671" width="60.666666666666657" height="16.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                                     <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   vegan   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wim-pe-Zlu">
-                                                                    <rect key="frame" x="214" y="98" width="59.333333333333314" height="18"/>
+                                                                    <rect key="frame" x="216.66666666666666" y="99.666666666666671" width="61.333333333333343" height="16.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                                     <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="   greens   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLf-uX-L9q">
-                                                                    <rect key="frame" x="281.33333333333331" y="98" width="64.333333333333314" height="18"/>
+                                                                    <rect key="frame" x="286" y="99.666666666666671" width="65.666666666666686" height="16.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
                                                                     <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -3399,12 +3429,15 @@
         <image name="bodyParts" width="375" height="435"/>
         <image name="bookings" width="19" height="26.666666030883789"/>
         <image name="bookmark" catalog="system" width="112" height="128"/>
+        <image name="bookmark" width="17" height="23"/>
         <image name="bowl" width="12" height="6.6666665077209473"/>
         <image name="box" width="14" height="14"/>
         <image name="clock" width="14.666666984558105" height="14.666666984558105"/>
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
+        <image name="glass" width="22" height="22"/>
         <image name="menu" width="19" height="19"/>
+        <image name="profile" width="26" height="25"/>
         <image name="recentRecipe" width="64" height="47"/>
         <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
