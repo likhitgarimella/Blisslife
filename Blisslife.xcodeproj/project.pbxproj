@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210930F24C1F9BF0022336D /* LTHRadioButton.swift */; };
 		021B24A424BB01B300094789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B24A324BB01B300094789 /* SignupViewController.swift */; };
-		021D34C624CB701B00CEDFDC /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021D34C524CB701B00CEDFDC /* FoodCollectionViewCell.swift */; };
 		021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */; };
 		021E7E7C24C9C74100C4AABE /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7B24C9C74100C4AABE /* FoodViewController.swift */; };
 		021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */; };
@@ -38,8 +37,6 @@
 		0251B31A24BA3F2000DEDFB3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */; };
 		02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02551AA324D09EC000F284E0 /* SavedViewController.swift */; };
 		0260B78324CAA19E007CB2FF /* circularstd-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0260B78224CAA19D007CB2FF /* circularstd-medium.otf */; };
-		02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6924CDE7AC00F20BCB /* RecipeCell.swift */; };
-		02768A6C24CE129200F20BCB /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02768A6B24CE129200F20BCB /* RecipeModel.swift */; };
 		028001B824C0C9EB00765113 /* FirstParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B724C0C9EB00765113 /* FirstParameterViewController.swift */; };
 		028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001B924C0CAF000765113 /* SecondParameterViewController.swift */; };
 		028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */; };
@@ -80,7 +77,6 @@
 /* Begin PBXFileReference section */
 		0210930F24C1F9BF0022336D /* LTHRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHRadioButton.swift; sourceTree = "<group>"; };
 		021B24A324BB01B300094789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		021D34C524CB701B00CEDFDC /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRemediesViewController.swift; sourceTree = "<group>"; };
 		021E7E7B24C9C74100C4AABE /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 		0251B31924BA3F2000DEDFB3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		02551AA324D09EC000F284E0 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		0260B78224CAA19D007CB2FF /* circularstd-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circularstd-medium.otf"; sourceTree = "<group>"; };
-		02768A6924CDE7AC00F20BCB /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
-		02768A6B24CE129200F20BCB /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		028001B724C0C9EB00765113 /* FirstParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstParameterViewController.swift; sourceTree = "<group>"; };
 		028001B924C0CAF000765113 /* SecondParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParameterViewController.swift; sourceTree = "<group>"; };
 		028001BB24C0CB1400765113 /* ThirdParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParameterViewController.swift; sourceTree = "<group>"; };
@@ -200,10 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				021E7E7B24C9C74100C4AABE /* FoodViewController.swift */,
-				021D34C524CB701B00CEDFDC /* FoodCollectionViewCell.swift */,
 				02ADA71724D0723C002C0BB3 /* SeeAllFoodDiets.swift */,
-				02768A6924CDE7AC00F20BCB /* RecipeCell.swift */,
-				02768A6B24CE129200F20BCB /* RecipeModel.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
 				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
@@ -412,17 +403,14 @@
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
 				0232FF1D24C4EB55002A759C /* BodyPartsViewController.swift in Sources */,
 				021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */,
-				02768A6A24CDE7AC00F20BCB /* RecipeCell.swift in Sources */,
 				028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */,
 				02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */,
 				0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */,
 				02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */,
-				021D34C624CB701B00CEDFDC /* FoodCollectionViewCell.swift in Sources */,
 				0296555324C46014007FDCB1 /* CustExpViewController.swift in Sources */,
 				021E7E7C24C9C74100C4AABE /* FoodViewController.swift in Sources */,
 				02ADA71824D0723C002C0BB3 /* SeeAllFoodDiets.swift in Sources */,
 				02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */,
-				02768A6C24CE129200F20BCB /* RecipeModel.swift in Sources */,
 				0232FF1924C4EB0C002A759C /* SympsCondsViewController.swift in Sources */,
 				028001BC24C0CB1400765113 /* ThirdParameterViewController.swift in Sources */,
 				02AB111E24B9B40700D1824D /* FloatLabelTextField.swift in Sources */,
