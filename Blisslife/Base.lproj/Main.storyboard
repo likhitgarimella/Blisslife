@@ -642,7 +642,19 @@
                     <view key="view" contentMode="scaleToFill" id="3Go-Bu-22y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved items screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeL-Hb-AOf">
+                                <rect key="frame" x="72.666666666666686" y="348.66666666666669" width="269" height="39"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="32"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OeL-Hb-AOf" firstAttribute="centerY" secondItem="3Go-Bu-22y" secondAttribute="centerY" id="IVR-yg-uiP"/>
+                            <constraint firstItem="OeL-Hb-AOf" firstAttribute="centerX" secondItem="3Go-Bu-22y" secondAttribute="centerX" id="Orj-lG-SQw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Av2-KU-tdn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Saved" id="ms5-jp-FOb"/>
@@ -691,6 +703,9 @@
                                             <constraint firstAttribute="width" constant="17" id="jzF-Ef-I93"/>
                                         </constraints>
                                         <state key="normal" image="bookmark"/>
+                                        <connections>
+                                            <segue destination="XcR-40-EKU" kind="show" id="Pjf-hb-RGl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -813,8 +828,6 @@
                     <size key="freeformSize" width="414" height="1036"/>
                     <connections>
                         <outlet property="foodDietsCollView" destination="N3c-DU-CN8" id="cpH-Oi-zyA"/>
-                        <segue destination="Obg-zx-sdy" kind="show" identifier="goToFoodDetail" id="ouV-gc-yd8"/>
-                        <segue destination="XcR-40-EKU" kind="show" identifier="goToSaved" id="BgK-lB-faw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
