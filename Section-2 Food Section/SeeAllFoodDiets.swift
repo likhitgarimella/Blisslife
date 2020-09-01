@@ -14,7 +14,7 @@ class SeeAllFoodDiets: UIViewController, UICollectionViewDelegate, UICollectionV
     @IBOutlet var foodDietsCollView2: UICollectionView!
     
     /// images in food diet list coll view
-    var items2 = [UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"),UIImage(named: "DietCard2"), UIImage(named: "DietCard3")]
+    var items1 = [UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3"),UIImage(named: "DietCard2"), UIImage(named: "DietCard3")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,13 +28,13 @@ class SeeAllFoodDiets: UIViewController, UICollectionViewDelegate, UICollectionV
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return items2.count
+        return items1.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsListCell", for: indexPath as IndexPath) as! FoodDietsListCell
         cell1.backgroundColor = UIColor.white
-        cell1.dietImage.image = items2[indexPath.row]
+        cell1.dietImage.image = items1[indexPath.row]
         return cell1
     }
     

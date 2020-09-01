@@ -12,9 +12,13 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     // Outlets
     @IBOutlet var foodDietsCollView: UICollectionView!
+    @IBOutlet var recipesCollView: UICollectionView!
     
     /// images in food diet coll view
     var items1 = [UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1")]
+    
+    /// images in recipe coll view
+    var items2 = [UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,14 +29,24 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return items1.count
+        if collectionView == self.foodDietsCollView {
+            return items1.count
+        }
+        return items2.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsCell", for: indexPath as IndexPath) as! FoodDietsCell
-        cell1.backgroundColor = UIColor.white
-        cell1.dietImage.image = items1[indexPath.row]
-        return cell1
+        if collectionView == foodDietsCollView {
+            let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsCell", for: indexPath as IndexPath) as! FoodDietsCell
+            cell1.backgroundColor = UIColor.white
+            cell1.dietImage.image = items1[indexPath.row]
+            return cell1
+        } else {
+            let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipesCollectionCell", for: indexPath as IndexPath) as! RecipesCollectionCell
+            cell2.backgroundColor = UIColor.white
+            cell2.recipeImage.image = items2[indexPath.row]
+            return cell2
+        }
     }
     
-}   // #39
+}   // #53
