@@ -8,7 +8,13 @@
 
 import UIKit
 
-class SeeAllFoodDiets: UIViewController {
+class SeeAllFoodDiets: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    // Outlets
+    @IBOutlet var foodDietsCollView2: UICollectionView!
+    
+    /// images in food diet list coll view
+    var items2 = [UIImage(named: "DietCard2"), UIImage(named: "DietCard3")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +27,15 @@ class SeeAllFoodDiets: UIViewController {
         
     }
     
-}   // #25
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return items2.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsListCell", for: indexPath as IndexPath) as! FoodDietsListCell
+        cell1.backgroundColor = UIColor.white
+        cell1.dietImage.image = items2[indexPath.row]
+        return cell1
+    }
+    
+}   // #42

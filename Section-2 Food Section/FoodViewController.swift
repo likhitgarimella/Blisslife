@@ -13,6 +13,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     // Outlets
     @IBOutlet var foodDietsCollView: UICollectionView!
     
+    /// images in food diet coll view
+    var items1 = [UIImage(named: "DietCard"), UIImage(named: "DietCard1")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,14 +25,14 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return items1.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsCell", for: indexPath as IndexPath) as! FoodDietsCell
         cell1.backgroundColor = UIColor.white
-        cell1.dietImage.image = UIImage(named: "DietCard")
+        cell1.dietImage.image = items1[indexPath.row]
         return cell1
     }
     
-}   // #36
+}   // #39

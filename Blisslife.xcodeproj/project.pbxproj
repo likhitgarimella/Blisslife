@@ -69,6 +69,7 @@
 		02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB112524B9BF9D00D1824D /* Extensions.swift */; };
 		02ADA71824D0723C002C0BB3 /* SeeAllFoodDiets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADA71724D0723C002C0BB3 /* SeeAllFoodDiets.swift */; };
 		02B3B6CE24FE7D6E006D68B6 /* FoodDietsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6CD24FE7D6E006D68B6 /* FoodDietsCell.swift */; };
+		02B3B6D024FE8E02006D68B6 /* FoodDietsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */; };
 		02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */; };
 		02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */; };
 		02CAF43524B8DD9E008A7874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CAF43324B8DD9E008A7874 /* Main.storyboard */; };
@@ -138,6 +139,7 @@
 		02AB112524B9BF9D00D1824D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		02ADA71724D0723C002C0BB3 /* SeeAllFoodDiets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllFoodDiets.swift; sourceTree = "<group>"; };
 		02B3B6CD24FE7D6E006D68B6 /* FoodDietsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietsCell.swift; sourceTree = "<group>"; };
+		02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietsListCell.swift; sourceTree = "<group>"; };
 		02CAF42A24B8DD9E008A7874 /* Blisslife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blisslife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				021E7E7B24C9C74100C4AABE /* FoodViewController.swift */,
 				02B3B6CD24FE7D6E006D68B6 /* FoodDietsCell.swift */,
 				02ADA71724D0723C002C0BB3 /* SeeAllFoodDiets.swift */,
+				02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
 				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
@@ -393,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */,
+				02B3B6D024FE8E02006D68B6 /* FoodDietsListCell.swift in Sources */,
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */,
 				02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */,
