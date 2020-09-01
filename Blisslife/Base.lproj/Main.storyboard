@@ -799,6 +799,9 @@
                                                 <state key="normal" title="See all &gt;">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="bIE-xE-KM9" kind="show" id="YtG-LH-Gb3"/>
+                                                </connections>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BkL-ps-wd1">
                                                 <rect key="frame" x="12" y="345.33333333333331" width="402" height="142"/>
@@ -3201,22 +3204,22 @@
             </objects>
             <point key="canvasLocation" x="2503" y="-2235"/>
         </scene>
-        <!--View Controller-->
+        <!--See All Recipe Collections-->
         <scene sceneID="QDq-nS-zYB">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="bIE-xE-KM9" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="bIE-xE-KM9" customClass="SeeAllRecipeCollections" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cT4-Jt-Pah">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of food diets" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtx-PV-a6e">
-                                <rect key="frame" x="16" y="7.9999999999999982" width="179" height="26.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes collection" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtx-PV-a6e">
+                                <rect key="frame" x="16" y="52" width="172.33333333333334" height="27"/>
                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AXk-ep-RoH">
-                                <rect key="frame" x="8" y="46.333333333333314" width="398" height="689.66666666666674"/>
+                                <rect key="frame" x="8" y="91" width="398" height="596"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Vq0-iX-KLl">
                                     <size key="itemSize" width="398" height="186"/>

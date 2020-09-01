@@ -71,6 +71,7 @@
 		02B3B6CE24FE7D6E006D68B6 /* FoodDietsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6CD24FE7D6E006D68B6 /* FoodDietsCell.swift */; };
 		02B3B6D024FE8E02006D68B6 /* FoodDietsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */; };
 		02B3B6D224FEC4C2006D68B6 /* RecipesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6D124FEC4C2006D68B6 /* RecipesCollectionCell.swift */; };
+		02B3B6D424FECC50006D68B6 /* SeeAllRecipeCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3B6D324FECC50006D68B6 /* SeeAllRecipeCollections.swift */; };
 		02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */; };
 		02CAF43024B8DD9E008A7874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */; };
 		02CAF43524B8DD9E008A7874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CAF43324B8DD9E008A7874 /* Main.storyboard */; };
@@ -142,6 +143,7 @@
 		02B3B6CD24FE7D6E006D68B6 /* FoodDietsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietsCell.swift; sourceTree = "<group>"; };
 		02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDietsListCell.swift; sourceTree = "<group>"; };
 		02B3B6D124FEC4C2006D68B6 /* RecipesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollectionCell.swift; sourceTree = "<group>"; };
+		02B3B6D324FECC50006D68B6 /* SeeAllRecipeCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllRecipeCollections.swift; sourceTree = "<group>"; };
 		02CAF42A24B8DD9E008A7874 /* Blisslife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blisslife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CAF42D24B8DD9E008A7874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CAF42F24B8DD9E008A7874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				02ADA71724D0723C002C0BB3 /* SeeAllFoodDiets.swift */,
 				02B3B6CF24FE8E02006D68B6 /* FoodDietsListCell.swift */,
 				02B3B6D124FEC4C2006D68B6 /* RecipesCollectionCell.swift */,
+				02B3B6D324FECC50006D68B6 /* SeeAllRecipeCollections.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
 				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
@@ -403,6 +406,7 @@
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */,
 				02B3B6D224FEC4C2006D68B6 /* RecipesCollectionCell.swift in Sources */,
+				02B3B6D424FECC50006D68B6 /* SeeAllRecipeCollections.swift in Sources */,
 				02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */,
 				021B24A424BB01B300094789 /* SignupViewController.swift in Sources */,
 				02AB112424B9B5D800D1824D /* LoginViewController.swift in Sources */,
