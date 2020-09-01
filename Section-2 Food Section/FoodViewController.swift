@@ -26,7 +26,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "FoodDietsCell", for: indexPath as IndexPath) as! FoodDietsCell
+        cell1.backgroundColor = UIColor.white
+        cell1.dietImage.image = UIImage(named: "DietCard")
+        return cell1
     }
     
-}   // #22
+}   // #36
