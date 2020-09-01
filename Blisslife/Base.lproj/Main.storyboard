@@ -3014,8 +3014,8 @@
     <resources>
         <image name="bodyParts" width="375" height="435"/>
         <image name="bookings" width="19" height="26.666666030883789"/>
-        <image name="bookmark" catalog="system" width="112" height="128"/>
         <image name="bookmark" width="17" height="23"/>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
         <image name="box" width="14" height="14"/>
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
