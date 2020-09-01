@@ -591,6 +591,9 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B4P-Mo-PW0">
                                                     <rect key="frame" x="2" y="4" width="394" height="178"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="178" id="mKC-Hq-eRv"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3237,6 +3240,9 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Tb-ba-Sqz">
                                                     <rect key="frame" x="2" y="4" width="394" height="178"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="178" id="IMO-X4-e1p"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
