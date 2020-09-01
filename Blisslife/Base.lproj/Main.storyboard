@@ -694,7 +694,6 @@
                     <navigationItem key="navigationItem" id="enT-av-j1w"/>
                     <size key="freeformSize" width="414" height="1036"/>
                     <connections>
-                        <outlet property="topBar" destination="4Al-UV-nHx" id="I8W-dJ-2ds"/>
                         <segue destination="Obg-zx-sdy" kind="show" identifier="goToFoodDetail" id="ouV-gc-yd8"/>
                         <segue destination="VeU-RZ-l6K" kind="show" identifier="seeAllFoodDiets" id="JCA-b3-gSY"/>
                         <segue destination="XcR-40-EKU" kind="show" identifier="goToSaved" id="BgK-lB-faw"/>
@@ -3009,7 +3008,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="4uV-OY-jTY"/>
         <segue reference="CXj-Vq-062"/>
-        <segue reference="W38-AA-bmw"/>
+        <segue reference="THY-G9-WSW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bodyParts" width="375" height="435"/>
