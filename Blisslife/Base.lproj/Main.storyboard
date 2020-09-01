@@ -804,7 +804,7 @@
                                                 </connections>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BkL-ps-wd1">
-                                                <rect key="frame" x="12" y="345.33333333333331" width="402" height="142"/>
+                                                <rect key="frame" x="12" y="333.33333333333331" width="402" height="142"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="142" id="ibk-h6-k4z"/>
@@ -824,14 +824,14 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l5O-eu-vNe">
-                                                                    <rect key="frame" x="4" y="4" width="188" height="134"/>
+                                                                    <rect key="frame" x="4" y="0.0" width="188" height="138"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="l5O-eu-vNe" secondAttribute="trailing" constant="4" id="EMQ-cu-nwd"/>
                                                                 <constraint firstItem="l5O-eu-vNe" firstAttribute="leading" secondItem="ERs-Bi-XXJ" secondAttribute="leading" constant="4" id="LbG-RI-CWd"/>
-                                                                <constraint firstItem="l5O-eu-vNe" firstAttribute="top" secondItem="ERs-Bi-XXJ" secondAttribute="top" constant="4" id="UFI-er-xJq"/>
+                                                                <constraint firstItem="l5O-eu-vNe" firstAttribute="top" secondItem="ERs-Bi-XXJ" secondAttribute="top" id="UFI-er-xJq"/>
                                                                 <constraint firstAttribute="bottom" secondItem="l5O-eu-vNe" secondAttribute="bottom" constant="4" id="goP-23-E6G"/>
                                                             </constraints>
                                                         </collectionViewCellContentView>
@@ -856,7 +856,7 @@
                                             <constraint firstItem="awe-3a-Sgp" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="C6f-Id-5ks"/>
                                             <constraint firstItem="x29-v1-P5G" firstAttribute="centerY" secondItem="awe-3a-Sgp" secondAttribute="centerY" id="GXg-xM-5Kl"/>
                                             <constraint firstItem="awe-3a-Sgp" firstAttribute="top" secondItem="N3c-DU-CN8" secondAttribute="bottom" constant="24" id="JvW-1E-0FD"/>
-                                            <constraint firstItem="BkL-ps-wd1" firstAttribute="top" secondItem="awe-3a-Sgp" secondAttribute="bottom" constant="12" id="LId-CQ-3mZ"/>
+                                            <constraint firstItem="BkL-ps-wd1" firstAttribute="top" secondItem="awe-3a-Sgp" secondAttribute="bottom" id="LId-CQ-3mZ"/>
                                             <constraint firstItem="VKf-gQ-PEY" firstAttribute="centerY" secondItem="crO-nb-Cpp" secondAttribute="centerY" id="T33-Zt-7BX"/>
                                             <constraint firstItem="crO-nb-Cpp" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="aSF-9r-uI6"/>
                                             <constraint firstItem="N3c-DU-CN8" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="12" id="bjj-mX-ZU7"/>
@@ -3228,7 +3228,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="2ni-du-7jp">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeCollectionListCell" id="2ni-du-7jp" customClass="RecipeCollectionListCell" customModule="Blisslife" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="186"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rZb-hj-WbL">
@@ -3249,6 +3249,9 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="398" height="186"/>
+                                        <connections>
+                                            <outlet property="recipeImage" destination="6Tb-ba-Sqz" id="HGA-Yv-F5r"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>

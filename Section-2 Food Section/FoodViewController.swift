@@ -18,7 +18,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var items1 = [UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1")]
     
     /// images in recipe coll view
-    var items2 = [UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2"), UIImage(named: "RecipeCard1"), UIImage(named: "RecipeCard2")]
+    var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
