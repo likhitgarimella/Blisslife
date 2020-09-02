@@ -50,4 +50,12 @@ class SeeAllPopularRecipes: UIViewController, UICollectionViewDelegate, UICollec
         return cell1
     }
     
-}   // #54
+    /// add delegate method for pushing to new detail controller
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == popularRecipeCollView2 {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
+}   // #62
