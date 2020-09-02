@@ -31,6 +31,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     /// images in recipes for you coll view
     var items5 = [UIImage(named: "vegans"), UIImage(named: "juice"), UIImage(named: "keto")]
     
+    ///
     var titles = ["Quinoa Salad", "Celery Soup", "Smoothie Bowl"]
     
     var byPersons = ["by Kristen Stewart", "by Naomi Scott", "by Ella Balinska"]
@@ -95,4 +96,4 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
     }
     
-}   // #96
+}   // #100
