@@ -1100,6 +1100,9 @@
                                                 <state key="normal" title="See all &gt;">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="GsN-3c-7MV" kind="show" id="XaL-fh-zwy"/>
+                                                </connections>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-UF-WEF">
                                                 <rect key="frame" x="12" y="683.33333333333337" width="402" height="142"/>
@@ -3954,13 +3957,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes for you" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06y-GK-0A6">
-                                <rect key="frame" x="16" y="8" width="145.66666666666666" height="27"/>
+                                <rect key="frame" x="16" y="52" width="145.66666666666666" height="27"/>
                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Iad-9Y-isN">
-                                <rect key="frame" x="8" y="51" width="398" height="685"/>
+                                <rect key="frame" x="8" y="95" width="398" height="592"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pz5-Wj-vlV">
                                     <size key="itemSize" width="372" height="228"/>
@@ -4138,6 +4141,9 @@
                         <viewLayoutGuide key="safeArea" id="caS-Sq-VJQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="EUx-u9-dxT"/>
+                    <connections>
+                        <outlet property="recipesForYouCollView2" destination="Iad-9Y-isN" id="lwT-A1-R9K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dod-ew-vPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
