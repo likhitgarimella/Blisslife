@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "keto.png",
+      "filename" : "snack.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "keto@2x.png",
+      "filename" : "snack@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "keto@3x.png",
+      "filename" : "snack@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
