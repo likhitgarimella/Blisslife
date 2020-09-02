@@ -1111,7 +1111,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularRecipeCell" id="ZX3-Io-GJW" customClass="PopularRecipeCell" customModule="Blisslife" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="ZX3-Io-GJW">
                                                         <rect key="frame" x="0.0" y="14" width="364" height="114"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="w9h-S4-u0c">
@@ -1251,20 +1251,8 @@
                                                         </collectionViewCellContentView>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <size key="customSize" width="364" height="114"/>
-                                                        <connections>
-                                                            <outlet property="byPerson" destination="QRn-VT-cja" id="mS5-HW-Fw7"/>
-                                                            <outlet property="card" destination="8gM-Yu-eD9" id="qQh-QM-ztH"/>
-                                                            <outlet property="people" destination="Lej-GK-OBc" id="gVb-Q1-V00"/>
-                                                            <outlet property="recipeImage" destination="MQc-tw-DHg" id="mMU-Ce-Sdy"/>
-                                                            <outlet property="time" destination="f5D-lD-Xli" id="JnK-pP-keX"/>
-                                                            <outlet property="title" destination="FdM-Fk-vDt" id="dxd-kB-Jsj"/>
-                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
-                                                <connections>
-                                                    <outlet property="dataSource" destination="adD-OM-9qx" id="4S6-wr-kLm"/>
-                                                    <outlet property="delegate" destination="adD-OM-9qx" id="b8A-0p-Oml"/>
-                                                </connections>
                                             </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3935,10 +3923,10 @@
             </objects>
             <point key="canvasLocation" x="608.69565217391312" y="-3246.1956521739135"/>
         </scene>
-        <!--See All Popular Recipes-->
+        <!--View Controller-->
         <scene sceneID="taY-zS-6nE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="GsN-3c-7MV" customClass="SeeAllPopularRecipes" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GsN-3c-7MV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibx-lp-3oG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3959,7 +3947,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularRecipesListCell" id="IYL-SH-p0V" customClass="PopularRecipesListCell" customModule="Blisslife" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="IYL-SH-p0V">
                                         <rect key="frame" x="17" y="0.0" width="364" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g1L-Uy-wZo">
@@ -4099,20 +4087,8 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="364" height="114"/>
-                                        <connections>
-                                            <outlet property="byPerson" destination="3Nx-g6-5VZ" id="96X-vx-Z6n"/>
-                                            <outlet property="card" destination="6ps-u3-VmB" id="K5P-1f-g64"/>
-                                            <outlet property="people" destination="kwP-Jm-25J" id="gZe-av-gpy"/>
-                                            <outlet property="recipeImage" destination="9LX-ZP-E7R" id="MVs-zp-g74"/>
-                                            <outlet property="time" destination="0y0-B8-u10" id="Jrj-FG-mE5"/>
-                                            <outlet property="title" destination="9uv-vF-og1" id="15Q-4J-L5r"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="GsN-3c-7MV" id="eYk-nr-T10"/>
-                                    <outlet property="delegate" destination="GsN-3c-7MV" id="Esk-ck-jeE"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4128,13 +4104,51 @@
                         <viewLayoutGuide key="safeArea" id="caS-Sq-VJQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="EUx-u9-dxT"/>
-                    <connections>
-                        <outlet property="popularRecipeCollView2" destination="Iad-9Y-isN" id="Mv7-Zv-8t0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dod-ew-vPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1288" y="-3246"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="huV-35-Ekb">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" modalPresentationStyle="fullScreen" id="NBk-d2-1KL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bCJ-qd-o6M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodCard 2" translatesAutoresizingMaskIntoConstraints="NO" id="alV-ZX-3Vx">
+                                <rect key="frame" x="8" y="20" width="398" height="292"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="likeOff" translatesAutoresizingMaskIntoConstraints="NO" id="iLb-I6-HjQ">
+                                <rect key="frame" x="368" y="320" width="26" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="ENw-Yx-WQF"/>
+                                    <constraint firstAttribute="height" constant="23" id="h7k-6a-l8T"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text" translatesAutoresizingMaskIntoConstraints="NO" id="uvX-9H-7Ke">
+                                <rect key="frame" x="76" y="352" width="262" height="328"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uvX-9H-7Ke" firstAttribute="centerX" secondItem="bCJ-qd-o6M" secondAttribute="centerX" id="9e0-h2-gft"/>
+                            <constraint firstItem="alV-ZX-3Vx" firstAttribute="top" secondItem="iGR-8y-CDh" secondAttribute="top" constant="20" id="EgS-Zs-t9v"/>
+                            <constraint firstItem="iGR-8y-CDh" firstAttribute="trailing" secondItem="iLb-I6-HjQ" secondAttribute="trailing" constant="20" id="bKm-8d-Xxm"/>
+                            <constraint firstItem="uvX-9H-7Ke" firstAttribute="top" secondItem="alV-ZX-3Vx" secondAttribute="bottom" constant="40" id="epB-St-YzE"/>
+                            <constraint firstItem="iLb-I6-HjQ" firstAttribute="top" secondItem="alV-ZX-3Vx" secondAttribute="bottom" constant="8" id="gLL-es-UIY"/>
+                            <constraint firstItem="iGR-8y-CDh" firstAttribute="trailing" secondItem="alV-ZX-3Vx" secondAttribute="trailing" constant="8" id="hXf-ZR-ukJ"/>
+                            <constraint firstItem="alV-ZX-3Vx" firstAttribute="leading" secondItem="iGR-8y-CDh" secondAttribute="leading" constant="8" id="ywv-oc-vJR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iGR-8y-CDh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hg2-NK-QZy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dF-dl-54n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287" y="-3924"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
