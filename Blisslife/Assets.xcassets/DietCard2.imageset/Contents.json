@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "DietCard2.png",
+      "filename" : "DietCard1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "DietCard2@2x.png",
+      "filename" : "DietCard1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "DietCard2@3x.png",
+      "filename" : "DietCard1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
