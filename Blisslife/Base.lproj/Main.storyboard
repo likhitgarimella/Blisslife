@@ -929,13 +929,13 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZl-6d-Lej">
-                                                                            <rect key="frame" x="142" y="68" width="19" height="12"/>
+                                                                            <rect key="frame" x="142" y="67" width="19" height="12"/>
                                                                             <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="ueQ-Xs-VaV">
-                                                                            <rect key="frame" x="181" y="67" width="16" height="16"/>
+                                                                            <rect key="frame" x="181" y="66" width="16" height="16"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="16" id="Gve-VC-3tv"/>
                                                                                 <constraint firstAttribute="width" constant="16" id="e5z-RB-97g"/>
@@ -947,28 +947,61 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lW-og-q7z">
-                                                                            <rect key="frame" x="205" y="67" width="29" height="12"/>
+                                                                            <rect key="frame" x="205" y="66" width="29" height="12"/>
                                                                             <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack" translatesAutoresizingMaskIntoConstraints="NO" id="4Vh-zZ-FnY">
+                                                                            <rect key="frame" x="122" y="90" width="59" height="18"/>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegan" translatesAutoresizingMaskIntoConstraints="NO" id="d8a-zX-8kv">
+                                                                            <rect key="frame" x="189" y="90" width="59" height="18"/>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" translatesAutoresizingMaskIntoConstraints="NO" id="tUS-hc-ANg">
+                                                                            <rect key="frame" x="256" y="90" width="63" height="18"/>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="bottom" secondItem="IYx-cq-Jqy" secondAttribute="bottom" constant="16" id="5jf-JG-M4O"/>
+                                                                        <constraint firstItem="4Vh-zZ-FnY" firstAttribute="top" secondItem="Wak-qu-3yq" secondAttribute="bottom" constant="8" id="82C-dZ-WpD"/>
+                                                                        <constraint firstItem="tUS-hc-ANg" firstAttribute="leading" secondItem="d8a-zX-8kv" secondAttribute="trailing" constant="8" id="8nu-7u-VFI"/>
                                                                         <constraint firstItem="ueQ-Xs-VaV" firstAttribute="centerY" secondItem="rZl-6d-Lej" secondAttribute="centerY" constant="1" id="DC4-Cn-CNh"/>
+                                                                        <constraint firstItem="4Vh-zZ-FnY" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="Id2-BT-VLr"/>
                                                                         <constraint firstItem="Wak-qu-3yq" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="J8g-SY-7o5"/>
-                                                                        <constraint firstItem="rZl-6d-Lej" firstAttribute="centerY" secondItem="Wak-qu-3yq" secondAttribute="centerY" id="T0Z-W6-6tf"/>
+                                                                        <constraint firstItem="rZl-6d-Lej" firstAttribute="centerY" secondItem="Wak-qu-3yq" secondAttribute="centerY" constant="-1" id="T0Z-W6-6tf"/>
                                                                         <constraint firstItem="8lW-og-q7z" firstAttribute="centerY" secondItem="ueQ-Xs-VaV" secondAttribute="centerY" constant="-2" id="UrC-mM-suE"/>
                                                                         <constraint firstItem="rZl-6d-Lej" firstAttribute="leading" secondItem="Wak-qu-3yq" secondAttribute="trailing" constant="4" id="Zw6-eP-4S0"/>
                                                                         <constraint firstItem="Wak-qu-3yq" firstAttribute="top" secondItem="ptD-gz-D2f" secondAttribute="bottom" constant="4" id="dCv-BM-oao"/>
                                                                         <constraint firstItem="IYx-cq-Jqy" firstAttribute="top" secondItem="wau-2h-VoX" secondAttribute="top" constant="16" id="fe1-6j-JhW"/>
                                                                         <constraint firstItem="ptD-gz-D2f" firstAttribute="top" secondItem="gdG-Jz-cEn" secondAttribute="bottom" constant="2" id="gSs-1V-3h1"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8lW-og-q7z" secondAttribute="trailing" constant="20" symbolic="YES" id="gk8-V8-gdg"/>
+                                                                        <constraint firstItem="d8a-zX-8kv" firstAttribute="centerY" secondItem="4Vh-zZ-FnY" secondAttribute="centerY" id="iGV-ih-gXc"/>
                                                                         <constraint firstItem="ptD-gz-D2f" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="jXa-rn-vSy"/>
                                                                         <constraint firstItem="gdG-Jz-cEn" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="l1m-FI-ueQ"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ptD-gz-D2f" secondAttribute="trailing" constant="20" symbolic="YES" id="lNT-4J-5Ky"/>
+                                                                        <constraint firstItem="d8a-zX-8kv" firstAttribute="leading" secondItem="4Vh-zZ-FnY" secondAttribute="trailing" constant="8" id="ngm-gw-1JR"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gdG-Jz-cEn" secondAttribute="trailing" constant="20" symbolic="YES" id="oi1-W7-Rgn"/>
                                                                         <constraint firstItem="gdG-Jz-cEn" firstAttribute="top" secondItem="wau-2h-VoX" secondAttribute="top" constant="16" id="rOT-cK-PU5"/>
                                                                         <constraint firstItem="ueQ-Xs-VaV" firstAttribute="leading" secondItem="rZl-6d-Lej" secondAttribute="trailing" constant="20" id="vd6-Ru-K1e"/>
                                                                         <constraint firstItem="8lW-og-q7z" firstAttribute="leading" secondItem="ueQ-Xs-VaV" secondAttribute="trailing" constant="8" id="wmg-2I-Zz9"/>
+                                                                        <constraint firstItem="tUS-hc-ANg" firstAttribute="centerY" secondItem="d8a-zX-8kv" secondAttribute="centerY" id="yF9-P1-1Ch"/>
                                                                         <constraint firstItem="IYx-cq-Jqy" firstAttribute="leading" secondItem="wau-2h-VoX" secondAttribute="leading" constant="8" id="z8v-BT-5Ub"/>
                                                                     </constraints>
                                                                     <userDefinedRuntimeAttributes>
@@ -3459,10 +3492,13 @@
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
         <image name="glass" width="22" height="22"/>
+        <image name="green" width="63" height="18"/>
         <image name="profile" width="26" height="25"/>
         <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
         <image name="search" width="24" height="24"/>
         <image name="shop" width="21" height="26.666666030883789"/>
+        <image name="snack" width="59" height="18"/>
+        <image name="vegan" width="59" height="18"/>
     </resources>
 </document>
