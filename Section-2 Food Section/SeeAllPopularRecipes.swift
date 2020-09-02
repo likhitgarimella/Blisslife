@@ -8,7 +8,10 @@
 
 import UIKit
 
-class SeeAllPopularRecipes: UIViewController {
+class SeeAllPopularRecipes: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    // Outlets
+    @IBOutlet var popularRecipeCollView2: UICollectionView!
     
     /// images in popular recipe coll view
     var items1 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans")]
@@ -32,4 +35,19 @@ class SeeAllPopularRecipes: UIViewController {
         
     }
     
-}   // #36
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return items1.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularRecipesListCell", for: indexPath as IndexPath) as! PopularRecipesListCell
+        cell1.backgroundColor = UIColor.white
+        cell1.recipeImage.image = items1[indexPath.row]
+        cell1.title.text = titles[indexPath.item]
+        cell1.byPerson.text = byPersons[indexPath.item]
+        cell1.time.text = times[indexPath.item]
+        cell1.people.text = people[indexPath.item]
+        return cell1
+    }
+    
+}   // #54

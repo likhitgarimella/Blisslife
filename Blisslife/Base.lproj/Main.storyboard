@@ -3539,7 +3539,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5lQ-fi-75R">
-                                <rect key="frame" x="8" y="83.666666666666686" width="398" height="603.33333333333326"/>
+                                <rect key="frame" x="8" y="93.666666666666686" width="398" height="593.33333333333326"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UPm-ga-5Pi">
                                     <size key="itemSize" width="372" height="228"/>
@@ -3548,7 +3548,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="MU0-Ob-CZn">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularRecipesListCell" id="MU0-Ob-CZn" customClass="PopularRecipesListCell" customModule="Blisslife" customModuleProvider="target">
                                         <rect key="frame" x="17" y="0.0" width="364" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dVR-Ry-mJi">
@@ -3688,8 +3688,20 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="364" height="114"/>
+                                        <connections>
+                                            <outlet property="byPerson" destination="Fav-yG-CFD" id="abn-Au-W7c"/>
+                                            <outlet property="card" destination="hHi-Mf-sub" id="tOp-Sh-rIG"/>
+                                            <outlet property="people" destination="xCW-gY-U5R" id="qyc-Vt-smW"/>
+                                            <outlet property="recipeImage" destination="M1W-DA-h09" id="1US-Dh-orN"/>
+                                            <outlet property="time" destination="Hdc-ah-ERU" id="4UR-Km-G5e"/>
+                                            <outlet property="title" destination="U3N-f7-VpR" id="yhe-c3-zEL"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="7ta-R2-dXU" id="p0p-f0-ygp"/>
+                                    <outlet property="delegate" destination="7ta-R2-dXU" id="hKX-2O-Ad5"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3700,11 +3712,14 @@
                             <constraint firstItem="UIU-m1-Xze" firstAttribute="trailing" secondItem="5lQ-fi-75R" secondAttribute="trailing" constant="8" id="Pyy-kV-QhK"/>
                             <constraint firstItem="UIU-m1-Xze" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TAm-ox-Uxe" secondAttribute="trailing" symbolic="YES" id="TN8-ff-HIw"/>
                             <constraint firstItem="TAm-ox-Uxe" firstAttribute="top" secondItem="UIU-m1-Xze" secondAttribute="top" constant="8" id="j2g-Gr-obE"/>
-                            <constraint firstItem="5lQ-fi-75R" firstAttribute="top" secondItem="TAm-ox-Uxe" secondAttribute="bottom" constant="6" id="rd1-yK-Cn0"/>
+                            <constraint firstItem="5lQ-fi-75R" firstAttribute="top" secondItem="TAm-ox-Uxe" secondAttribute="bottom" constant="16" id="rd1-yK-Cn0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UIU-m1-Xze"/>
                     </view>
                     <navigationItem key="navigationItem" id="3U2-EH-Hah"/>
+                    <connections>
+                        <outlet property="popularRecipeCollView2" destination="5lQ-fi-75R" id="g8o-Es-511"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWk-Wk-sW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

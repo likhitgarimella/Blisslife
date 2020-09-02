@@ -20,10 +20,11 @@ class PopularRecipeCell: UICollectionViewCell {
     @IBOutlet var people: UILabel!
     
     override func awakeFromNib() {
-        card.layer.shadowColor = UIColor.black.cgColor
-        card.layer.shadowOpacity = 1
-        card.layer.shadowOffset = .zero
-        card.layer.shadowRadius = 10
+        card.layer.shadowColor = UIColor.darkGray.cgColor
+        card.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        card.layer.shadowRadius = 2.0
+        card.layer.shadowOpacity = 0.5
+        card.layer.masksToBounds = false
     }
     
-}   // #30
+}   // #31
