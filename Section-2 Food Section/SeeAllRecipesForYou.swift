@@ -35,4 +35,27 @@ class SeeAllRecipesForYou: UIViewController, UICollectionViewDelegate, UICollect
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return items1.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularRecipesListCell", for: indexPath as IndexPath) as! PopularRecipesListCell
+        cell1.backgroundColor = UIColor.white
+        cell1.recipeImage.image = items1[indexPath.row]
+        cell1.title.text = titles[indexPath.item]
+        cell1.byPerson.text = byPersons[indexPath.item]
+        cell1.time.text = times[indexPath.item]
+        cell1.people.text = people[indexPath.item]
+        return cell1
+    }
+    
+    /// add delegate method for pushing to new detail controller
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == popularRecipeCollView2 {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
 }   // #21

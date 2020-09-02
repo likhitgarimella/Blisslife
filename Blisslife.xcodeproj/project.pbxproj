@@ -10,6 +10,7 @@
 		020FF1282500231200F57BC9 /* SeeAllRecipesForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FF1272500231200F57BC9 /* SeeAllRecipesForYou.swift */; };
 		020FF12A2500234300F57BC9 /* RecipesForYouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FF1292500234300F57BC9 /* RecipesForYouCell.swift */; };
 		020FF12C2500235000F57BC9 /* RecipesForYouListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FF12B2500235000F57BC9 /* RecipesForYouListCell.swift */; };
+		020FF12E25002DE800F57BC9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FF12D25002DE800F57BC9 /* DetailsViewController.swift */; };
 		0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210930F24C1F9BF0022336D /* LTHRadioButton.swift */; };
 		021B24A424BB01B300094789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B24A324BB01B300094789 /* SignupViewController.swift */; };
 		021B373624FFB1CA00D11F54 /* PopularRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B373524FFB1CA00D11F54 /* PopularRecipeCell.swift */; };
@@ -89,6 +90,7 @@
 		020FF1272500231200F57BC9 /* SeeAllRecipesForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllRecipesForYou.swift; sourceTree = "<group>"; };
 		020FF1292500234300F57BC9 /* RecipesForYouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesForYouCell.swift; sourceTree = "<group>"; };
 		020FF12B2500235000F57BC9 /* RecipesForYouListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesForYouListCell.swift; sourceTree = "<group>"; };
+		020FF12D25002DE800F57BC9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		0210930F24C1F9BF0022336D /* LTHRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHRadioButton.swift; sourceTree = "<group>"; };
 		021B24A324BB01B300094789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		021B373524FFB1CA00D11F54 /* PopularRecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipeCell.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				020FF1272500231200F57BC9 /* SeeAllRecipesForYou.swift */,
 				020FF12B2500235000F57BC9 /* RecipesForYouListCell.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
+				020FF12D25002DE800F57BC9 /* DetailsViewController.swift */,
 				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
 			path = "Section-2 Food Section";
@@ -441,6 +444,7 @@
 				0238A22F24BB88350059640B /* iOSDropDown.swift in Sources */,
 				02863DF324CFA086000633D1 /* DetailViewController.swift in Sources */,
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
+				020FF12E25002DE800F57BC9 /* DetailsViewController.swift in Sources */,
 				0232FF1D24C4EB55002A759C /* BodyPartsViewController.swift in Sources */,
 				021B373A24FFB23F00D11F54 /* SeeAllPopularRecipes.swift in Sources */,
 				021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */,

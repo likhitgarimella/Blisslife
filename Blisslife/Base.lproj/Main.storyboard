@@ -4149,10 +4149,10 @@
             </objects>
             <point key="canvasLocation" x="1038" y="-3246"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="huV-35-Ekb">
             <objects>
-                <viewController storyboardIdentifier="DetailsViewController" modalPresentationStyle="fullScreen" id="NBk-d2-1KL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailsViewController" modalPresentationStyle="fullScreen" id="NBk-d2-1KL" customClass="DetailsViewController" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bCJ-qd-o6M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
