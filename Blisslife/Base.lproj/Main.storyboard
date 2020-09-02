@@ -1251,8 +1251,20 @@
                                                         </collectionViewCellContentView>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <size key="customSize" width="364" height="114"/>
+                                                        <connections>
+                                                            <outlet property="byPerson" destination="QRn-VT-cja" id="eVN-0p-zHu"/>
+                                                            <outlet property="card" destination="8gM-Yu-eD9" id="cnR-5h-NuF"/>
+                                                            <outlet property="people" destination="Lej-GK-OBc" id="acI-Dt-RZy"/>
+                                                            <outlet property="recipeImage" destination="MQc-tw-DHg" id="dzL-gu-sga"/>
+                                                            <outlet property="time" destination="f5D-lD-Xli" id="bU4-xc-hMw"/>
+                                                            <outlet property="title" destination="FdM-Fk-vDt" id="K6m-YW-V3n"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="adD-OM-9qx" id="njy-Fb-u2U"/>
+                                                    <outlet property="delegate" destination="adD-OM-9qx" id="Qi2-DF-smz"/>
+                                                </connections>
                                             </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4095,6 +4107,10 @@
                                         <size key="customSize" width="364" height="114"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="GsN-3c-7MV" id="fDd-0a-ymv"/>
+                                    <outlet property="delegate" destination="GsN-3c-7MV" id="eMn-mZ-NbL"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
