@@ -19,10 +19,10 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var items1 = [UIImage(named: "DietCard1"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3")]
     
     /// images in recipe coll view
-    var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3")]
+    var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1")]
     
     /// images in recipe category coll view
-    var items3 = [UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens")]
+    var items3 = [UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack")]
     
     /// images in popular recipe coll view
     var items4 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans")]
@@ -50,7 +50,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if collectionView == self.recipesCollView {
             return items2.count
         }
-        return items3.count
+        return items4.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -69,7 +69,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         } else {
             let cell3 = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularRecipeCell", for: indexPath as IndexPath) as! PopularRecipeCell
             cell3.backgroundColor = UIColor.white
-            cell3.recipeImage.image = items2[indexPath.row]
+            cell3.recipeImage.image = items4[indexPath.row]
             cell3.title.text = titles[indexPath.item]
             cell3.byPerson.text = byPersons[indexPath.item]
             cell3.time.text = times[indexPath.item]
