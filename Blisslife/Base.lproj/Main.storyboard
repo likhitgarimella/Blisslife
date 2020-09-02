@@ -3945,10 +3945,10 @@
             </objects>
             <point key="canvasLocation" x="359" y="-3246"/>
         </scene>
-        <!--View Controller-->
+        <!--See All Recipes For You-->
         <scene sceneID="taY-zS-6nE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="GsN-3c-7MV" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GsN-3c-7MV" customClass="SeeAllRecipesForYou" customModule="Blisslife" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibx-lp-3oG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4109,6 +4109,14 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="364" height="114"/>
+                                        <connections>
+                                            <outlet property="byPerson" destination="3Nx-g6-5VZ" id="NgT-LR-56n"/>
+                                            <outlet property="card" destination="6ps-u3-VmB" id="sQ1-bU-gzy"/>
+                                            <outlet property="people" destination="kwP-Jm-25J" id="yUF-P3-hQB"/>
+                                            <outlet property="recipeImage" destination="9LX-ZP-E7R" id="GrK-wd-KAd"/>
+                                            <outlet property="time" destination="0y0-B8-u10" id="K67-dH-3D0"/>
+                                            <outlet property="title" destination="9uv-vF-og1" id="1wO-mI-iuc"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>

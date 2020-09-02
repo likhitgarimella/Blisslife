@@ -28,6 +28,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     /// images in popular recipe coll view
     var items4 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans")]
     
+    /// images in recipes for you coll view
+    var items5 = [UIImage(named: "vegans"), UIImage(named: "juice"), UIImage(named: "keto")]
+    
     var titles = ["Quinoa Salad", "Celery Soup", "Smoothie Bowl"]
     
     var byPersons = ["by Kristen Stewart", "by Naomi Scott", "by Ella Balinska"]
@@ -54,7 +57,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if collectionView == self.popularRecipeCollView {
             return items4.count
         }
-        return items4.count
+        return items5.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -83,7 +86,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         } else {
             let cell4 = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipesForYouCell", for: indexPath as IndexPath) as! RecipesForYouCell
             cell4.backgroundColor = UIColor.white
-            cell4.recipeImage.image = items4[indexPath.row]
+            cell4.recipeImage.image = items5[indexPath.row]
             cell4.title.text = titles[indexPath.item]
             cell4.byPerson.text = byPersons[indexPath.item]
             cell4.time.text = times[indexPath.item]
