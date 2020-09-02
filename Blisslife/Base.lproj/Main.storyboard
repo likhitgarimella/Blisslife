@@ -843,7 +843,7 @@
                                                                     </constraints>
                                                                     <userDefinedRuntimeAttributes>
                                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                            <integer key="value" value="6"/>
+                                                                            <integer key="value" value="9"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </imageView>
@@ -3461,25 +3461,25 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YZZ-oN-27y">
-                                                    <rect key="frame" x="20" y="130" width="104" height="36"/>
+                                                    <rect key="frame" x="16" y="146" width="72" height="24"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="36" id="3Fu-BQ-Fnx"/>
-                                                        <constraint firstAttribute="width" constant="104" id="hTH-Nf-8FG"/>
+                                                        <constraint firstAttribute="width" constant="72" id="fd3-ti-aoa"/>
+                                                        <constraint firstAttribute="height" constant="24" id="yac-gu-2gZ"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="6"/>
+                                                            <integer key="value" value="9"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="YZZ-oN-27y" secondAttribute="bottom" constant="20" id="CIG-QS-KXo"/>
                                                 <constraint firstItem="6Tb-ba-Sqz" firstAttribute="top" secondItem="rZb-hj-WbL" secondAttribute="top" constant="4" id="DZH-h7-mIA"/>
                                                 <constraint firstItem="6Tb-ba-Sqz" firstAttribute="leading" secondItem="rZb-hj-WbL" secondAttribute="leading" constant="2" id="NLA-bx-po7"/>
                                                 <constraint firstAttribute="bottom" secondItem="6Tb-ba-Sqz" secondAttribute="bottom" constant="4" id="Rjn-AA-IyU"/>
-                                                <constraint firstItem="YZZ-oN-27y" firstAttribute="leading" secondItem="rZb-hj-WbL" secondAttribute="leading" constant="20" id="rA6-Dh-h4O"/>
+                                                <constraint firstAttribute="bottom" secondItem="YZZ-oN-27y" secondAttribute="bottom" constant="16" id="TJx-tc-cuD"/>
+                                                <constraint firstItem="YZZ-oN-27y" firstAttribute="leading" secondItem="rZb-hj-WbL" secondAttribute="leading" constant="16" id="rA6-Dh-h4O"/>
                                                 <constraint firstAttribute="trailing" secondItem="6Tb-ba-Sqz" secondAttribute="trailing" constant="2" id="uLo-Gt-8wN"/>
                                             </constraints>
                                         </collectionViewCellContentView>
