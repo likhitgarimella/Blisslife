@@ -587,7 +587,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Shx-uh-woi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608.69565217391312" y="-3924.4565217391309"/>
+            <point key="canvasLocation" x="359" y="-3924"/>
         </scene>
         <!--See All Food Diets-->
         <scene sceneID="sBE-Aa-mco">
@@ -672,7 +672,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G83-io-J2b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-746.37681159420299" y="-3924.4565217391309"/>
+            <point key="canvasLocation" x="-996" y="-3924"/>
         </scene>
         <!--Saved-->
         <scene sceneID="zUg-db-cBz">
@@ -700,7 +700,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qQ-6R-PHS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="-4393"/>
+            <point key="canvasLocation" x="-312" y="-4393"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="A7P-gu-ynC">
@@ -1085,21 +1085,21 @@
                                                     <outlet property="delegate" destination="adD-OM-9qx" id="j8q-YP-139"/>
                                                 </connections>
                                             </collectionView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Popular Recipes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLG-Bk-4p4">
-                                                <rect key="frame" x="16" y="635" width="153" height="25.666666666666686"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes for you" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLG-Bk-4p4">
+                                                <rect key="frame" x="16" y="657.66666666666663" width="145.66666666666666" height="25.666666666666629"/>
                                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
                                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsZ-KM-w6e">
-                                                <rect key="frame" x="343" y="634" width="55" height="29"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsZ-KM-w6e">
+                                                <rect key="frame" x="343" y="656" width="55" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <state key="normal" title="See all &gt;">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-UF-WEF">
-                                                <rect key="frame" x="12" y="661" width="402" height="142"/>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-UF-WEF">
+                                                <rect key="frame" x="12" y="683.33333333333337" width="402" height="142"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="142" id="tZZ-fk-oRr"/>
@@ -1111,7 +1111,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="ZX3-Io-GJW">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipesForYouCell" id="ZX3-Io-GJW" customClass="RecipesForYouCell" customModule="Blisslife" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="14" width="364" height="114"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="w9h-S4-u0c">
@@ -1264,6 +1264,8 @@
                                             <constraint firstItem="N3c-DU-CN8" firstAttribute="top" secondItem="crO-nb-Cpp" secondAttribute="bottom" constant="12" id="4XQ-VF-P0u"/>
                                             <constraint firstItem="90W-2P-3ei" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vQb-et-InL" secondAttribute="trailing" constant="8" symbolic="YES" id="4y1-vm-p7g"/>
                                             <constraint firstAttribute="trailing" secondItem="N3c-DU-CN8" secondAttribute="trailing" id="6QD-hM-Enz"/>
+                                            <constraint firstItem="zLG-Bk-4p4" firstAttribute="top" secondItem="8iz-uV-TQ5" secondAttribute="bottom" constant="16" id="7Xi-3P-r9R"/>
+                                            <constraint firstItem="6UG-UF-WEF" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="12" id="A5t-hw-gYV"/>
                                             <constraint firstItem="6UG-UF-WEF" firstAttribute="top" secondItem="zLG-Bk-4p4" secondAttribute="bottom" id="BgM-YL-x6x"/>
                                             <constraint firstItem="awe-3a-Sgp" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="C6f-Id-5ks"/>
                                             <constraint firstItem="6UG-UF-WEF" firstAttribute="top" secondItem="zLG-Bk-4p4" secondAttribute="bottom" id="F1C-tK-KFG"/>
@@ -1271,8 +1273,10 @@
                                             <constraint firstItem="x29-v1-P5G" firstAttribute="centerY" secondItem="awe-3a-Sgp" secondAttribute="centerY" id="GXg-xM-5Kl"/>
                                             <constraint firstItem="awe-3a-Sgp" firstAttribute="top" secondItem="N3c-DU-CN8" secondAttribute="bottom" constant="24" id="JvW-1E-0FD"/>
                                             <constraint firstItem="BkL-ps-wd1" firstAttribute="top" secondItem="awe-3a-Sgp" secondAttribute="bottom" id="LId-CQ-3mZ"/>
+                                            <constraint firstItem="zLG-Bk-4p4" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="OYJ-8Z-OeH"/>
                                             <constraint firstItem="8iz-uV-TQ5" firstAttribute="top" secondItem="vQb-et-InL" secondAttribute="bottom" id="RdJ-pZ-Ir6"/>
                                             <constraint firstItem="VKf-gQ-PEY" firstAttribute="centerY" secondItem="crO-nb-Cpp" secondAttribute="centerY" id="T33-Zt-7BX"/>
+                                            <constraint firstAttribute="trailing" secondItem="EsZ-KM-w6e" secondAttribute="trailing" constant="16" id="TUU-Iy-Wrj"/>
                                             <constraint firstItem="EsZ-KM-w6e" firstAttribute="centerY" secondItem="zLG-Bk-4p4" secondAttribute="centerY" id="Vx5-8D-cyW"/>
                                             <constraint firstItem="vQb-et-InL" firstAttribute="top" secondItem="BkL-ps-wd1" secondAttribute="bottom" id="YPM-2B-AGS"/>
                                             <constraint firstItem="crO-nb-Cpp" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="aSF-9r-uI6"/>
@@ -1281,11 +1285,13 @@
                                             <constraint firstItem="BkL-ps-wd1" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="12" id="i85-Ni-4bC"/>
                                             <constraint firstItem="crO-nb-Cpp" firstAttribute="top" secondItem="GIh-QB-n43" secondAttribute="top" constant="16" id="jhi-W4-1TM"/>
                                             <constraint firstItem="8iz-uV-TQ5" firstAttribute="top" secondItem="vQb-et-InL" secondAttribute="bottom" id="l4C-Gl-NoK"/>
+                                            <constraint firstAttribute="trailing" secondItem="6UG-UF-WEF" secondAttribute="trailing" id="nFr-ri-7T0"/>
                                             <constraint firstItem="x29-v1-P5G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="awe-3a-Sgp" secondAttribute="trailing" constant="8" symbolic="YES" id="nLD-zZ-ePy"/>
                                             <constraint firstItem="vQb-et-InL" firstAttribute="leading" secondItem="GIh-QB-n43" secondAttribute="leading" constant="16" id="rTf-B3-2iW"/>
                                             <constraint firstAttribute="trailing" secondItem="x29-v1-P5G" secondAttribute="trailing" constant="16" id="sFW-Y4-HsH"/>
                                             <constraint firstItem="VKf-gQ-PEY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="crO-nb-Cpp" secondAttribute="trailing" constant="8" symbolic="YES" id="uDs-78-8Vi"/>
                                             <constraint firstAttribute="trailing" secondItem="BkL-ps-wd1" secondAttribute="trailing" id="x2P-lF-bQe"/>
+                                            <constraint firstAttribute="bottom" secondItem="6UG-UF-WEF" secondAttribute="bottom" constant="73.670000000000002" id="znd-Uy-kGw"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1322,7 +1328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62.318840579710148" y="-3368.4782608695655"/>
+            <point key="canvasLocation" x="-312" y="-3368"/>
         </scene>
         <!--Fitness View Controller-->
         <scene sceneID="TFA-Gr-W3p">
@@ -3720,7 +3726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3r-zo-mZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-746" y="-3246"/>
+            <point key="canvasLocation" x="-996" y="-3246"/>
         </scene>
         <!--See All Popular Recipes-->
         <scene sceneID="qNn-pc-rOw">
@@ -3921,7 +3927,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWk-Wk-sW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608.69565217391312" y="-3246.1956521739135"/>
+            <point key="canvasLocation" x="359" y="-3246"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="taY-zS-6nE">
@@ -3947,7 +3953,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="IYL-SH-p0V">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipesForYouListCell" id="IYL-SH-p0V" customClass="RecipesForYouListCell" customModule="Blisslife" customModuleProvider="target">
                                         <rect key="frame" x="17" y="0.0" width="364" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g1L-Uy-wZo">
@@ -4107,7 +4113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dod-ew-vPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1288" y="-3246"/>
+            <point key="canvasLocation" x="1038" y="-3246"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="huV-35-Ekb">
@@ -4148,7 +4154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dF-dl-54n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="-3924"/>
+            <point key="canvasLocation" x="1038" y="-3924"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
