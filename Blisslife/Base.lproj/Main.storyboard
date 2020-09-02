@@ -24,6 +24,12 @@
         <array key="SF-Pro-Rounded-Medium.otf">
             <string>SFProRounded-Medium</string>
         </array>
+        <array key="SF-Pro-Rounded-Regular.otf">
+            <string>SFProRounded-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-RegularItalic.otf">
+            <string>SFProText-RegularItalic</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Login View Controller-->
@@ -733,7 +739,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of food diets" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crO-nb-Cpp">
                                                 <rect key="frame" x="16" y="15.999999999999998" width="179" height="26.333333333333329"/>
                                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKf-gQ-PEY">
@@ -793,7 +799,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes collection" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awe-3a-Sgp">
                                                 <rect key="frame" x="16" y="306.33333333333331" width="172.33333333333334" height="27"/>
                                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x29-v1-P5G">
@@ -853,7 +859,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Recipes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQb-et-InL">
                                                 <rect key="frame" x="16" y="499.33333333333337" width="153" height="27"/>
                                                 <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="22"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90W-2P-3ei">
@@ -892,12 +898,77 @@
                                                                                 <constraint firstAttribute="height" constant="98" id="VWA-kE-UF7"/>
                                                                                 <constraint firstAttribute="width" constant="98" id="gyO-sJ-sdJ"/>
                                                                             </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
                                                                         </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdG-Jz-cEn">
+                                                                            <rect key="frame" x="122" y="16" width="112" height="24"/>
+                                                                            <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="20"/>
+                                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptD-gz-D2f">
+                                                                            <rect key="frame" x="122" y="42" width="121" height="20"/>
+                                                                            <fontDescription key="fontDescription" name="SFProText-RegularItalic" family="SF Pro Text" pointSize="16"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="Wak-qu-3yq">
+                                                                            <rect key="frame" x="122" y="66" width="16" height="16"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="16" id="GJu-5h-ezv"/>
+                                                                                <constraint firstAttribute="width" constant="16" id="wli-w1-v1E"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZl-6d-Lej">
+                                                                            <rect key="frame" x="142" y="68" width="19" height="12"/>
+                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="ueQ-Xs-VaV">
+                                                                            <rect key="frame" x="181" y="67" width="16" height="16"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="16" id="Gve-VC-3tv"/>
+                                                                                <constraint firstAttribute="width" constant="16" id="e5z-RB-97g"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                                    <integer key="value" value="6"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lW-og-q7z">
+                                                                            <rect key="frame" x="205" y="67" width="29" height="12"/>
+                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
+                                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="bottom" secondItem="IYx-cq-Jqy" secondAttribute="bottom" constant="16" id="5jf-JG-M4O"/>
+                                                                        <constraint firstItem="ueQ-Xs-VaV" firstAttribute="centerY" secondItem="rZl-6d-Lej" secondAttribute="centerY" constant="1" id="DC4-Cn-CNh"/>
+                                                                        <constraint firstItem="Wak-qu-3yq" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="J8g-SY-7o5"/>
+                                                                        <constraint firstItem="rZl-6d-Lej" firstAttribute="centerY" secondItem="Wak-qu-3yq" secondAttribute="centerY" id="T0Z-W6-6tf"/>
+                                                                        <constraint firstItem="8lW-og-q7z" firstAttribute="centerY" secondItem="ueQ-Xs-VaV" secondAttribute="centerY" constant="-2" id="UrC-mM-suE"/>
+                                                                        <constraint firstItem="rZl-6d-Lej" firstAttribute="leading" secondItem="Wak-qu-3yq" secondAttribute="trailing" constant="4" id="Zw6-eP-4S0"/>
+                                                                        <constraint firstItem="Wak-qu-3yq" firstAttribute="top" secondItem="ptD-gz-D2f" secondAttribute="bottom" constant="4" id="dCv-BM-oao"/>
                                                                         <constraint firstItem="IYx-cq-Jqy" firstAttribute="top" secondItem="wau-2h-VoX" secondAttribute="top" constant="16" id="fe1-6j-JhW"/>
+                                                                        <constraint firstItem="ptD-gz-D2f" firstAttribute="top" secondItem="gdG-Jz-cEn" secondAttribute="bottom" constant="2" id="gSs-1V-3h1"/>
+                                                                        <constraint firstItem="ptD-gz-D2f" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="jXa-rn-vSy"/>
+                                                                        <constraint firstItem="gdG-Jz-cEn" firstAttribute="leading" secondItem="IYx-cq-Jqy" secondAttribute="trailing" constant="16" id="l1m-FI-ueQ"/>
+                                                                        <constraint firstItem="gdG-Jz-cEn" firstAttribute="top" secondItem="wau-2h-VoX" secondAttribute="top" constant="16" id="rOT-cK-PU5"/>
+                                                                        <constraint firstItem="ueQ-Xs-VaV" firstAttribute="leading" secondItem="rZl-6d-Lej" secondAttribute="trailing" constant="20" id="vd6-Ru-K1e"/>
+                                                                        <constraint firstItem="8lW-og-q7z" firstAttribute="leading" secondItem="ueQ-Xs-VaV" secondAttribute="trailing" constant="8" id="wmg-2I-Zz9"/>
                                                                         <constraint firstItem="IYx-cq-Jqy" firstAttribute="leading" secondItem="wau-2h-VoX" secondAttribute="leading" constant="8" id="z8v-BT-5Ub"/>
                                                                     </constraints>
                                                                     <userDefinedRuntimeAttributes>
@@ -3382,7 +3453,9 @@
         <image name="bodyParts" width="375" height="435"/>
         <image name="bookings" width="19" height="26.666666030883789"/>
         <image name="bookmark" width="17" height="23"/>
+        <image name="bowl" width="12" height="6.6666665077209473"/>
         <image name="box" width="14" height="14"/>
+        <image name="clock" width="14.666666984558105" height="14.666666984558105"/>
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
         <image name="glass" width="22" height="22"/>
