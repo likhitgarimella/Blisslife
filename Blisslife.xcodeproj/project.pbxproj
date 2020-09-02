@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210930F24C1F9BF0022336D /* LTHRadioButton.swift */; };
 		021B24A424BB01B300094789 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B24A324BB01B300094789 /* SignupViewController.swift */; };
+		021B373624FFB1CA00D11F54 /* PopularRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B373524FFB1CA00D11F54 /* PopularRecipeCell.swift */; };
+		021B373824FFB22000D11F54 /* PopularRecipesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B373724FFB22000D11F54 /* PopularRecipesListCell.swift */; };
+		021B373A24FFB23F00D11F54 /* SeeAllPopularRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B373924FFB23F00D11F54 /* SeeAllPopularRecipes.swift */; };
 		021E7E7A24C972E900C4AABE /* MainRemediesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */; };
 		021E7E7C24C9C74100C4AABE /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7B24C9C74100C4AABE /* FoodViewController.swift */; };
 		021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */; };
@@ -82,6 +85,9 @@
 /* Begin PBXFileReference section */
 		0210930F24C1F9BF0022336D /* LTHRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHRadioButton.swift; sourceTree = "<group>"; };
 		021B24A324BB01B300094789 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		021B373524FFB1CA00D11F54 /* PopularRecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipeCell.swift; sourceTree = "<group>"; };
+		021B373724FFB22000D11F54 /* PopularRecipesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipesListCell.swift; sourceTree = "<group>"; };
+		021B373924FFB23F00D11F54 /* SeeAllPopularRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllPopularRecipes.swift; sourceTree = "<group>"; };
 		021E7E7924C972E900C4AABE /* MainRemediesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRemediesViewController.swift; sourceTree = "<group>"; };
 		021E7E7B24C9C74100C4AABE /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		021E7E7D24C9CBB700C4AABE /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +216,9 @@
 				02B3B6D124FEC4C2006D68B6 /* RecipesCollectionCell.swift */,
 				02B3B6D324FECC50006D68B6 /* SeeAllRecipeCollections.swift */,
 				02B3B6D524FECD48006D68B6 /* RecipeCollectionListCell.swift */,
+				021B373524FFB1CA00D11F54 /* PopularRecipeCell.swift */,
+				021B373924FFB23F00D11F54 /* SeeAllPopularRecipes.swift */,
+				021B373724FFB22000D11F54 /* PopularRecipesListCell.swift */,
 				02863DF224CFA086000633D1 /* DetailViewController.swift */,
 				02551AA324D09EC000F284E0 /* SavedViewController.swift */,
 			);
@@ -409,6 +418,7 @@
 				02AB112624B9BF9E00D1824D /* Extensions.swift in Sources */,
 				021E7E8024C9CBE400C4AABE /* BookingsViewController.swift in Sources */,
 				02B3B6D224FEC4C2006D68B6 /* RecipesCollectionCell.swift in Sources */,
+				021B373624FFB1CA00D11F54 /* PopularRecipeCell.swift in Sources */,
 				02B3B6D424FECC50006D68B6 /* SeeAllRecipeCollections.swift in Sources */,
 				02551AA424D09EC000F284E0 /* SavedViewController.swift in Sources */,
 				021B24A424BB01B300094789 /* SignupViewController.swift in Sources */,
@@ -420,11 +430,13 @@
 				02863DF324CFA086000633D1 /* DetailViewController.swift in Sources */,
 				0238A23124BB8AA60059640B /* KnowYouMoreViewController.swift in Sources */,
 				0232FF1D24C4EB55002A759C /* BodyPartsViewController.swift in Sources */,
+				021B373A24FFB23F00D11F54 /* SeeAllPopularRecipes.swift in Sources */,
 				021E7E7E24C9CBB700C4AABE /* FitnessViewController.swift in Sources */,
 				028001BA24C0CAF000765113 /* SecondParameterViewController.swift in Sources */,
 				02B3B6D624FECD48006D68B6 /* RecipeCollectionListCell.swift in Sources */,
 				02B3B6CE24FE7D6E006D68B6 /* FoodDietsCell.swift in Sources */,
 				02A052EE24BF1D5100EC507B /* HealthParametersViewController.swift in Sources */,
+				021B373824FFB22000D11F54 /* PopularRecipesListCell.swift in Sources */,
 				0210931024C1F9C00022336D /* LTHRadioButton.swift in Sources */,
 				02CAF42E24B8DD9E008A7874 /* AppDelegate.swift in Sources */,
 				0296555324C46014007FDCB1 /* CustExpViewController.swift in Sources */,
