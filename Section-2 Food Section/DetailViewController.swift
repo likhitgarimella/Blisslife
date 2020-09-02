@@ -10,6 +10,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    // Outlets
+    @IBOutlet var likeImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,6 +22,16 @@ class DetailViewController: UIViewController {
         // remove title for left bar button item
         navigationController?.navigationBar.topItem?.title = ""
         
+        let tapGestureForLikeImageView = UITapGestureRecognizer(target: self, action: #selector(likeImageViewTouch))
+        likeImageView.addGestureRecognizer(tapGestureForLikeImageView)
+        likeImageView.isUserInteractionEnabled = true
+        
     }
     
-}   // #25
+    @objc func likeImageViewTouch() {
+        
+        likeImageView.image = UIImage(named: "likeOn")
+        
+    }
+    
+}   // #38

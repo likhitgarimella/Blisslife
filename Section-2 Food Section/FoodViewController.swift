@@ -14,11 +14,12 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     @IBOutlet var foodDietsCollView: UICollectionView!
     @IBOutlet var recipesCollView: UICollectionView!
     @IBOutlet var popularRecipeCollView: UICollectionView!
+    @IBOutlet var recipesForYouCollView: UICollectionView!
     
     /// images in food diet coll view
     var items1 = [UIImage(named: "DietCard1"), UIImage(named: "DietCard2"), UIImage(named: "DietCard3")]
     
-    /// images in recipe coll view
+    /// images in recipe colln coll view
     var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1")]
     
     /// images in recipe category coll view
@@ -50,6 +51,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if collectionView == self.recipesCollView {
             return items2.count
         }
+        if collectionView == self.popularRecipeCollView {
+            return items4.count
+        }
         return items4.count
     }
     
@@ -66,7 +70,8 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
             cell2.recipeImage.image = items2[indexPath.row]
             cell2.categoryImage.image = items3[indexPath.row]
             return cell2
-        } else {
+        }
+        if collectionView == popularRecipeCollView {
             let cell3 = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularRecipeCell", for: indexPath as IndexPath) as! PopularRecipeCell
             cell3.backgroundColor = UIColor.white
             cell3.recipeImage.image = items4[indexPath.row]
@@ -75,7 +80,16 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
             cell3.time.text = times[indexPath.item]
             cell3.people.text = people[indexPath.item]
             return cell3
+        } else {
+            let cell4 = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipesForYouCell", for: indexPath as IndexPath) as! RecipesForYouCell
+            cell4.backgroundColor = UIColor.white
+            cell4.recipeImage.image = items4[indexPath.row]
+            cell4.title.text = titles[indexPath.item]
+            cell4.byPerson.text = byPersons[indexPath.item]
+            cell4.time.text = times[indexPath.item]
+            cell4.people.text = people[indexPath.item]
+            return cell4
         }
     }
     
-}   // #82
+}   // #96

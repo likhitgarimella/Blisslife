@@ -584,6 +584,9 @@
                         <viewLayoutGuide key="safeArea" id="RH0-UX-Chr"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lta-D4-4QC"/>
+                    <connections>
+                        <outlet property="likeImageView" destination="dUo-Ls-omZ" id="SRi-lq-ZbY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Shx-uh-woi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1336,6 +1339,7 @@
                         <outlet property="foodDietsCollView" destination="N3c-DU-CN8" id="cpH-Oi-zyA"/>
                         <outlet property="popularRecipeCollView" destination="8iz-uV-TQ5" id="T3K-tm-cJg"/>
                         <outlet property="recipesCollView" destination="BkL-ps-wd1" id="i3f-0R-2Au"/>
+                        <outlet property="recipesForYouCollView" destination="6UG-UF-WEF" id="7Xp-FE-odV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNn-gu-dTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
