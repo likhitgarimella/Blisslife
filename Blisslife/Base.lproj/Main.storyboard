@@ -897,7 +897,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="dpF-W2-mZP">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularRecipeCell" id="dpF-W2-mZP" customClass="PopularRecipeCell" customModule="Blisslife" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="6" width="364" height="130"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gJR-qY-M1I">
@@ -926,13 +926,13 @@
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by person name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptD-gz-D2f">
-                                                                            <rect key="frame" x="122" y="42" width="121" height="20"/>
-                                                                            <fontDescription key="fontDescription" name="SFProText-RegularItalic" family="SF Pro Text" pointSize="16"/>
+                                                                            <rect key="frame" x="122" y="42" width="105.66666666666669" height="17"/>
+                                                                            <fontDescription key="fontDescription" name="SFProText-RegularItalic" family="SF Pro Text" pointSize="14"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="Wak-qu-3yq">
-                                                                            <rect key="frame" x="122" y="66" width="16" height="16"/>
+                                                                            <rect key="frame" x="122" y="63" width="16" height="16"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="16" id="GJu-5h-ezv"/>
                                                                                 <constraint firstAttribute="width" constant="16" id="wli-w1-v1E"/>
@@ -944,13 +944,13 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZl-6d-Lej">
-                                                                            <rect key="frame" x="142" y="67" width="19" height="12"/>
-                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
+                                                                            <rect key="frame" x="142" y="63.000000000000007" width="22" height="14.333333333333336"/>
+                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="12"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowl" translatesAutoresizingMaskIntoConstraints="NO" id="ueQ-Xs-VaV">
-                                                                            <rect key="frame" x="181" y="66" width="16" height="16"/>
+                                                                            <rect key="frame" x="184" y="63" width="16" height="16"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="16" id="Gve-VC-3tv"/>
                                                                                 <constraint firstAttribute="width" constant="16" id="e5z-RB-97g"/>
@@ -962,13 +962,13 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lW-og-q7z">
-                                                                            <rect key="frame" x="205" y="66" width="29" height="12"/>
-                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="10"/>
+                                                                            <rect key="frame" x="208" y="62.000000000000007" width="34.333333333333343" height="14.333333333333336"/>
+                                                                            <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="12"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack" translatesAutoresizingMaskIntoConstraints="NO" id="4Vh-zZ-FnY">
-                                                                            <rect key="frame" x="122" y="90" width="59" height="18"/>
+                                                                            <rect key="frame" x="122" y="87" width="59" height="18"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                                     <integer key="value" value="6"/>
@@ -976,7 +976,7 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegan" translatesAutoresizingMaskIntoConstraints="NO" id="d8a-zX-8kv">
-                                                                            <rect key="frame" x="189" y="90" width="59" height="18"/>
+                                                                            <rect key="frame" x="189" y="87" width="59" height="18"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                                     <integer key="value" value="6"/>
@@ -984,7 +984,7 @@
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greens" translatesAutoresizingMaskIntoConstraints="NO" id="tUS-hc-ANg">
-                                                                            <rect key="frame" x="256" y="90" width="63" height="18"/>
+                                                                            <rect key="frame" x="256" y="87" width="63" height="18"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                                     <integer key="value" value="6"/>
@@ -994,6 +994,7 @@
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
+                                                                        <constraint firstAttribute="trailing" secondItem="tUS-hc-ANg" secondAttribute="trailing" constant="45" id="1mZ-FJ-g1D"/>
                                                                         <constraint firstAttribute="bottom" secondItem="IYx-cq-Jqy" secondAttribute="bottom" constant="16" id="5jf-JG-M4O"/>
                                                                         <constraint firstItem="4Vh-zZ-FnY" firstAttribute="top" secondItem="Wak-qu-3yq" secondAttribute="bottom" constant="8" id="82C-dZ-WpD"/>
                                                                         <constraint firstItem="tUS-hc-ANg" firstAttribute="leading" secondItem="d8a-zX-8kv" secondAttribute="trailing" constant="8" id="8nu-7u-VFI"/>
@@ -1036,6 +1037,13 @@
                                                         </collectionViewCellContentView>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <size key="customSize" width="364" height="130"/>
+                                                        <connections>
+                                                            <outlet property="byPerson" destination="ptD-gz-D2f" id="eqb-aI-XYm"/>
+                                                            <outlet property="people" destination="8lW-og-q7z" id="gpE-SX-aRs"/>
+                                                            <outlet property="recipeImage" destination="IYx-cq-Jqy" id="J5N-nI-HiH"/>
+                                                            <outlet property="time" destination="rZl-6d-Lej" id="eMT-f1-xJg"/>
+                                                            <outlet property="title" destination="gdG-Jz-cEn" id="8Mm-nZ-P2F"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
                                                 <connections>
@@ -1101,6 +1109,7 @@
                     <size key="freeformSize" width="414" height="1036"/>
                     <connections>
                         <outlet property="foodDietsCollView" destination="N3c-DU-CN8" id="cpH-Oi-zyA"/>
+                        <outlet property="popularRecipeCollView" destination="8iz-uV-TQ5" id="T3K-tm-cJg"/>
                         <outlet property="recipesCollView" destination="BkL-ps-wd1" id="i3f-0R-2Au"/>
                     </connections>
                 </viewController>

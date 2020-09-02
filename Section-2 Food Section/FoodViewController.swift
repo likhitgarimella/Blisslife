@@ -13,6 +13,7 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     // Outlets
     @IBOutlet var foodDietsCollView: UICollectionView!
     @IBOutlet var recipesCollView: UICollectionView!
+    @IBOutlet var popularRecipeCollView: UICollectionView!
     
     /// images in food diet coll view
     var items1 = [UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1"), UIImage(named: "DietCard"), UIImage(named: "DietCard1")]
@@ -22,6 +23,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     /// images in recipe category coll view
     var items3 = [UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens")]
+    
+    /// images in popular recipe coll view
+    var items4 = [UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans"), UIImage(named: "keto"), UIImage(named: "juice"), UIImage(named: "vegans")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,12 +48,18 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
             cell1.backgroundColor = UIColor.white
             cell1.dietImage.image = items1[indexPath.row]
             return cell1
-        } else {
+        }
+        if collectionView == recipesCollView {
             let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipesCollectionCell", for: indexPath as IndexPath) as! RecipesCollectionCell
             cell2.backgroundColor = UIColor.white
             cell2.recipeImage.image = items2[indexPath.row]
             cell2.categoryImage.image = items3[indexPath.row]
             return cell2
+        } else {
+            let cell3 = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularRecipeCell", for: indexPath as IndexPath) as! PopularRecipeCell
+            cell3.backgroundColor = UIColor.white
+            cell3.recipeImage.image = items2[indexPath.row]
+            return cell3
         }
     }
     

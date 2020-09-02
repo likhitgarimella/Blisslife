@@ -10,4 +10,11 @@ import UIKit
 
 class PopularRecipeCell: UICollectionViewCell {
     
+    // Outlets
+    @IBOutlet var recipeImage: UIImageView!
+    @IBOutlet var title: UILabel!
+    @IBOutlet var byPerson: UILabel!
+    @IBOutlet var time: UILabel!
+    @IBOutlet var people: UILabel!
+    
 }
