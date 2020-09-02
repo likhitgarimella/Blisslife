@@ -17,4 +17,4 @@ class PopularRecipeCell: UICollectionViewCell {
     @IBOutlet var time: UILabel!
     @IBOutlet var people: UILabel!
     
-}
+}   // #21

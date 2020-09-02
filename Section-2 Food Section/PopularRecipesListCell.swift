@@ -10,4 +10,4 @@ import UIKit
 
 class PopularRecipesListCell: UICollectionViewCell {
     
-}
+}   // #14
