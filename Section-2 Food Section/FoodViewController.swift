@@ -20,6 +20,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
     /// images in recipe coll view
     var items2 = [UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3"), UIImage(named: "recipe1"), UIImage(named: "recipe2"), UIImage(named: "recipe3")]
     
+    /// images in recipe category coll view
+    var items3 = [UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens"), UIImage(named: "snack"), UIImage(named: "vegan"), UIImage(named: "greens")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,8 +48,9 @@ class FoodViewController: UIViewController, UICollectionViewDelegate, UICollecti
             let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipesCollectionCell", for: indexPath as IndexPath) as! RecipesCollectionCell
             cell2.backgroundColor = UIColor.white
             cell2.recipeImage.image = items2[indexPath.row]
+            cell2.categoryImage.image = items3[indexPath.row]
             return cell2
         }
     }
     
-}   // #53
+}   // #57

@@ -11,5 +11,6 @@ import UIKit
 class RecipesCollectionCell: UICollectionViewCell {
     
     @IBOutlet var recipeImage: UIImageView!
+    @IBOutlet var categoryImage: UIImageView!
     
-}   // #16
+}   // #17

@@ -835,11 +835,25 @@
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l5O-eu-vNe">
                                                                     <rect key="frame" x="4" y="0.0" width="208" height="138"/>
                                                                 </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EaR-QN-xmO">
+                                                                    <rect key="frame" x="12" y="112" width="52" height="18"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="52" id="tIG-j2-8rQ"/>
+                                                                        <constraint firstAttribute="height" constant="18" id="xLy-Mi-6vg"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                            <integer key="value" value="6"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="l5O-eu-vNe" secondAttribute="trailing" constant="4" id="EMQ-cu-nwd"/>
                                                                 <constraint firstItem="l5O-eu-vNe" firstAttribute="leading" secondItem="ERs-Bi-XXJ" secondAttribute="leading" constant="4" id="LbG-RI-CWd"/>
+                                                                <constraint firstItem="EaR-QN-xmO" firstAttribute="leading" secondItem="ERs-Bi-XXJ" secondAttribute="leading" constant="12" id="Lwn-pp-sEw"/>
+                                                                <constraint firstAttribute="bottom" secondItem="EaR-QN-xmO" secondAttribute="bottom" constant="12" id="Thn-OY-K2p"/>
                                                                 <constraint firstItem="l5O-eu-vNe" firstAttribute="top" secondItem="ERs-Bi-XXJ" secondAttribute="top" id="UFI-er-xJq"/>
                                                                 <constraint firstAttribute="bottom" secondItem="l5O-eu-vNe" secondAttribute="bottom" constant="4" id="goP-23-E6G"/>
                                                             </constraints>
@@ -847,6 +861,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <size key="customSize" width="216" height="142"/>
                                                         <connections>
+                                                            <outlet property="categoryImage" destination="EaR-QN-xmO" id="EZh-Xc-pXo"/>
                                                             <outlet property="recipeImage" destination="l5O-eu-vNe" id="1wJ-ub-zJz"/>
                                                         </connections>
                                                     </collectionViewCell>
@@ -968,7 +983,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" translatesAutoresizingMaskIntoConstraints="NO" id="tUS-hc-ANg">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greens" translatesAutoresizingMaskIntoConstraints="NO" id="tUS-hc-ANg">
                                                                             <rect key="frame" x="256" y="90" width="63" height="18"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -3436,18 +3451,33 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YZZ-oN-27y">
+                                                    <rect key="frame" x="20" y="130" width="104" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36" id="3Fu-BQ-Fnx"/>
+                                                        <constraint firstAttribute="width" constant="104" id="hTH-Nf-8FG"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="6"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="YZZ-oN-27y" secondAttribute="bottom" constant="20" id="CIG-QS-KXo"/>
                                                 <constraint firstItem="6Tb-ba-Sqz" firstAttribute="top" secondItem="rZb-hj-WbL" secondAttribute="top" constant="4" id="DZH-h7-mIA"/>
                                                 <constraint firstItem="6Tb-ba-Sqz" firstAttribute="leading" secondItem="rZb-hj-WbL" secondAttribute="leading" constant="2" id="NLA-bx-po7"/>
                                                 <constraint firstAttribute="bottom" secondItem="6Tb-ba-Sqz" secondAttribute="bottom" constant="4" id="Rjn-AA-IyU"/>
+                                                <constraint firstItem="YZZ-oN-27y" firstAttribute="leading" secondItem="rZb-hj-WbL" secondAttribute="leading" constant="20" id="rA6-Dh-h4O"/>
                                                 <constraint firstAttribute="trailing" secondItem="6Tb-ba-Sqz" secondAttribute="trailing" constant="2" id="uLo-Gt-8wN"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="398" height="186"/>
                                         <connections>
+                                            <outlet property="categoryImage" destination="YZZ-oN-27y" id="AVG-2a-42P"/>
                                             <outlet property="recipeImage" destination="6Tb-ba-Sqz" id="HGA-Yv-F5r"/>
                                         </connections>
                                     </collectionViewCell>
@@ -3492,7 +3522,7 @@
         <image name="fitness" width="30.666666030883789" height="25.666666030883789"/>
         <image name="food" width="22.666666030883789" height="26.666666030883789"/>
         <image name="glass" width="22" height="22"/>
-        <image name="green" width="63" height="18"/>
+        <image name="greens" width="63" height="18"/>
         <image name="profile" width="26" height="25"/>
         <image name="remedies" width="31.333333969116211" height="23.666666030883789"/>
         <image name="rightArrow" width="11.333333015441895" height="14.666666984558105"/>
