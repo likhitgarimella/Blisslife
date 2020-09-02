@@ -4185,6 +4185,9 @@
                         <viewLayoutGuide key="safeArea" id="iGR-8y-CDh"/>
                     </view>
                     <navigationItem key="navigationItem" id="Hg2-NK-QZy"/>
+                    <connections>
+                        <outlet property="likesImageView" destination="iLb-I6-HjQ" id="PGW-Ia-LLd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dF-dl-54n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
