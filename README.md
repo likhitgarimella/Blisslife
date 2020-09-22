@@ -13,7 +13,7 @@ Healthcare and Wellness App
 #### _hamburger menu: profile, settings, etc (30)_
 #### _main search + doctors appt book (11)_
 #### _buy product wrt article (9)_
-#### _food section (4+2) - ✅_
+#### _food section (4+4+4) - ✅_
 #### _fitness section (4)_
 #### _bookings section (5)_
 #### _shop section (9)_
