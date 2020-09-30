@@ -24,26 +24,4 @@ class SavedViewController: UIViewController {
         
     }
     
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    // random text
-    
-}   // #50
+}   // #28
